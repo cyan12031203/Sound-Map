@@ -1,0 +1,8825 @@
+[
+  {
+    "area": "神保町",
+    "aliases": [
+      "神保町駅",
+      "神田神保町"
+    ],
+    "images": [
+      {
+        "term": "古書",
+        "type": "object",
+        "associations": [
+          "背表紙",
+          "値札",
+          "函"
+        ]
+      },
+      {
+        "term": "紙",
+        "type": "object",
+        "associations": [
+          "頁",
+          "折り目",
+          "匂い"
+        ]
+      },
+      {
+        "term": "インク",
+        "type": "object",
+        "associations": [
+          "活字",
+          "滲み",
+          "校正"
+        ]
+      },
+      {
+        "term": "本棚",
+        "type": "object",
+        "associations": [
+          "傾き",
+          "隙間",
+          "埃"
+        ]
+      },
+      {
+        "term": "しおり",
+        "type": "object",
+        "associations": [
+          "紐",
+          "挟む",
+          "栞"
+        ]
+      },
+      {
+        "term": "学生",
+        "type": "people",
+        "associations": [
+          "鞄",
+          "立ち読み",
+          "階段"
+        ]
+      },
+      {
+        "term": "喫茶店",
+        "type": "food",
+        "associations": [
+          "湯気",
+          "匙",
+          "伝票"
+        ]
+      },
+      {
+        "term": "路地",
+        "type": "place",
+        "associations": [
+          "看板",
+          "段差",
+          "自転車"
+        ]
+      },
+      {
+        "term": "出版社",
+        "type": "place",
+        "associations": [
+          "階段",
+          "校了",
+          "電話"
+        ]
+      }
+    ]
+  },
+  {
+    "area": "御茶ノ水",
+    "aliases": [
+      "御茶ノ水駅",
+      "お茶の水",
+      "御茶の水"
+    ],
+    "images": [
+      {
+        "term": "楽器店",
+        "type": "place",
+        "associations": [
+          "弦の匂い",
+          "ガラス扉",
+          "チューニング",
+          "防音扉",
+          "値札"
+        ]
+      },
+      {
+        "term": "ギター",
+        "type": "object",
+        "associations": [
+          "六本の糸",
+          "指板",
+          "爪",
+          "共鳴箱",
+          "ハードケース"
+        ]
+      },
+      {
+        "term": "楽譜",
+        "type": "object",
+        "associations": [
+          "五線",
+          "ページをめくる音",
+          "鉛筆の書き込み",
+          "折り目",
+          "譜面台"
+        ]
+      },
+      {
+        "term": "聖橋",
+        "type": "architecture",
+        "associations": [
+          "アーチ",
+          "欄干",
+          "橋のたもと",
+          "影が落ちる",
+          "渡る足音"
+        ]
+      },
+      {
+        "term": "電車",
+        "type": "movement",
+        "associations": [
+          "架線",
+          "窓に映る顔",
+          "ドアの開閉",
+          "つり革",
+          "レールの継ぎ目"
+        ]
+      },
+      {
+        "term": "神田川",
+        "type": "nature",
+        "associations": [
+          "水面",
+          "護岸の石",
+          "流れの筋",
+          "橋の下",
+          "水音"
+        ]
+      },
+      {
+        "term": "坂",
+        "type": "movement",
+        "associations": [
+          "勾配",
+          "息が上がる",
+          "石段",
+          "手すり",
+          "下り"
+        ]
+      },
+      {
+        "term": "学生",
+        "type": "people",
+        "associations": [
+          "肩掛け鞄",
+          "並んで歩く",
+          "自転車を押す",
+          "背中",
+          "立ち止まる"
+        ]
+      },
+      {
+        "term": "病院の窓",
+        "type": "architecture",
+        "associations": [
+          "カーテン",
+          "灯り",
+          "四角い枠",
+          "見下ろす屋上",
+          "点滴の音"
+        ]
+      }
+    ]
+  },
+  {
+    "area": "吉祥寺",
+    "aliases": [
+      "吉祥寺駅",
+      "吉祥寺本町"
+    ],
+    "images": [
+      {
+        "term": "商店街",
+        "type": "place",
+        "associations": [
+          "アーケード",
+          "日除け",
+          "呼び込み",
+          "自転車",
+          "値札"
+        ]
+      },
+      {
+        "term": "古着",
+        "type": "object",
+        "associations": [
+          "袖口",
+          "匂い",
+          "ハンガー",
+          "継ぎ当て",
+          "毛玉"
+        ]
+      },
+      {
+        "term": "焼き鳥",
+        "type": "food",
+        "associations": [
+          "煙",
+          "串",
+          "塩",
+          "脂",
+          "団扇"
+        ]
+      },
+      {
+        "term": "路地",
+        "type": "place",
+        "associations": [
+          "行き止まり",
+          "看板",
+          "水溜まり",
+          "自転車",
+          "壁"
+        ]
+      },
+      {
+        "term": "井の頭線",
+        "type": "movement",
+        "associations": [
+          "踏切",
+          "吊り革",
+          "窓",
+          "遅延",
+          "車内"
+        ]
+      },
+      {
+        "term": "喫茶店",
+        "type": "food",
+        "associations": [
+          "湯気",
+          "カップ",
+          "灰皿",
+          "砂糖",
+          "椅子"
+        ]
+      },
+      {
+        "term": "レコード",
+        "type": "object",
+        "associations": [
+          "針",
+          "溝",
+          "ジャケット",
+          "回転",
+          "埃"
+        ]
+      },
+      {
+        "term": "池",
+        "type": "nature",
+        "associations": [
+          "水面",
+          "鯉",
+          "木陰",
+          "波紋",
+          "石"
+        ]
+      },
+      {
+        "term": "ボート",
+        "type": "object",
+        "associations": [
+          "オール",
+          "水音",
+          "舳先",
+          "桟橋",
+          "漕ぎ手"
+        ]
+      }
+    ]
+  },
+  {
+    "area": "井の頭公園",
+    "aliases": [
+      "井の頭恩賜公園",
+      "井の頭公園駅",
+      "井の頭池"
+    ],
+    "images": [
+      {
+        "term": "池",
+        "type": "nature",
+        "associations": [
+          "水底",
+          "鯉",
+          "波紋",
+          "岸辺",
+          "夕差し"
+        ]
+      },
+      {
+        "term": "水面",
+        "type": "nature",
+        "associations": [
+          "反射",
+          "さざなみ",
+          "木の影",
+          "浮き葉",
+          "光の粒"
+        ]
+      },
+      {
+        "term": "ボート",
+        "type": "object",
+        "associations": [
+          "オール",
+          "漕ぎ音",
+          "舳先",
+          "水しぶき",
+          "係留"
+        ]
+      },
+      {
+        "term": "木立",
+        "type": "nature",
+        "associations": [
+          "木漏れ日",
+          "幹",
+          "枝の隙間",
+          "影の濃淡",
+          "ざわめき"
+        ]
+      },
+      {
+        "term": "落葉",
+        "type": "nature",
+        "associations": [
+          "腐葉土",
+          "足音",
+          "吹き寄せ",
+          "朽ちる縁",
+          "水に浮く"
+        ]
+      },
+      {
+        "term": "鴨",
+        "type": "nature",
+        "associations": [
+          "水かき",
+          "首を縮める",
+          "羽繕い",
+          "群れ",
+          "嘴"
+        ]
+      },
+      {
+        "term": "桟橋",
+        "type": "architecture",
+        "associations": [
+          "板の継ぎ目",
+          "軋み",
+          "濡れた縁",
+          "杭",
+          "足元の揺れ"
+        ]
+      },
+      {
+        "term": "ベンチ",
+        "type": "object",
+        "associations": [
+          "背もたれ",
+          "塗装の剥げ",
+          "座面の冷たさ",
+          "脚元の砂",
+          "空席"
+        ]
+      },
+      {
+        "term": "噴水",
+        "type": "nature",
+        "associations": [
+          "水柱",
+          "飛沫",
+          "音の粒",
+          "風に流れる",
+          "水しぶきの輪"
+        ]
+      }
+    ]
+  },
+  {
+    "area": "下北沢",
+    "aliases": [
+      "下北沢駅",
+      "下北"
+    ],
+    "images": [
+      {
+        "term": "古着",
+        "type": "object",
+        "associations": [
+          "袖口",
+          "毛玉",
+          "洗いざらし",
+          "匂い",
+          "継ぎ当て"
+        ]
+      },
+      {
+        "term": "ライブハウス",
+        "type": "place",
+        "associations": [
+          "階段",
+          "低い天井",
+          "アンプ",
+          "チケットのもぎれ",
+          "終演"
+        ]
+      },
+      {
+        "term": "小劇場",
+        "type": "place",
+        "associations": [
+          "緞帳",
+          "客席",
+          "台本",
+          "暗転",
+          "拍手"
+        ]
+      },
+      {
+        "term": "レコード",
+        "type": "object",
+        "associations": [
+          "溝",
+          "針",
+          "ジャケット",
+          "回転",
+          "埃"
+        ]
+      },
+      {
+        "term": "路地",
+        "type": "place",
+        "associations": [
+          "曲がり角",
+          "看板の灯",
+          "自転車",
+          "水たまり",
+          "奥行き"
+        ]
+      },
+      {
+        "term": "カレー",
+        "type": "food",
+        "associations": [
+          "スプーン",
+          "香辛料",
+          "皿",
+          "湯気",
+          "行列"
+        ]
+      },
+      {
+        "term": "踏切",
+        "type": "architecture",
+        "associations": [
+          "遮断機",
+          "警報音",
+          "線路",
+          "待つ足",
+          "振動"
+        ]
+      },
+      {
+        "term": "古本",
+        "type": "object",
+        "associations": [
+          "背表紙",
+          "栞",
+          "値札",
+          "紙の黄ばみ",
+          "頁"
+        ]
+      },
+      {
+        "term": "看板",
+        "type": "object",
+        "associations": [
+          "点滅",
+          "矢印",
+          "文字の欠け",
+          "脚立",
+          "夕方"
+        ]
+      }
+    ]
+  },
+  {
+    "area": "谷中",
+    "aliases": [
+      "谷中銀座",
+      "谷中霊園",
+      "谷中三崎坂"
+    ],
+    "images": [
+      {
+        "term": "夕焼けだんだん",
+        "type": "architecture",
+        "associations": [
+          "石段",
+          "影",
+          "下り",
+          "手すり",
+          "茜"
+        ]
+      },
+      {
+        "term": "猫",
+        "type": "nature",
+        "associations": [
+          "尾",
+          "欠伸",
+          "日向",
+          "跨ぐ",
+          "餌"
+        ]
+      },
+      {
+        "term": "寺",
+        "type": "place",
+        "associations": [
+          "鐘",
+          "山門",
+          "線香",
+          "敷石",
+          "鳩"
+        ]
+      },
+      {
+        "term": "墓石",
+        "type": "history",
+        "associations": [
+          "苔",
+          "水桶",
+          "刻み",
+          "花立",
+          "影"
+        ]
+      },
+      {
+        "term": "商店",
+        "type": "place",
+        "associations": [
+          "暖簾",
+          "秤",
+          "箱",
+          "値札",
+          "湯気"
+        ]
+      },
+      {
+        "term": "路地",
+        "type": "place",
+        "associations": [
+          "曲がり",
+          "行き止まり",
+          "自転車",
+          "鉢",
+          "電線"
+        ]
+      },
+      {
+        "term": "煎餅",
+        "type": "food",
+        "associations": [
+          "割れ",
+          "醤油",
+          "袋",
+          "音",
+          "欠片"
+        ]
+      },
+      {
+        "term": "格子戸",
+        "type": "architecture",
+        "associations": [
+          "木目",
+          "隙間",
+          "引く",
+          "埃",
+          "光"
+        ]
+      },
+      {
+        "term": "植木鉢",
+        "type": "nature",
+        "associations": [
+          "土",
+          "零れ",
+          "葉",
+          "縁",
+          "水"
+        ]
+      }
+    ]
+  },
+  {
+    "area": "根津",
+    "aliases": [
+      "根津駅",
+      "根津神社",
+      "根津一丁目"
+    ],
+    "images": [
+      {
+        "term": "根津神社",
+        "type": "place",
+        "associations": [
+          "社殿",
+          "参道",
+          "祭礼",
+          "境内",
+          "鳥居"
+        ]
+      },
+      {
+        "term": "千本鳥居",
+        "type": "architecture",
+        "associations": [
+          "朱",
+          "柱",
+          "隙間",
+          "抜ける",
+          "列"
+        ]
+      },
+      {
+        "term": "石段",
+        "type": "architecture",
+        "associations": [
+          "段差",
+          "苔",
+          "上る",
+          "影",
+          "踏む"
+        ]
+      },
+      {
+        "term": "池",
+        "type": "nature",
+        "associations": [
+          "水面",
+          "波紋",
+          "映る",
+          "畔",
+          "鯉"
+        ]
+      },
+      {
+        "term": "鯉",
+        "type": "nature",
+        "associations": [
+          "鱗",
+          "口",
+          "泳ぐ",
+          "餌",
+          "影"
+        ]
+      },
+      {
+        "term": "つつじ",
+        "type": "nature",
+        "associations": [
+          "花弁",
+          "株",
+          "斜面",
+          "色",
+          "散る"
+        ]
+      },
+      {
+        "term": "路地",
+        "type": "place",
+        "associations": [
+          "曲がる",
+          "壁",
+          "幅",
+          "行き止まり",
+          "足音"
+        ]
+      },
+      {
+        "term": "下町の軒先",
+        "type": "architecture",
+        "associations": [
+          "庇",
+          "鉢",
+          "干す",
+          "屋根",
+          "雨"
+        ]
+      },
+      {
+        "term": "手水鉢",
+        "type": "object",
+        "associations": [
+          "柄杓",
+          "水",
+          "滴",
+          "苔",
+          "掬う"
+        ]
+      }
+    ]
+  },
+  {
+    "area": "清澄白河",
+    "aliases": [
+      "清澄白河駅",
+      "清澄庭園",
+      "清澄"
+    ],
+    "images": [
+      {
+        "term": "清澄庭園",
+        "type": "place",
+        "associations": [
+          "飛び石",
+          "水音",
+          "苔むす",
+          "冬囲い"
+        ]
+      },
+      {
+        "term": "石",
+        "type": "nature",
+        "associations": [
+          "角",
+          "重なり",
+          "影を落とす",
+          "踏む"
+        ]
+      },
+      {
+        "term": "池",
+        "type": "nature",
+        "associations": [
+          "鯉の背",
+          "波紋",
+          "岸を削る",
+          "映す"
+        ]
+      },
+      {
+        "term": "松",
+        "type": "nature",
+        "associations": [
+          "枝ぶり",
+          "針葉",
+          "剪定",
+          "風を梳く"
+        ]
+      },
+      {
+        "term": "現代美術館",
+        "type": "place",
+        "associations": [
+          "白い壁",
+          "搬入口",
+          "点検口",
+          "順路"
+        ]
+      },
+      {
+        "term": "焙煎機",
+        "type": "object",
+        "associations": [
+          "煙",
+          "回転する筒",
+          "豆の割れ",
+          "冷却皿"
+        ]
+      },
+      {
+        "term": "倉庫",
+        "type": "architecture",
+        "associations": [
+          "シャッター",
+          "梁",
+          "積み荷",
+          "隙間風"
+        ]
+      },
+      {
+        "term": "運河",
+        "type": "nature",
+        "associations": [
+          "水門",
+          "係留環",
+          "潮の匂い",
+          "反射"
+        ]
+      },
+      {
+        "term": "コーヒーカップ",
+        "type": "food",
+        "associations": [
+          "湯気",
+          "底の輪",
+          "指の熱",
+          "飲み口"
+        ]
+      }
+    ]
+  },
+  {
+    "area": "高円寺",
+    "aliases": [
+      "高円寺駅",
+      "高円寺南",
+      "高円寺北"
+    ],
+    "images": [
+      {
+        "term": "ライブハウス",
+        "type": "place",
+        "associations": [
+          "階段",
+          "低音",
+          "開演前",
+          "手首のバンド",
+          "換気口"
+        ]
+      },
+      {
+        "term": "古着",
+        "type": "object",
+        "associations": [
+          "袖口",
+          "匂い",
+          "値札",
+          "毛玉",
+          "鏡"
+        ]
+      },
+      {
+        "term": "商店街",
+        "type": "place",
+        "associations": [
+          "アーケード",
+          "自転車",
+          "呼び込み",
+          "日除け",
+          "買い物袋"
+        ]
+      },
+      {
+        "term": "高架",
+        "type": "architecture",
+        "associations": [
+          "振動",
+          "影",
+          "橋脚",
+          "電車の音",
+          "落書き"
+        ]
+      },
+      {
+        "term": "レコード",
+        "type": "object",
+        "associations": [
+          "溝",
+          "針",
+          "ジャケット",
+          "回転",
+          "埃"
+        ]
+      },
+      {
+        "term": "居酒屋",
+        "type": "food",
+        "associations": [
+          "湯気",
+          "カウンター",
+          "瓶",
+          "おしぼり",
+          "伝票"
+        ]
+      },
+      {
+        "term": "阿波踊り",
+        "type": "activity",
+        "associations": [
+          "下駄",
+          "笛",
+          "連",
+          "手のひら",
+          "夜気"
+        ]
+      },
+      {
+        "term": "路地",
+        "type": "place",
+        "associations": [
+          "曲がり角",
+          "看板",
+          "水溜まり",
+          "自転車",
+          "壁"
+        ]
+      },
+      {
+        "term": "赤提灯",
+        "type": "object",
+        "associations": [
+          "灯り",
+          "提灯",
+          "紐",
+          "湯気",
+          "影"
+        ]
+      }
+    ]
+  },
+  {
+    "area": "神楽坂",
+    "aliases": [
+      "神楽坂駅",
+      "兵庫横丁",
+      "神楽坂通り"
+    ],
+    "images": [
+      {
+        "term": "石畳",
+        "type": "architecture",
+        "associations": [
+          "目地",
+          "雨だれ",
+          "下駄の歯"
+        ]
+      },
+      {
+        "term": "兵庫横丁",
+        "type": "place",
+        "associations": [
+          "行き止まり",
+          "のれん",
+          "路地酒"
+        ]
+      },
+      {
+        "term": "黒塀",
+        "type": "architecture",
+        "associations": [
+          "板目",
+          "継ぎ目",
+          "夕闇"
+        ]
+      },
+      {
+        "term": "坂",
+        "type": "movement",
+        "associations": [
+          "息継ぎ",
+          "勾配",
+          "石段"
+        ]
+      },
+      {
+        "term": "神楽",
+        "type": "sound",
+        "associations": [
+          "鈴",
+          "笛",
+          "夜祭"
+        ]
+      },
+      {
+        "term": "料亭",
+        "type": "place",
+        "associations": [
+          "水屋",
+          "座敷",
+          "お品書き"
+        ]
+      },
+      {
+        "term": "善國寺",
+        "type": "history",
+        "associations": [
+          "山門",
+          "線香",
+          "石標"
+        ]
+      },
+      {
+        "term": "赤城神社",
+        "type": "place",
+        "associations": [
+          "鳥居",
+          "手水",
+          "境内"
+        ]
+      },
+      {
+        "term": "格子",
+        "type": "architecture",
+        "associations": [
+          "木組み",
+          "隙間",
+          "灯り"
+        ]
+      }
+    ]
+  },
+  {
+    "area": "秋葉原",
+    "aliases": [
+      "秋葉原電気街",
+      "アキバ",
+      "秋葉原駅",
+      "中央通り"
+    ],
+    "images": [
+      {
+        "term": "電気街の看板",
+        "type": "object",
+        "associations": [
+          "ネオン",
+          "電子部品",
+          "雑居ビル"
+        ]
+      },
+      {
+        "term": "メイド服の店員",
+        "type": "people",
+        "associations": [
+          "チラシ配り",
+          "歩行者天国",
+          "声かけ"
+        ]
+      },
+      {
+        "term": "ガチャガチャの機械",
+        "type": "object",
+        "associations": [
+          "硬貨",
+          "カプセル",
+          "玩具"
+        ]
+      },
+      {
+        "term": "中央通りの歩行者天国",
+        "type": "place",
+        "associations": [
+          "日曜",
+          "露店",
+          "人混み"
+        ]
+      },
+      {
+        "term": "PCパーツ店の棚",
+        "type": "place",
+        "associations": [
+          "グラフィックボード",
+          "価格表",
+          "箱"
+        ]
+      },
+      {
+        "term": "ゲームセンターの音",
+        "type": "sound",
+        "associations": [
+          "効果音",
+          "クレーンゲーム",
+          "BGM"
+        ]
+      },
+      {
+        "term": "老舗の電子部品店",
+        "type": "place",
+        "associations": [
+          "抵抗器",
+          "はんだ",
+          "工具箱"
+        ]
+      },
+      {
+        "term": "駅前の鉄道高架",
+        "type": "architecture",
+        "associations": [
+          "総武線",
+          "柱",
+          "ガード下"
+        ]
+      }
+    ],
+    "association_source": "deepseek",
+    "image_source": "deepseek_grounded_in_candidate_names_and_anchors"
+  },
+  {
+    "area": "丸の内",
+    "aliases": [
+      "東京駅丸の内口",
+      "丸の内仲通り"
+    ],
+    "images": [
+      {
+        "term": "赤レンガ駅舎",
+        "type": "architecture",
+        "associations": [
+          "東京駅",
+          "ドーム屋根",
+          "復原"
+        ]
+      },
+      {
+        "term": "丸の内仲通りの並木",
+        "type": "nature",
+        "associations": [
+          "街路樹",
+          "ベンチ",
+          "イルミネーション"
+        ]
+      },
+      {
+        "term": "オフィス街のスーツ姿",
+        "type": "people",
+        "associations": [
+          "通勤",
+          "ランチ",
+          "名刺"
+        ]
+      },
+      {
+        "term": "行幸通りの石畳",
+        "type": "place",
+        "associations": [
+          "皇居外苑",
+          "パレード",
+          "広場"
+        ]
+      },
+      {
+        "term": "ビル街のガラス窓",
+        "type": "architecture",
+        "associations": [
+          "反射",
+          "高層",
+          "エントランス"
+        ]
+      },
+      {
+        "term": "駅弁売り場",
+        "type": "place",
+        "associations": [
+          "弁当",
+          "土産",
+          "改札"
+        ]
+      },
+      {
+        "term": "新幹線のホーム",
+        "type": "place",
+        "associations": [
+          "発車ベル",
+          "のぞみ",
+          "出張"
+        ]
+      },
+      {
+        "term": "丸の内口の改札",
+        "type": "movement",
+        "associations": [
+          "乗り換え",
+          "ラッシュ",
+          "待ち合わせ"
+        ]
+      }
+    ],
+    "association_source": "deepseek",
+    "image_source": "deepseek_grounded_in_candidate_names_and_anchors"
+  },
+  {
+    "area": "銀座",
+    "aliases": [
+      "銀座四丁目",
+      "銀座中央通り",
+      "銀座一丁目",
+      "銀座八丁目"
+    ],
+    "images": [
+      {
+        "term": "銀座中央通りの歩行者天国",
+        "type": "place",
+        "associations": [
+          "土日",
+          "パラソル",
+          "買い物客"
+        ]
+      },
+      {
+        "term": "老舗百貨店のショーウィンドウ",
+        "type": "object",
+        "associations": [
+          "ディスプレイ",
+          "ガラス",
+          "季節"
+        ]
+      },
+      {
+        "term": "銀座四丁目の交差点",
+        "type": "place",
+        "associations": [
+          "信号",
+          "人波",
+          "待ち合わせ"
+        ]
+      },
+      {
+        "term": "高級ブランド店の店先",
+        "type": "place",
+        "associations": [
+          "ショッパー",
+          "警備員",
+          "ショーケース"
+        ]
+      },
+      {
+        "term": "銀座の路地裏のバー",
+        "type": "place",
+        "associations": [
+          "看板",
+          "階段",
+          "夜"
+        ]
+      },
+      {
+        "term": "喫茶店のウインドーコーヒー",
+        "type": "food",
+        "associations": [
+          "珈琲",
+          "カップ",
+          "休憩"
+        ]
+      },
+      {
+        "term": "銀座一丁目の煉瓦通り",
+        "type": "architecture",
+        "associations": [
+          "石畳",
+          "街灯",
+          "アンティーク"
+        ]
+      },
+      {
+        "term": "歩行者天国のベンチ",
+        "type": "object",
+        "associations": [
+          "休憩",
+          "買い物袋",
+          "会話"
+        ]
+      }
+    ],
+    "association_source": "deepseek",
+    "image_source": "deepseek_grounded_in_candidate_names_and_anchors"
+  },
+  {
+    "area": "日本橋",
+    "aliases": [
+      "日本橋室町",
+      "日本橋本町",
+      "日本橋",
+      "コレド室町"
+    ],
+    "images": [
+      {
+        "term": "日本橋の欄干",
+        "type": "architecture",
+        "associations": [
+          "麒麟",
+          "獅子",
+          "橋"
+        ]
+      },
+      {
+        "term": "日本橋川の水面",
+        "type": "nature",
+        "associations": [
+          "高速道路",
+          "橋影",
+          "水鳥"
+        ]
+      },
+      {
+        "term": "コレド室町の入口",
+        "type": "place",
+        "associations": [
+          "商業施設",
+          "和菓子",
+          "買い物"
+        ]
+      },
+      {
+        "term": "老舗の鰹節店",
+        "type": "place",
+        "associations": [
+          "削り節",
+          "だし",
+          "暖簾"
+        ]
+      },
+      {
+        "term": "三越前のデパート",
+        "type": "place",
+        "associations": [
+          "天女像",
+          "ライオン像",
+          "買い物客"
+        ]
+      },
+      {
+        "term": "日本橋の道路元標",
+        "type": "object",
+        "associations": [
+          "起点",
+          "距離標",
+          "国道"
+        ]
+      },
+      {
+        "term": "室町の路地の看板",
+        "type": "object",
+        "associations": [
+          "老舗",
+          "文字",
+          "木製"
+        ]
+      },
+      {
+        "term": "橋の上の通勤者",
+        "type": "people",
+        "associations": [
+          "足音",
+          "スーツ",
+          "朝"
+        ]
+      }
+    ],
+    "association_source": "deepseek",
+    "image_source": "deepseek_grounded_in_candidate_names_and_anchors"
+  },
+  {
+    "area": "築地",
+    "aliases": [
+      "築地場外市場",
+      "築地市場跡",
+      "築地駅"
+    ],
+    "images": [
+      {
+        "term": "築地場外市場のアーケード",
+        "type": "place",
+        "associations": [
+          "朝の買い出し",
+          "玉子焼き",
+          "観光客の列"
+        ]
+      },
+      {
+        "term": "場外市場の玉子焼き",
+        "type": "food",
+        "associations": [
+          "串に刺さる",
+          "甘い匂い",
+          "立ち食い"
+        ]
+      },
+      {
+        "term": "海鮮丼の朝食",
+        "type": "food",
+        "associations": [
+          "行列",
+          "まぐろ",
+          "早朝"
+        ]
+      },
+      {
+        "term": "築地本願寺の本堂",
+        "type": "architecture",
+        "associations": [
+          "インド風の屋根",
+          "参拝",
+          "中央区"
+        ]
+      },
+      {
+        "term": "勝鬨橋の跳開橋",
+        "type": "architecture",
+        "associations": [
+          "隅田川",
+          "鋼鉄の骨組み",
+          "散歩道"
+        ]
+      },
+      {
+        "term": "築地駅の出口",
+        "type": "place",
+        "associations": [
+          "日比谷線",
+          "通勤",
+          "市場跡"
+        ]
+      },
+      {
+        "term": "魚河岸のせり",
+        "type": "activity",
+        "associations": [
+          "早朝",
+          "競り",
+          "威勢の声"
+        ]
+      },
+      {
+        "term": "包丁を研ぐ音",
+        "type": "sound",
+        "associations": [
+          "店先",
+          "職人",
+          "朝"
+        ]
+      }
+    ],
+    "association_source": "deepseek",
+    "image_source": "deepseek_grounded_in_candidate_names_and_anchors"
+  },
+  {
+    "area": "月島・佃",
+    "aliases": [
+      "月島もんじゃストリート",
+      "佃島",
+      "月島駅",
+      "佃公園"
+    ],
+    "images": [
+      {
+        "term": "月島もんじゃストリート",
+        "type": "place",
+        "associations": [
+          "もんじゃ焼き",
+          "下町",
+          "夕方"
+        ]
+      },
+      {
+        "term": "もんじゃ焼きの鉄板",
+        "type": "food",
+        "associations": [
+          "ヘラ",
+          "キャベツ",
+          "自分で焼く"
+        ]
+      },
+      {
+        "term": "佃島の渡し跡",
+        "type": "history",
+        "associations": [
+          "隅田川",
+          "江戸",
+          "船"
+        ]
+      },
+      {
+        "term": "佃公園の石垣",
+        "type": "nature",
+        "associations": [
+          "隅田川沿い",
+          "釣り人",
+          "潮風"
+        ]
+      },
+      {
+        "term": "佃煮の店先",
+        "type": "food",
+        "associations": [
+          "醤油の香り",
+          "小魚",
+          "土産"
+        ]
+      },
+      {
+        "term": "月島駅の改札",
+        "type": "place",
+        "associations": [
+          "有楽町線",
+          "大江戸線",
+          "通勤"
+        ]
+      },
+      {
+        "term": "運河沿いの遊歩道",
+        "type": "place",
+        "associations": [
+          "高層マンション",
+          "水辺",
+          "ジョギング"
+        ]
+      },
+      {
+        "term": "ヘラを鳴らす音",
+        "type": "sound",
+        "associations": [
+          "鉄板",
+          "もんじゃ",
+          "下町"
+        ]
+      }
+    ],
+    "association_source": "deepseek",
+    "image_source": "deepseek_grounded_in_candidate_names_and_anchors"
+  },
+  {
+    "area": "六本木",
+    "aliases": [
+      "六本木交差点",
+      "六本木ヒルズ周辺",
+      "東京ミッドタウン"
+    ],
+    "images": [
+      {
+        "term": "六本木交差点のスクランブル",
+        "type": "movement",
+        "associations": [
+          "横断歩道",
+          "人波",
+          "夜"
+        ]
+      },
+      {
+        "term": "六本木ヒルズの森タワー",
+        "type": "architecture",
+        "associations": [
+          "展望台",
+          "高層ビル",
+          "港区"
+        ]
+      },
+      {
+        "term": "東京ミッドタウンの庭園",
+        "type": "nature",
+        "associations": [
+          "芝生",
+          "桜",
+          "ベンチ"
+        ]
+      },
+      {
+        "term": "六本木通り",
+        "type": "place",
+        "associations": [
+          "車道",
+          "坂",
+          "タクシー"
+        ]
+      },
+      {
+        "term": "外国語の看板",
+        "type": "people",
+        "associations": [
+          "インターナショナル",
+          "夜の街",
+          "バー"
+        ]
+      },
+      {
+        "term": "芋洗坂",
+        "type": "place",
+        "associations": [
+          "坂道",
+          "居酒屋",
+          "雑居ビル"
+        ]
+      },
+      {
+        "term": "防衛庁跡地の再開発",
+        "type": "history",
+        "associations": [
+          "赤坂",
+          "都市計画",
+          "変遷"
+        ]
+      },
+      {
+        "term": "交差点の信号音",
+        "type": "sound",
+        "associations": [
+          "カラス",
+          "横断",
+          "夜"
+        ]
+      }
+    ],
+    "association_source": "deepseek",
+    "image_source": "deepseek_grounded_in_candidate_names_and_anchors"
+  },
+  {
+    "area": "麻布十番",
+    "aliases": [
+      "麻布十番商店街",
+      "麻布十番駅周辺",
+      "麻布十番駅"
+    ],
+    "images": [
+      {
+        "term": "麻布十番商店街",
+        "type": "place",
+        "associations": [
+          "石畳",
+          "老舗",
+          "散歩"
+        ]
+      },
+      {
+        "term": "たい焼きの店先",
+        "type": "food",
+        "associations": [
+          "甘い香り",
+          "行列",
+          "冬"
+        ]
+      },
+      {
+        "term": "麻布十番駅の出口",
+        "type": "place",
+        "associations": [
+          "南北線",
+          "大江戸線",
+          "坂"
+        ]
+      },
+      {
+        "term": "パティオ十番",
+        "type": "place",
+        "associations": [
+          "広場",
+          "ベンチ",
+          "買い物"
+        ]
+      },
+      {
+        "term": "網代公園の滑り台",
+        "type": "nature",
+        "associations": [
+          "子供",
+          "遊び声",
+          "木陰"
+        ]
+      },
+      {
+        "term": "更科そばの暖簾",
+        "type": "food",
+        "associations": [
+          "老舗",
+          "昼",
+          "そば"
+        ]
+      },
+      {
+        "term": "坂道を上る自転車",
+        "type": "movement",
+        "associations": [
+          "商店街",
+          "通勤",
+          "息遣い"
+        ]
+      },
+      {
+        "term": "祭囃子の練習",
+        "type": "sound",
+        "associations": [
+          "秋祭り",
+          "神輿",
+          "町内会"
+        ]
+      }
+    ],
+    "association_source": "deepseek",
+    "image_source": "deepseek_grounded_in_candidate_names_and_anchors"
+  },
+  {
+    "area": "虎ノ門・芝",
+    "aliases": [
+      "芝公園",
+      "増上寺大門",
+      "虎ノ門駅"
+    ],
+    "images": [
+      {
+        "term": "増上寺の三解脱門",
+        "type": "architecture",
+        "associations": [
+          "芝公園",
+          "徳川家の墓所",
+          "大門交差点"
+        ]
+      },
+      {
+        "term": "芝公園の芝生",
+        "type": "nature",
+        "associations": [
+          "東京タワー",
+          "ベンチ",
+          "昼休みの会社員"
+        ]
+      },
+      {
+        "term": "虎ノ門駅の改札",
+        "type": "place",
+        "associations": [
+          "銀座線",
+          "霞が関",
+          "朝の通勤ラッシュ"
+        ]
+      },
+      {
+        "term": "愛宕神社の石段",
+        "type": "place",
+        "associations": [
+          "出世の石段",
+          "参拝者",
+          "急勾配"
+        ]
+      },
+      {
+        "term": "桜田通り",
+        "type": "place",
+        "associations": [
+          "車の排気音",
+          "信号待ち",
+          "自転車"
+        ]
+      },
+      {
+        "term": "オフィスビルの自動ドア",
+        "type": "architecture",
+        "associations": [
+          "スーツの列",
+          "ICカード",
+          "空調の風"
+        ]
+      },
+      {
+        "term": "増上寺の鐘楼",
+        "type": "architecture",
+        "associations": [
+          "除夜の鐘",
+          "梵鐘",
+          "鐘つき棒"
+        ]
+      },
+      {
+        "term": "虎ノ門ヒルズ駅の連絡通路",
+        "type": "place",
+        "associations": [
+          "日比谷線",
+          "ガラス張り",
+          "歩く速さ"
+        ]
+      }
+    ],
+    "association_source": "deepseek",
+    "image_source": "deepseek_grounded_in_candidate_names_and_anchors"
+  },
+  {
+    "area": "赤坂",
+    "aliases": [
+      "赤坂見附",
+      "赤坂サカス周辺",
+      "赤坂見附駅",
+      "赤坂サカス"
+    ],
+    "images": [
+      {
+        "term": "赤坂見附駅の出口",
+        "type": "place",
+        "associations": [
+          "丸ノ内線",
+          "ベンツの列",
+          "外堀通り"
+        ]
+      },
+      {
+        "term": "赤坂サカスの階段",
+        "type": "architecture",
+        "associations": [
+          "TBS",
+          "イベント広場",
+          "買い物客"
+        ]
+      },
+      {
+        "term": "赤坂の路地裏の飲み屋",
+        "type": "place",
+        "associations": [
+          "提灯",
+          "会社帰り",
+          "焼き鳥の煙"
+        ]
+      },
+      {
+        "term": "山王日枝神社の鳥居",
+        "type": "architecture",
+        "associations": [
+          "表参道の階段",
+          "猿田彦",
+          "初詣"
+        ]
+      },
+      {
+        "term": "赤坂の坂道",
+        "type": "place",
+        "associations": [
+          "タクシー",
+          "石畳",
+          "息切れ"
+        ]
+      },
+      {
+        "term": "議員会館周辺の警備",
+        "type": "people",
+        "associations": [
+          "黒服",
+          "無線機",
+          "国会議事堂"
+        ]
+      },
+      {
+        "term": "赤坂のカフェテラスの傘",
+        "type": "place",
+        "associations": [
+          "アイスコーヒー",
+          "打ち合わせ",
+          "日差し"
+        ]
+      },
+      {
+        "term": "溜池山王駅の乗り換え",
+        "type": "movement",
+        "associations": [
+          "南北線",
+          "銀座線",
+          "早歩き"
+        ]
+      }
+    ],
+    "association_source": "deepseek",
+    "image_source": "deepseek_grounded_in_candidate_names_and_anchors"
+  },
+  {
+    "area": "新宿三丁目・ゴールデン街",
+    "aliases": [
+      "新宿ゴールデン街",
+      "歌舞伎町一丁目",
+      "新宿三丁目駅",
+      "ゴールデン街",
+      "花園神社"
+    ],
+    "images": [
+      {
+        "term": "ゴールデン街の看板",
+        "type": "place",
+        "associations": [
+          "狭い路地",
+          "二階のバー",
+          "ネオン"
+        ]
+      },
+      {
+        "term": "花園神社の赤い鳥居",
+        "type": "architecture",
+        "associations": [
+          "新宿三丁目",
+          "参道",
+          "酉の市"
+        ]
+      },
+      {
+        "term": "新宿三丁目の交差点",
+        "type": "place",
+        "associations": [
+          "靖国通り",
+          "人混み",
+          "信号"
+        ]
+      },
+      {
+        "term": "ゴールデン街の路地",
+        "type": "place",
+        "associations": [
+          "肩が触れる幅",
+          "スナックの扉",
+          "看板の灯り"
+        ]
+      },
+      {
+        "term": "末広通りの飲み屋",
+        "type": "place",
+        "associations": [
+          "立ち飲み",
+          "酔客",
+          "ジョッキ"
+        ]
+      },
+      {
+        "term": "新宿三丁目駅の地下通路",
+        "type": "place",
+        "associations": [
+          "副都心線",
+          "丸ノ内線",
+          "案内表示"
+        ]
+      },
+      {
+        "term": "歌舞伎町の客引き",
+        "type": "people",
+        "associations": [
+          "呼び込み",
+          "夜の街",
+          "看板"
+        ]
+      },
+      {
+        "term": "ゴールデン街の朝",
+        "type": "movement",
+        "associations": [
+          "シャッター",
+          "空き缶",
+          "掃除する人"
+        ]
+      }
+    ],
+    "association_source": "deepseek",
+    "image_source": "deepseek_grounded_in_candidate_names_and_anchors"
+  },
+  {
+    "area": "大久保・新大久保",
+    "aliases": [
+      "新大久保コリアンタウン",
+      "大久保通り",
+      "新大久保駅",
+      "大久保駅"
+    ],
+    "images": [
+      {
+        "term": "新大久保駅の改札",
+        "type": "place",
+        "associations": [
+          "山手線",
+          "観光客",
+          "待ち合わせ"
+        ]
+      },
+      {
+        "term": "大久保通りの看板",
+        "type": "place",
+        "associations": [
+          "ハングル",
+          "コスメ店",
+          "飲食店"
+        ]
+      },
+      {
+        "term": "新大久保のキムチ屋",
+        "type": "food",
+        "associations": [
+          "赤い壺",
+          "試食",
+          "ビニール袋"
+        ]
+      },
+      {
+        "term": "職安通りの露店",
+        "type": "place",
+        "associations": [
+          "屋台",
+          "ホットク",
+          "行列"
+        ]
+      },
+      {
+        "term": "大久保駅のホーム",
+        "type": "place",
+        "associations": [
+          "総武線",
+          "快速通過",
+          "ベンチ"
+        ]
+      },
+      {
+        "term": "コリアンタウンの路地",
+        "type": "place",
+        "associations": [
+          "看板の多言語",
+          "煙",
+          "自転車"
+        ]
+      },
+      {
+        "term": "新大久保のチーズタッカルビ",
+        "type": "food",
+        "associations": [
+          "鉄板",
+          "若者",
+          "匂い"
+        ]
+      },
+      {
+        "term": "大久保のイスラム横丁",
+        "type": "place",
+        "associations": [
+          "ハラール",
+          "モスク",
+          "香辛料"
+        ]
+      }
+    ],
+    "association_source": "deepseek",
+    "image_source": "deepseek_grounded_in_candidate_names_and_anchors"
+  },
+  {
+    "area": "四谷荒木町",
+    "aliases": [
+      "荒木町",
+      "車力門通り",
+      "四谷三丁目駅"
+    ],
+    "images": [
+      {
+        "term": "車力門通り",
+        "type": "place",
+        "associations": [
+          "坂道",
+          "飲み屋の看板",
+          "夕方の提灯"
+        ]
+      },
+      {
+        "term": "荒木町の路地",
+        "type": "place",
+        "associations": [
+          "石畳",
+          "路地裏",
+          "軒先の植木鉢"
+        ]
+      },
+      {
+        "term": "四谷三丁目駅",
+        "type": "place",
+        "associations": [
+          "改札",
+          "丸ノ内線",
+          "地上への階段"
+        ]
+      },
+      {
+        "term": "津の守坂",
+        "type": "place",
+        "associations": [
+          "上り坂",
+          "坂下の交差点",
+          "自転車を押す人"
+        ]
+      },
+      {
+        "term": "小料理屋の暖簾",
+        "type": "architecture",
+        "associations": [
+          "木の格子戸",
+          "赤い提灯",
+          "夜の灯り"
+        ]
+      },
+      {
+        "term": "路地の猫",
+        "type": "nature",
+        "associations": [
+          "塀の上",
+          "夕暮れ",
+          "足音"
+        ]
+      },
+      {
+        "term": "串焼きの煙",
+        "type": "food",
+        "associations": [
+          "炭火",
+          "煙の匂い",
+          "焼き鳥"
+        ]
+      },
+      {
+        "term": "カラオケの音",
+        "type": "sound",
+        "associations": [
+          "深夜",
+          "路地に漏れる",
+          "ドアの開閉"
+        ]
+      }
+    ],
+    "association_source": "deepseek",
+    "image_source": "deepseek_grounded_in_candidate_names_and_anchors"
+  },
+  {
+    "area": "本郷",
+    "aliases": [
+      "本郷三丁目",
+      "東京大学本郷キャンパス周辺",
+      "本郷三丁目駅",
+      "東京大学赤門"
+    ],
+    "images": [
+      {
+        "term": "東京大学赤門",
+        "type": "architecture",
+        "associations": [
+          "朱塗り",
+          "門前の通り",
+          "記念写真"
+        ]
+      },
+      {
+        "term": "本郷三丁目駅",
+        "type": "place",
+        "associations": [
+          "改札",
+          "丸ノ内線",
+          "交差点"
+        ]
+      },
+      {
+        "term": "本郷通り",
+        "type": "place",
+        "associations": [
+          "歩道",
+          "自転車",
+          "古本屋の看板"
+        ]
+      },
+      {
+        "term": "三四郎池",
+        "type": "nature",
+        "associations": [
+          "水面",
+          "木々の影",
+          "石の橋"
+        ]
+      },
+      {
+        "term": "銀杏並木",
+        "type": "nature",
+        "associations": [
+          "黄色い葉",
+          "落ち葉",
+          "秋の道"
+        ]
+      },
+      {
+        "term": "学生の自転車",
+        "type": "movement",
+        "associations": [
+          "キャンパス",
+          "朝の通学",
+          "ベル"
+        ]
+      },
+      {
+        "term": "古本屋の店先",
+        "type": "place",
+        "associations": [
+          "均一棚",
+          "紙の匂い",
+          "立ち読み"
+        ]
+      },
+      {
+        "term": "喫茶店の看板",
+        "type": "architecture",
+        "associations": [
+          "珈琲",
+          "レトロな字体",
+          "ガラス戸"
+        ]
+      }
+    ],
+    "association_source": "deepseek",
+    "image_source": "deepseek_grounded_in_candidate_names_and_anchors"
+  },
+  {
+    "area": "小石川・茗荷谷",
+    "aliases": [
+      "茗荷谷",
+      "播磨坂",
+      "茗荷谷駅"
+    ],
+    "images": [
+      {
+        "term": "茗荷谷駅",
+        "type": "place",
+        "associations": [
+          "改札",
+          "丸ノ内線",
+          "階段"
+        ]
+      },
+      {
+        "term": "播磨坂",
+        "type": "place",
+        "associations": [
+          "桜並木",
+          "坂道",
+          "歩道"
+        ]
+      },
+      {
+        "term": "桜のトンネル",
+        "type": "nature",
+        "associations": [
+          "花びら",
+          "春の道",
+          "枝の重なり"
+        ]
+      },
+      {
+        "term": "教育の森公園",
+        "type": "place",
+        "associations": [
+          "広場",
+          "ベンチ",
+          "散歩道"
+        ]
+      },
+      {
+        "term": "坂の途中のマンション",
+        "type": "architecture",
+        "associations": [
+          "外階段",
+          "植え込み",
+          "郵便受け"
+        ]
+      },
+      {
+        "term": "通学路の子供",
+        "type": "people",
+        "associations": [
+          "ランドセル",
+          "朝の時間",
+          "横断歩道"
+        ]
+      },
+      {
+        "term": "パン屋の匂い",
+        "type": "food",
+        "associations": [
+          "焼きたて",
+          "朝",
+          "店先の棚"
+        ]
+      },
+      {
+        "term": "自転車のベル",
+        "type": "sound",
+        "associations": [
+          "坂道",
+          "すれ違い",
+          "昼下がり"
+        ]
+      }
+    ],
+    "association_source": "deepseek",
+    "image_source": "deepseek_grounded_in_candidate_names_and_anchors"
+  },
+  {
+    "area": "白山",
+    "aliases": [
+      "白山神社周辺",
+      "白山通り",
+      "白山駅",
+      "白山神社"
+    ],
+    "images": [
+      {
+        "term": "白山駅",
+        "type": "place",
+        "associations": [
+          "改札",
+          "都営三田線",
+          "地上への出口"
+        ]
+      },
+      {
+        "term": "白山神社",
+        "type": "place",
+        "associations": [
+          "鳥居",
+          "参道",
+          "手水舎"
+        ]
+      },
+      {
+        "term": "白山通り",
+        "type": "place",
+        "associations": [
+          "車道",
+          "歩道",
+          "バス停"
+        ]
+      },
+      {
+        "term": "神社の狛犬",
+        "type": "architecture",
+        "associations": [
+          "石像",
+          "参道の脇",
+          "苔"
+        ]
+      },
+      {
+        "term": "境内の銀杏",
+        "type": "nature",
+        "associations": [
+          "大木",
+          "落ち葉",
+          "秋"
+        ]
+      },
+      {
+        "term": "参拝の列",
+        "type": "people",
+        "associations": [
+          "手を合わせる",
+          "正月",
+          "賽銭箱"
+        ]
+      },
+      {
+        "term": "甘酒の湯気",
+        "type": "food",
+        "associations": [
+          "境内の露店",
+          "冬",
+          "湯呑み"
+        ]
+      },
+      {
+        "term": "手水の音",
+        "type": "sound",
+        "associations": [
+          "柄杓",
+          "水音",
+          "朝"
+        ]
+      }
+    ],
+    "association_source": "deepseek",
+    "image_source": "deepseek_grounded_in_candidate_names_and_anchors"
+  },
+  {
+    "area": "浅草",
+    "aliases": [
+      "浅草寺周辺",
+      "仲見世通り",
+      "雷門",
+      "浅草寺"
+    ],
+    "images": [
+      {
+        "term": "雷門の大提灯",
+        "type": "architecture",
+        "associations": [
+          "浅草寺",
+          "仲見世通り",
+          "写真撮影"
+        ]
+      },
+      {
+        "term": "仲見世通りの人形焼",
+        "type": "food",
+        "associations": [
+          "鉄板",
+          "甘い香り",
+          "食べ歩き"
+        ]
+      },
+      {
+        "term": "浅草寺の香炉",
+        "type": "place",
+        "associations": [
+          "煙",
+          "参拝者",
+          "身を清める"
+        ]
+      },
+      {
+        "term": "五重塔",
+        "type": "architecture",
+        "associations": [
+          "朱色",
+          "屋根",
+          "夕日"
+        ]
+      },
+      {
+        "term": "おみくじを引く手",
+        "type": "activity",
+        "associations": [
+          "凶",
+          "紙",
+          "箱"
+        ]
+      },
+      {
+        "term": "人力車の車輪",
+        "type": "movement",
+        "associations": [
+          "車夫",
+          "観光客",
+          "石畳"
+        ]
+      },
+      {
+        "term": "隅田川の屋形船",
+        "type": "object",
+        "associations": [
+          "水面",
+          "提灯",
+          "夜"
+        ]
+      },
+      {
+        "term": "浅草寺の鐘の音",
+        "type": "sound",
+        "associations": [
+          "除夜",
+          "境内",
+          "響き"
+        ]
+      }
+    ],
+    "association_source": "deepseek",
+    "image_source": "deepseek_grounded_in_candidate_names_and_anchors"
+  },
+  {
+    "area": "上野・アメ横",
+    "aliases": [
+      "アメヤ横丁",
+      "アメ横商店街",
+      "上野駅",
+      "御徒町駅",
+      "アメ横"
+    ],
+    "images": [
+      {
+        "term": "アメ横の鮮魚店",
+        "type": "place",
+        "associations": [
+          "マグロ",
+          "値段交渉",
+          "威勢の声"
+        ]
+      },
+      {
+        "term": "上野駅のパンダ像",
+        "type": "object",
+        "associations": [
+          "待ち合わせ",
+          "改札",
+          "記念撮影"
+        ]
+      },
+      {
+        "term": "アメ横の呼び込み",
+        "type": "sound",
+        "associations": [
+          "安いよ",
+          "商店街",
+          "活気"
+        ]
+      },
+      {
+        "term": "御徒町駅のガード下",
+        "type": "place",
+        "associations": [
+          "居酒屋",
+          "焼き鳥",
+          "煙"
+        ]
+      },
+      {
+        "term": "上野公園の不忍池",
+        "type": "nature",
+        "associations": [
+          "蓮",
+          "弁天堂",
+          "ボート"
+        ]
+      },
+      {
+        "term": "アメ横の乾物屋",
+        "type": "food",
+        "associations": [
+          "するめ",
+          "昆布",
+          "量り売り"
+        ]
+      },
+      {
+        "term": "上野の西郷隆盛像",
+        "type": "history",
+        "associations": [
+          "銅像",
+          "犬",
+          "待ち合わせ"
+        ]
+      },
+      {
+        "term": "アメ横の路上の段ボール箱",
+        "type": "object",
+        "associations": [
+          "陳列",
+          "値札",
+          "雑多"
+        ]
+      }
+    ],
+    "association_source": "deepseek",
+    "image_source": "deepseek_grounded_in_candidate_names_and_anchors"
+  },
+  {
+    "area": "蔵前",
+    "aliases": [
+      "蔵前駅周辺",
+      "蔵前橋通り",
+      "蔵前駅"
+    ],
+    "images": [
+      {
+        "term": "蔵前橋",
+        "type": "architecture",
+        "associations": [
+          "隅田川",
+          "欄干",
+          "自転車"
+        ]
+      },
+      {
+        "term": "蔵前駅の改札",
+        "type": "place",
+        "associations": [
+          "都営浅草線",
+          "大江戸線",
+          "乗り換え"
+        ]
+      },
+      {
+        "term": "蔵前橋通りのトラック",
+        "type": "movement",
+        "associations": [
+          "運送",
+          "倉庫",
+          "朝"
+        ]
+      },
+      {
+        "term": "隅田川沿いの遊歩道",
+        "type": "place",
+        "associations": [
+          "ジョギング",
+          "ベンチ",
+          "スカイツリー"
+        ]
+      },
+      {
+        "term": "蔵前の問屋街",
+        "type": "place",
+        "associations": [
+          "紙",
+          "文具",
+          "卸売"
+        ]
+      },
+      {
+        "term": "カフェの焙煎機",
+        "type": "object",
+        "associations": [
+          "コーヒー",
+          "香り",
+          "豆"
+        ]
+      },
+      {
+        "term": "隅田川の水音",
+        "type": "sound",
+        "associations": [
+          "波",
+          "船",
+          "岸"
+        ]
+      },
+      {
+        "term": "蔵前の古い看板",
+        "type": "history",
+        "associations": [
+          "倉庫",
+          "文字",
+          "錆"
+        ]
+      }
+    ],
+    "association_source": "deepseek",
+    "image_source": "deepseek_grounded_in_candidate_names_and_anchors"
+  },
+  {
+    "area": "両国",
+    "aliases": [
+      "両国国技館周辺",
+      "両国駅周辺",
+      "両国駅",
+      "両国国技館"
+    ],
+    "images": [
+      {
+        "term": "両国国技館の土俵",
+        "type": "place",
+        "associations": [
+          "力士",
+          "塩",
+          "取組"
+        ]
+      },
+      {
+        "term": "両国駅の横綱像",
+        "type": "object",
+        "associations": [
+          "銅像",
+          "待ち合わせ",
+          "力士"
+        ]
+      },
+      {
+        "term": "ちゃんこ鍋",
+        "type": "food",
+        "associations": [
+          "部屋",
+          "出汁",
+          "野菜"
+        ]
+      },
+      {
+        "term": "両国橋",
+        "type": "architecture",
+        "associations": [
+          "隅田川",
+          "欄干",
+          "花火"
+        ]
+      },
+      {
+        "term": "回向院の墓石",
+        "type": "history",
+        "associations": [
+          "供養",
+          "猫",
+          "石"
+        ]
+      },
+      {
+        "term": "国技館の歓声",
+        "type": "sound",
+        "associations": [
+          "拍手",
+          "掛け声",
+          "満員"
+        ]
+      },
+      {
+        "term": "両国駅のホーム",
+        "type": "place",
+        "associations": [
+          "総武線",
+          "快速",
+          "乗降"
+        ]
+      },
+      {
+        "term": "隅田川の屋形船",
+        "type": "object",
+        "associations": [
+          "水面",
+          "提灯",
+          "夜"
+        ]
+      }
+    ],
+    "association_source": "deepseek",
+    "image_source": "deepseek_grounded_in_candidate_names_and_anchors"
+  },
+  {
+    "area": "押上",
+    "aliases": [
+      "東京スカイツリータウン",
+      "押上駅周辺",
+      "押上駅",
+      "東京スカイツリー"
+    ],
+    "images": [
+      {
+        "term": "東京スカイツリー",
+        "type": "architecture",
+        "associations": [
+          "展望デッキ",
+          "ライトアップ",
+          "墨田区のランドマーク"
+        ]
+      },
+      {
+        "term": "押上駅の改札",
+        "type": "place",
+        "associations": [
+          "半蔵門線",
+          "都営浅草線",
+          "朝の乗り換え"
+        ]
+      },
+      {
+        "term": "ソラマチの土産物店",
+        "type": "place",
+        "associations": [
+          "東京ばな奈",
+          "観光客",
+          "買い物袋"
+        ]
+      },
+      {
+        "term": "業平橋の橋脚",
+        "type": "architecture",
+        "associations": [
+          "東武線",
+          "高架下",
+          "夕方の影"
+        ]
+      },
+      {
+        "term": "北十間川の遊歩道",
+        "type": "nature",
+        "associations": [
+          "水辺",
+          "散歩",
+          "スカイツリーの眺め"
+        ]
+      },
+      {
+        "term": "隅田川の屋形船",
+        "type": "movement",
+        "associations": [
+          "川面",
+          "提灯",
+          "夏の夜"
+        ]
+      },
+      {
+        "term": "曳舟川通りの自転車",
+        "type": "movement",
+        "associations": [
+          "通勤",
+          "ベル",
+          "朝の空気"
+        ]
+      },
+      {
+        "term": "押上の交番",
+        "type": "place",
+        "associations": [
+          "交差点",
+          "道案内",
+          "赤い灯"
+        ]
+      }
+    ],
+    "association_source": "deepseek",
+    "image_source": "deepseek_grounded_in_candidate_names_and_anchors"
+  },
+  {
+    "area": "向島・鳩の街",
+    "aliases": [
+      "鳩の街通り",
+      "向島百花園周辺",
+      "向島百花園"
+    ],
+    "images": [
+      {
+        "term": "鳩の街通りの看板建築",
+        "type": "architecture",
+        "associations": [
+          "昭和の商店",
+          "銅板",
+          "路地"
+        ]
+      },
+      {
+        "term": "向島百花園の萩",
+        "type": "nature",
+        "associations": [
+          "秋の花",
+          "庭園",
+          "虫の音"
+        ]
+      },
+      {
+        "term": "隅田川の堤防",
+        "type": "place",
+        "associations": [
+          "桜並木",
+          "ジョギング",
+          "対岸の高層ビル"
+        ]
+      },
+      {
+        "term": "鳩の街の銭湯",
+        "type": "place",
+        "associations": [
+          "煙突",
+          "番台",
+          "湯気"
+        ]
+      },
+      {
+        "term": "白鬚橋の欄干",
+        "type": "architecture",
+        "associations": [
+          "橋の上",
+          "車の音",
+          "夕日"
+        ]
+      },
+      {
+        "term": "向島の路地の猫",
+        "type": "people",
+        "associations": [
+          "塀の上",
+          "昼寝",
+          "餌やり"
+        ]
+      },
+      {
+        "term": "言問団子の店先",
+        "type": "food",
+        "associations": [
+          "串団子",
+          "甘い香り",
+          "観光客"
+        ]
+      },
+      {
+        "term": "墨堤通りのランナー",
+        "type": "movement",
+        "associations": [
+          "朝のジョギング",
+          "汗",
+          "川風"
+        ]
+      }
+    ],
+    "association_source": "deepseek",
+    "image_source": "deepseek_grounded_in_candidate_names_and_anchors"
+  },
+  {
+    "area": "錦糸町",
+    "aliases": [
+      "錦糸町駅周辺",
+      "北斎通り",
+      "錦糸町駅"
+    ],
+    "images": [
+      {
+        "term": "錦糸町駅の北口",
+        "type": "place",
+        "associations": [
+          "丸井",
+          "バスロータリー",
+          "待ち合わせ"
+        ]
+      },
+      {
+        "term": "北斎通りの幟",
+        "type": "place",
+        "associations": [
+          "葛飾北斎",
+          "墨田区",
+          "観光案内"
+        ]
+      },
+      {
+        "term": "アルカキットの屋上",
+        "type": "place",
+        "associations": [
+          "スカイツリーの眺め",
+          "ベンチ",
+          "親子連れ"
+        ]
+      },
+      {
+        "term": "錦糸公園の噴水",
+        "type": "nature",
+        "associations": [
+          "水しぶき",
+          "鳩",
+          "ベンチ"
+        ]
+      },
+      {
+        "term": "錦糸町の飲み屋横丁",
+        "type": "place",
+        "associations": [
+          "赤提灯",
+          "焼き鳥",
+          "会社員"
+        ]
+      },
+      {
+        "term": "すみだ北斎美術館",
+        "type": "architecture",
+        "associations": [
+          "浮世絵",
+          "ガラス張り",
+          "企画展"
+        ]
+      },
+      {
+        "term": "錦糸町駅の総武線ホーム",
+        "type": "place",
+        "associations": [
+          "快速電車",
+          "発車ベル",
+          "通勤ラッシュ"
+        ]
+      },
+      {
+        "term": "江東橋の交差点",
+        "type": "movement",
+        "associations": [
+          "横断歩道",
+          "タクシー",
+          "信号待ち"
+        ]
+      }
+    ],
+    "association_source": "deepseek",
+    "image_source": "deepseek_grounded_in_candidate_names_and_anchors"
+  },
+  {
+    "area": "門前仲町・深川",
+    "aliases": [
+      "深川",
+      "富岡八幡宮周辺",
+      "門前仲町駅",
+      "富岡八幡宮",
+      "深川不動堂"
+    ],
+    "images": [
+      {
+        "term": "富岡八幡宮の鳥居",
+        "type": "architecture",
+        "associations": [
+          "石段",
+          "参拝者",
+          "大鳥居"
+        ]
+      },
+      {
+        "term": "深川不動堂の護摩焚き",
+        "type": "activity",
+        "associations": [
+          "読経",
+          "炎",
+          "参拝"
+        ]
+      },
+      {
+        "term": "門前仲町駅の出口",
+        "type": "place",
+        "associations": [
+          "東西線",
+          "大江戸線",
+          "商店街"
+        ]
+      },
+      {
+        "term": "深川めしの店",
+        "type": "food",
+        "associations": [
+          "あさり",
+          "丼",
+          "昼時"
+        ]
+      },
+      {
+        "term": "永代橋のたもと",
+        "type": "place",
+        "associations": [
+          "隅田川",
+          "橋の影",
+          "夕暮れ"
+        ]
+      },
+      {
+        "term": "深川の路地の長屋",
+        "type": "architecture",
+        "associations": [
+          "木の扉",
+          "植木鉢",
+          "路地裏"
+        ]
+      },
+      {
+        "term": "富岡八幡宮の力士像",
+        "type": "architecture",
+        "associations": [
+          "銅像",
+          "相撲",
+          "記念撮影"
+        ]
+      },
+      {
+        "term": "門前仲町の商店街の呼び込み",
+        "type": "sound",
+        "associations": [
+          "八百屋",
+          "威勢のいい声",
+          "買い物客"
+        ]
+      }
+    ],
+    "association_source": "deepseek",
+    "image_source": "deepseek_grounded_in_candidate_names_and_anchors"
+  },
+  {
+    "area": "亀戸",
+    "aliases": [
+      "亀戸天神周辺",
+      "亀戸駅周辺",
+      "亀戸駅",
+      "亀戸天神社"
+    ],
+    "images": [
+      {
+        "term": "亀戸天神社の藤棚",
+        "type": "place",
+        "associations": [
+          "藤まつり",
+          "太宰府天満宮",
+          "池の亀"
+        ]
+      },
+      {
+        "term": "亀戸天神社の太鼓橋",
+        "type": "architecture",
+        "associations": [
+          "男橋",
+          "女橋",
+          "平橋"
+        ]
+      },
+      {
+        "term": "亀戸駅北口の交番",
+        "type": "place",
+        "associations": [
+          "明治通り",
+          "JR総武線",
+          "亀戸十三間通り"
+        ]
+      },
+      {
+        "term": "亀戸餃子の暖簾",
+        "type": "food",
+        "associations": [
+          "餃子定食",
+          "行列",
+          "下町の昼時"
+        ]
+      },
+      {
+        "term": "亀戸梅屋敷の梅",
+        "type": "nature",
+        "associations": [
+          "臥龍梅",
+          "梅まつり",
+          "江戸の植木屋"
+        ]
+      },
+      {
+        "term": "亀戸香取神社の鳥居",
+        "type": "architecture",
+        "associations": [
+          "勝矢祭",
+          "スポーツの神",
+          "旧中川"
+        ]
+      },
+      {
+        "term": "亀戸大根の漬物",
+        "type": "food",
+        "associations": [
+          "江戸東京野菜",
+          "糠漬け",
+          "冬の台所"
+        ]
+      },
+      {
+        "term": "旧中川の水辺",
+        "type": "nature",
+        "associations": [
+          "屋形船",
+          "カモ",
+          "水門"
+        ]
+      }
+    ],
+    "association_source": "deepseek",
+    "image_source": "deepseek_grounded_in_candidate_names_and_anchors"
+  },
+  {
+    "area": "豊洲",
+    "aliases": [
+      "豊洲駅周辺",
+      "豊洲ぐるり公園",
+      "豊洲駅"
+    ],
+    "images": [
+      {
+        "term": "豊洲市場の屋上緑化広場",
+        "type": "place",
+        "associations": [
+          "芝生",
+          "東京湾",
+          "晴海通り"
+        ]
+      },
+      {
+        "term": "豊洲ぐるり公園の遊歩道",
+        "type": "place",
+        "associations": [
+          "ランニング",
+          "釣り人",
+          "レインボーブリッジ"
+        ]
+      },
+      {
+        "term": "豊洲駅のゆりかもめホーム",
+        "type": "place",
+        "associations": [
+          "新交通ゆりかもめ",
+          "高架駅",
+          "有楽町線"
+        ]
+      },
+      {
+        "term": "豊洲運河のクレーン",
+        "type": "architecture",
+        "associations": [
+          "倉庫街",
+          "コンテナ",
+          "水上バス"
+        ]
+      },
+      {
+        "term": "豊洲市場のマグロ競り",
+        "type": "activity",
+        "associations": [
+          "早朝",
+          "セリ",
+          "冷凍マグロ"
+        ]
+      },
+      {
+        "term": "豊洲の高層マンション群",
+        "type": "architecture",
+        "associations": [
+          "タワマン",
+          "ベイエリア",
+          "子育て世帯"
+        ]
+      },
+      {
+        "term": "豊洲公園の噴水",
+        "type": "place",
+        "associations": [
+          "夏休み",
+          "水遊び",
+          "芝生広場"
+        ]
+      },
+      {
+        "term": "豊洲の朝焼け",
+        "type": "nature",
+        "associations": [
+          "東京湾",
+          "日の出",
+          "釣り船"
+        ]
+      }
+    ],
+    "association_source": "deepseek",
+    "image_source": "deepseek_grounded_in_candidate_names_and_anchors"
+  },
+  {
+    "area": "戸越銀座",
+    "aliases": [
+      "戸越銀座商店街",
+      "戸越銀座駅周辺",
+      "戸越銀座駅"
+    ],
+    "images": [
+      {
+        "term": "戸越銀座商店街のアーケード",
+        "type": "architecture",
+        "associations": [
+          "全長約1.6km",
+          "東急池上線",
+          "歩行者天国"
+        ]
+      },
+      {
+        "term": "戸越銀座駅の改札",
+        "type": "place",
+        "associations": [
+          "池上線",
+          "商店街の入口",
+          "ラッシュ時"
+        ]
+      },
+      {
+        "term": "コロッケの揚げ音",
+        "type": "sound",
+        "associations": [
+          "惣菜屋",
+          "油の匂い",
+          "紙袋"
+        ]
+      },
+      {
+        "term": "戸越銀座のから揚げ",
+        "type": "food",
+        "associations": [
+          "食べ歩き",
+          "行列",
+          "ビール"
+        ]
+      },
+      {
+        "term": "戸越銀座のハッピーロード",
+        "type": "place",
+        "associations": [
+          "商店街",
+          "抽選会",
+          "買い物客"
+        ]
+      },
+      {
+        "term": "戸越公園の池",
+        "type": "nature",
+        "associations": [
+          "旧細川家下屋敷",
+          "鯉",
+          "桜"
+        ]
+      },
+      {
+        "term": "戸越銀座の自転車",
+        "type": "movement",
+        "associations": [
+          "買い物",
+          "荷台",
+          "路地"
+        ]
+      },
+      {
+        "term": "戸越銀座の店先ののれん",
+        "type": "object",
+        "associations": [
+          "個人商店",
+          "値札",
+          "店主"
+        ]
+      }
+    ],
+    "association_source": "deepseek",
+    "image_source": "deepseek_grounded_in_candidate_names_and_anchors"
+  },
+  {
+    "area": "北品川・旧東海道",
+    "aliases": [
+      "北品川商店街",
+      "旧東海道品川宿",
+      "新馬場駅",
+      "品川神社"
+    ],
+    "images": [
+      {
+        "term": "旧東海道の石畳",
+        "type": "architecture",
+        "associations": [
+          "品川宿",
+          "旅人",
+          "江戸時代"
+        ]
+      },
+      {
+        "term": "品川神社の富士塚",
+        "type": "place",
+        "associations": [
+          "登山",
+          "山開き",
+          "都指定文化財"
+        ]
+      },
+      {
+        "term": "北品川商店街の看板",
+        "type": "object",
+        "associations": [
+          "旧東海道",
+          "問屋",
+          "下町"
+        ]
+      },
+      {
+        "term": "新馬場駅のホーム",
+        "type": "place",
+        "associations": [
+          "京急本線",
+          "各駅停車",
+          "高架下"
+        ]
+      },
+      {
+        "term": "品川宿の本陣跡",
+        "type": "history",
+        "associations": [
+          "宿場町",
+          "大名行列",
+          "問屋場"
+        ]
+      },
+      {
+        "term": "目黒川の河口",
+        "type": "nature",
+        "associations": [
+          "天王洲",
+          "ボート",
+          "桜並木"
+        ]
+      },
+      {
+        "term": "東海道の道標",
+        "type": "object",
+        "associations": [
+          "日本橋",
+          "京",
+          "距離"
+        ]
+      },
+      {
+        "term": "北品川の路地の猫",
+        "type": "people",
+        "associations": [
+          "餌やり",
+          "日向ぼっこ",
+          "路地裏"
+        ]
+      }
+    ],
+    "association_source": "deepseek",
+    "image_source": "deepseek_grounded_in_candidate_names_and_anchors"
+  },
+  {
+    "area": "大井町",
+    "aliases": [
+      "大井町駅周辺",
+      "東小路",
+      "大井町駅"
+    ],
+    "images": [
+      {
+        "term": "東小路の飲み屋街",
+        "type": "place",
+        "associations": [
+          "赤提灯",
+          "立ち飲み",
+          "坂道"
+        ]
+      },
+      {
+        "term": "大井町駅の乗り換え改札",
+        "type": "place",
+        "associations": [
+          "通勤ラッシュ",
+          "JR京浜東北線",
+          "東急大井町線"
+        ]
+      },
+      {
+        "term": "品川区役所前の歩道橋",
+        "type": "architecture",
+        "associations": [
+          "第二京浜",
+          "車の排気音",
+          "夕方の影"
+        ]
+      },
+      {
+        "term": "大井町の路地裏の自転車",
+        "type": "object",
+        "associations": [
+          "買い物かご",
+          "鍵のかかった前輪",
+          "狭い路地"
+        ]
+      },
+      {
+        "term": "焼き鳥の煙",
+        "type": "food",
+        "associations": [
+          "炭火",
+          "串",
+          "下町の匂い"
+        ]
+      },
+      {
+        "term": "大井町駅前のパチンコ店の音",
+        "type": "sound",
+        "associations": [
+          "玉の音",
+          "ネオン",
+          "深夜"
+        ]
+      },
+      {
+        "term": "東小路の看板建築",
+        "type": "architecture",
+        "associations": [
+          "木の看板",
+          "古い商店",
+          "路地の奥"
+        ]
+      },
+      {
+        "term": "大井町の銭湯の煙突",
+        "type": "architecture",
+        "associations": [
+          "湯気",
+          "番台",
+          "下町の夕暮れ"
+        ]
+      }
+    ],
+    "association_source": "deepseek",
+    "image_source": "deepseek_grounded_in_candidate_names_and_anchors"
+  },
+  {
+    "area": "天王洲アイル",
+    "aliases": [
+      "天王洲",
+      "天王洲運河",
+      "天王洲アイル駅"
+    ],
+    "images": [
+      {
+        "term": "天王洲運河の水面",
+        "type": "nature",
+        "associations": [
+          "反射するビル",
+          "水門",
+          "カモメ"
+        ]
+      },
+      {
+        "term": "天王洲アイル駅の改札",
+        "type": "place",
+        "associations": [
+          "りんかい線",
+          "自動改札",
+          "通勤客"
+        ]
+      },
+      {
+        "term": "運河沿いの遊歩道",
+        "type": "place",
+        "associations": [
+          "ジョギング",
+          "ベンチ",
+          "対岸の倉庫"
+        ]
+      },
+      {
+        "term": "天王洲の倉庫群",
+        "type": "architecture",
+        "associations": [
+          "レンガ壁",
+          "シャッター",
+          "荷物"
+        ]
+      },
+      {
+        "term": "運河に架かる橋",
+        "type": "architecture",
+        "associations": [
+          "欄干",
+          "自転車",
+          "水面の下"
+        ]
+      },
+      {
+        "term": "水上バスの航跡",
+        "type": "movement",
+        "associations": [
+          "波",
+          "エンジン音",
+          "桟橋"
+        ]
+      },
+      {
+        "term": "天王洲のアートギャラリーの窓",
+        "type": "architecture",
+        "associations": [
+          "展示",
+          "ガラス",
+          "運河の光"
+        ]
+      },
+      {
+        "term": "運河沿いのカフェテラス",
+        "type": "place",
+        "associations": [
+          "コーヒー",
+          "椅子",
+          "水辺"
+        ]
+      }
+    ],
+    "association_source": "deepseek",
+    "image_source": "deepseek_grounded_in_candidate_names_and_anchors"
+  },
+  {
+    "area": "中目黒",
+    "aliases": [
+      "目黒川沿い",
+      "中目黒駅周辺",
+      "中目黒駅",
+      "目黒川"
+    ],
+    "images": [
+      {
+        "term": "目黒川沿いの桜並木",
+        "type": "nature",
+        "associations": [
+          "花びら",
+          "橋",
+          "春の混雑"
+        ]
+      },
+      {
+        "term": "中目黒駅の改札",
+        "type": "place",
+        "associations": [
+          "日比谷線",
+          "東急東横線",
+          "乗り換え"
+        ]
+      },
+      {
+        "term": "目黒川に架かる橋",
+        "type": "architecture",
+        "associations": [
+          "欄干",
+          "自転車",
+          "川面"
+        ]
+      },
+      {
+        "term": "目黒川沿いのカフェ",
+        "type": "place",
+        "associations": [
+          "テラス席",
+          "コーヒー",
+          "川の音"
+        ]
+      },
+      {
+        "term": "中目黒の路地の古着屋",
+        "type": "place",
+        "associations": [
+          "ハンガー",
+          "鏡",
+          "音楽"
+        ]
+      },
+      {
+        "term": "目黒川の鯉",
+        "type": "nature",
+        "associations": [
+          "水面",
+          "石垣",
+          "餌"
+        ]
+      },
+      {
+        "term": "中目黒の焼き菓子店の匂い",
+        "type": "food",
+        "associations": [
+          "バター",
+          "袋",
+          "行列"
+        ]
+      },
+      {
+        "term": "目黒川沿いのジョギング",
+        "type": "movement",
+        "associations": [
+          "ランナー",
+          "朝",
+          "川沿いの道"
+        ]
+      }
+    ],
+    "association_source": "deepseek",
+    "image_source": "deepseek_grounded_in_candidate_names_and_anchors"
+  },
+  {
+    "area": "自由が丘",
+    "aliases": [
+      "自由ヶ丘",
+      "自由が丘駅周辺",
+      "自由が丘駅",
+      "九品仏川緑道"
+    ],
+    "images": [
+      {
+        "term": "自由が丘駅の正面口",
+        "type": "place",
+        "associations": [
+          "東急東横線",
+          "大井町線",
+          "待ち合わせ"
+        ]
+      },
+      {
+        "term": "九品仏川緑道",
+        "type": "place",
+        "associations": [
+          "遊歩道",
+          "ベンチ",
+          "桜"
+        ]
+      },
+      {
+        "term": "自由が丘のスイーツ店のショーケース",
+        "type": "food",
+        "associations": [
+          "ケーキ",
+          "ショートケーキ",
+          "行列"
+        ]
+      },
+      {
+        "term": "自由が丘の雑貨店の店先",
+        "type": "place",
+        "associations": [
+          "陶器",
+          "布",
+          "値札"
+        ]
+      },
+      {
+        "term": "九品仏川緑道の自転車",
+        "type": "object",
+        "associations": [
+          "買い物",
+          "かご",
+          "並木"
+        ]
+      },
+      {
+        "term": "自由が丘のカフェのテラス",
+        "type": "place",
+        "associations": [
+          "椅子",
+          "コーヒー",
+          "会話"
+        ]
+      },
+      {
+        "term": "自由が丘の街路樹",
+        "type": "nature",
+        "associations": [
+          "並木",
+          "落ち葉",
+          "日陰"
+        ]
+      },
+      {
+        "term": "自由が丘の熊野神社の参道",
+        "type": "history",
+        "associations": [
+          "石段",
+          "鳥居",
+          "祭り"
+        ]
+      }
+    ],
+    "association_source": "deepseek",
+    "image_source": "deepseek_grounded_in_candidate_names_and_anchors"
+  },
+  {
+    "area": "学芸大学",
+    "aliases": [
+      "学芸大学駅周辺",
+      "学大",
+      "学芸大学駅",
+      "東口商店街"
+    ],
+    "images": [
+      {
+        "term": "学芸大学駅の改札",
+        "type": "place",
+        "associations": [
+          "東口",
+          "朝の通勤",
+          "定期券"
+        ]
+      },
+      {
+        "term": "東口商店街のアーケード",
+        "type": "architecture",
+        "associations": [
+          "買い物客",
+          "自転車",
+          "夕方の灯り"
+        ]
+      },
+      {
+        "term": "カフェの看板",
+        "type": "object",
+        "associations": [
+          "コーヒー",
+          "テラス席",
+          "学生"
+        ]
+      },
+      {
+        "term": "線路沿いの細い道",
+        "type": "place",
+        "associations": [
+          "踏切",
+          "電車の音",
+          "散歩"
+        ]
+      },
+      {
+        "term": "商店街の総菜屋",
+        "type": "food",
+        "associations": [
+          "コロッケ",
+          "ビニール袋",
+          "帰り道"
+        ]
+      },
+      {
+        "term": "駅前の自転車置き場",
+        "type": "place",
+        "associations": [
+          "通学",
+          "鍵",
+          "朝の混雑"
+        ]
+      },
+      {
+        "term": "踏切の警報音",
+        "type": "sound",
+        "associations": [
+          "遮断機",
+          "快速電車",
+          "立ち止まる"
+        ]
+      },
+      {
+        "term": "路地の自動販売機",
+        "type": "object",
+        "associations": [
+          "缶コーヒー",
+          "夜道",
+          "小銭"
+        ]
+      }
+    ],
+    "association_source": "deepseek",
+    "image_source": "deepseek_grounded_in_candidate_names_and_anchors"
+  },
+  {
+    "area": "目黒不動前",
+    "aliases": [
+      "目黒不動尊",
+      "瀧泉寺周辺",
+      "不動前駅"
+    ],
+    "images": [
+      {
+        "term": "目黒不動尊の仁王門",
+        "type": "architecture",
+        "associations": [
+          "参道",
+          "石段",
+          "参拝者"
+        ]
+      },
+      {
+        "term": "瀧泉寺の本堂",
+        "type": "place",
+        "associations": [
+          "お賽銭",
+          "線香",
+          "手を合わせる"
+        ]
+      },
+      {
+        "term": "不動前駅のホーム",
+        "type": "place",
+        "associations": [
+          "目黒線",
+          "ベンチ",
+          "乗降客"
+        ]
+      },
+      {
+        "term": "参道の石畳",
+        "type": "place",
+        "associations": [
+          "露店",
+          "朝の掃除",
+          "足音"
+        ]
+      },
+      {
+        "term": "境内の大銀杏",
+        "type": "nature",
+        "associations": [
+          "落ち葉",
+          "幹",
+          "日陰"
+        ]
+      },
+      {
+        "term": "だるま市の露店",
+        "type": "activity",
+        "associations": [
+          "だるま",
+          "正月",
+          "人混み"
+        ]
+      },
+      {
+        "term": "目黒川沿いの遊歩道",
+        "type": "place",
+        "associations": [
+          "桜並木",
+          "ベンチ",
+          "水音"
+        ]
+      },
+      {
+        "term": "坂道の石垣",
+        "type": "architecture",
+        "associations": [
+          "苔",
+          "住宅街",
+          "上り下り"
+        ]
+      }
+    ],
+    "association_source": "deepseek",
+    "image_source": "deepseek_grounded_in_candidate_names_and_anchors"
+  },
+  {
+    "area": "蒲田",
+    "aliases": [
+      "蒲田駅周辺",
+      "蒲田東口商店街",
+      "蒲田駅",
+      "サンライズ蒲田"
+    ],
+    "images": [
+      {
+        "term": "蒲田駅の東口",
+        "type": "place",
+        "associations": [
+          "ロータリー",
+          "バス乗り場",
+          "待ち合わせ"
+        ]
+      },
+      {
+        "term": "サンライズ蒲田の看板",
+        "type": "object",
+        "associations": [
+          "パチンコ店",
+          "ネオン",
+          "夜の光"
+        ]
+      },
+      {
+        "term": "東口商店街の飲み屋",
+        "type": "food",
+        "associations": [
+          "焼き鳥",
+          "赤提灯",
+          "会社員"
+        ]
+      },
+      {
+        "term": "京急蒲田駅の連絡通路",
+        "type": "place",
+        "associations": [
+          "乗り換え",
+          "階段",
+          "行き交う人"
+        ]
+      },
+      {
+        "term": "蒲田の路地裏",
+        "type": "place",
+        "associations": [
+          "居酒屋",
+          "看板",
+          "自転車"
+        ]
+      },
+      {
+        "term": "駅前のタクシー乗り場",
+        "type": "place",
+        "associations": [
+          "列",
+          "ドアの音",
+          "深夜"
+        ]
+      },
+      {
+        "term": "商店街の呼び込みの声",
+        "type": "sound",
+        "associations": [
+          "店員",
+          "夕方",
+          "活気"
+        ]
+      },
+      {
+        "term": "羽田方面へ向かうモノレール",
+        "type": "movement",
+        "associations": [
+          "高架",
+          "車窓",
+          "空港"
+        ]
+      }
+    ],
+    "association_source": "deepseek",
+    "image_source": "deepseek_grounded_in_candidate_names_and_anchors"
+  },
+  {
+    "area": "池上",
+    "aliases": [
+      "池上本門寺周辺",
+      "池上駅周辺",
+      "池上駅",
+      "池上本門寺"
+    ],
+    "images": [
+      {
+        "term": "池上本門寺の大堂",
+        "type": "architecture",
+        "associations": [
+          "階段",
+          "参拝",
+          "日蓮"
+        ]
+      },
+      {
+        "term": "池上駅の改札",
+        "type": "place",
+        "associations": [
+          "池上線",
+          "切符",
+          "通勤"
+        ]
+      },
+      {
+        "term": "本門寺の石段",
+        "type": "place",
+        "associations": [
+          "段数",
+          "息切れ",
+          "登る"
+        ]
+      },
+      {
+        "term": "境内の五重塔",
+        "type": "architecture",
+        "associations": [
+          "木造",
+          "屋根",
+          "歴史"
+        ]
+      },
+      {
+        "term": "池上線の踏切",
+        "type": "place",
+        "associations": [
+          "単線",
+          "警報機",
+          "待つ"
+        ]
+      },
+      {
+        "term": "参道の松並木",
+        "type": "nature",
+        "associations": [
+          "幹",
+          "影",
+          "風"
+        ]
+      },
+      {
+        "term": "本門寺の鐘楼",
+        "type": "architecture",
+        "associations": [
+          "鐘",
+          "除夜の鐘",
+          "音"
+        ]
+      },
+      {
+        "term": "池上商店街の和菓子屋",
+        "type": "food",
+        "associations": [
+          "どら焼き",
+          "包装紙",
+          "手土産"
+        ]
+      }
+    ],
+    "association_source": "deepseek",
+    "image_source": "deepseek_grounded_in_candidate_names_and_anchors"
+  },
+  {
+    "area": "羽田・穴守稲荷",
+    "aliases": [
+      "羽田穴守町",
+      "穴守稲荷神社周辺",
+      "穴守稲荷駅",
+      "穴守稲荷神社"
+    ],
+    "images": [
+      {
+        "term": "鳥居の列",
+        "type": "architecture",
+        "associations": [
+          "参道",
+          "朱色",
+          "くぐる"
+        ]
+      },
+      {
+        "term": "狛狐",
+        "type": "object",
+        "associations": [
+          "石像",
+          "稲荷",
+          "苔むす"
+        ]
+      },
+      {
+        "term": "千本鳥居",
+        "type": "place",
+        "associations": [
+          "穴守稲荷神社",
+          "奉納",
+          "願い"
+        ]
+      },
+      {
+        "term": "お守り",
+        "type": "object",
+        "associations": [
+          "手のひら",
+          "紐",
+          "授与所"
+        ]
+      },
+      {
+        "term": "手水舎",
+        "type": "place",
+        "associations": [
+          "柄杓",
+          "清め",
+          "水音"
+        ]
+      },
+      {
+        "term": "参拝の列",
+        "type": "people",
+        "associations": [
+          "二拝二拍手",
+          "平日",
+          "地元"
+        ]
+      },
+      {
+        "term": "飛行機雲",
+        "type": "nature",
+        "associations": [
+          "羽田上空",
+          "白い線",
+          "見上げる"
+        ]
+      },
+      {
+        "term": "滑走路の灯",
+        "type": "movement",
+        "associations": [
+          "夜間",
+          "離陸",
+          "窓越し"
+        ]
+      }
+    ],
+    "association_source": "deepseek",
+    "image_source": "deepseek_grounded_in_candidate_names_and_anchors"
+  },
+  {
+    "area": "洗足池",
+    "aliases": [
+      "洗足池公園周辺",
+      "洗足池駅周辺",
+      "洗足池駅",
+      "洗足池公園"
+    ],
+    "images": [
+      {
+        "term": "弁天島",
+        "type": "place",
+        "associations": [
+          "池の中央",
+          "橋",
+          "祠"
+        ]
+      },
+      {
+        "term": "鯉",
+        "type": "nature",
+        "associations": [
+          "水面",
+          "餌やり",
+          "群れ"
+        ]
+      },
+      {
+        "term": "ボート",
+        "type": "activity",
+        "associations": [
+          "漕ぐ",
+          "池",
+          "貸し出し"
+        ]
+      },
+      {
+        "term": "桜の枝",
+        "type": "nature",
+        "associations": [
+          "池畔",
+          "花びら",
+          "散る"
+        ]
+      },
+      {
+        "term": "水鳥",
+        "type": "nature",
+        "associations": [
+          "鴨",
+          "岸辺",
+          "羽づくろい"
+        ]
+      },
+      {
+        "term": "ベンチ",
+        "type": "object",
+        "associations": [
+          "木陰",
+          "読書",
+          "休む"
+        ]
+      },
+      {
+        "term": "散歩道",
+        "type": "place",
+        "associations": [
+          "一周",
+          "犬の散歩",
+          "足音"
+        ]
+      },
+      {
+        "term": "勝海舟の墓",
+        "type": "history",
+        "associations": [
+          "墓所",
+          "顕彰",
+          "坂道"
+        ]
+      }
+    ],
+    "association_source": "deepseek",
+    "image_source": "deepseek_grounded_in_candidate_names_and_anchors"
+  },
+  {
+    "area": "三軒茶屋・三角地帯",
+    "aliases": [
+      "三軒茶屋",
+      "三角地帯",
+      "三軒茶屋駅"
+    ],
+    "images": [
+      {
+        "term": "三角地帯の路地",
+        "type": "place",
+        "associations": [
+          "狭い",
+          "看板",
+          "飲み屋"
+        ]
+      },
+      {
+        "term": "赤提灯",
+        "type": "object",
+        "associations": [
+          "夕方",
+          "灯り",
+          "軒先"
+        ]
+      },
+      {
+        "term": "立ち飲み",
+        "type": "activity",
+        "associations": [
+          "カウンター",
+          "缶ビール",
+          "会話"
+        ]
+      },
+      {
+        "term": "からすの焼き鳥",
+        "type": "food",
+        "associations": [
+          "煙",
+          "串",
+          "匂い"
+        ]
+      },
+      {
+        "term": "キャロットタワー",
+        "type": "architecture",
+        "associations": [
+          "駅前",
+          "展望",
+          "エスカレーター"
+        ]
+      },
+      {
+        "term": "世田谷線",
+        "type": "movement",
+        "associations": [
+          "路面電車",
+          "三軒茶屋駅",
+          "踏切"
+        ]
+      },
+      {
+        "term": "すずらん通り",
+        "type": "place",
+        "associations": [
+          "商店街",
+          "買い物",
+          "自転車"
+        ]
+      },
+      {
+        "term": "交差点の雑踏",
+        "type": "people",
+        "associations": [
+          "夕ラッシュ",
+          "横断歩道",
+          "信号待ち"
+        ]
+      }
+    ],
+    "association_source": "deepseek",
+    "image_source": "deepseek_grounded_in_candidate_names_and_anchors"
+  },
+  {
+    "area": "豪徳寺・松陰神社前",
+    "aliases": [
+      "豪徳寺",
+      "松陰神社通り",
+      "豪徳寺駅",
+      "松陰神社前駅"
+    ],
+    "images": [
+      {
+        "term": "招き猫",
+        "type": "object",
+        "associations": [
+          "豪徳寺",
+          "奉納",
+          "ずらり"
+        ]
+      },
+      {
+        "term": "三重塔",
+        "type": "architecture",
+        "associations": [
+          "境内",
+          "仏塔",
+          "屋根"
+        ]
+      },
+      {
+        "term": "松陰神社の鳥居",
+        "type": "architecture",
+        "associations": [
+          "参道",
+          "石段",
+          "社殿"
+        ]
+      },
+      {
+        "term": "松下村塾",
+        "type": "history",
+        "associations": [
+          "吉田松陰",
+          "門下生",
+          "再現"
+        ]
+      },
+      {
+        "term": "商店街の店先",
+        "type": "place",
+        "associations": [
+          "松陰神社通り",
+          "野菜",
+          "値札"
+        ]
+      },
+      {
+        "term": "世田谷線の踏切",
+        "type": "movement",
+        "associations": [
+          "遮断機",
+          "警報音",
+          "待つ"
+        ]
+      },
+      {
+        "term": "猫の置物",
+        "type": "object",
+        "associations": [
+          "土産",
+          "棚",
+          "招福"
+        ]
+      },
+      {
+        "term": "参道の石畳",
+        "type": "place",
+        "associations": [
+          "歩く",
+          "松陰神社前駅",
+          "並木"
+        ]
+      }
+    ],
+    "association_source": "deepseek",
+    "image_source": "deepseek_grounded_in_candidate_names_and_anchors"
+  },
+  {
+    "area": "二子玉川",
+    "aliases": [
+      "二子玉川駅周辺",
+      "二子玉川ライズ",
+      "二子玉川駅",
+      "多摩川河川敷"
+    ],
+    "images": [
+      {
+        "term": "多摩川河川敷",
+        "type": "nature",
+        "associations": [
+          "土手",
+          "野球",
+          "夕方のランニング"
+        ]
+      },
+      {
+        "term": "二子玉川駅の改札",
+        "type": "place",
+        "associations": [
+          "東急田園都市線",
+          "乗り換え",
+          "朝の通勤"
+        ]
+      },
+      {
+        "term": "二子玉川ライズの広場",
+        "type": "architecture",
+        "associations": [
+          "買い物帰り",
+          "ベンチ",
+          "待ち合わせ"
+        ]
+      },
+      {
+        "term": "多摩川に架かる橋",
+        "type": "place",
+        "associations": [
+          "自転車",
+          "対岸",
+          "川風"
+        ]
+      },
+      {
+        "term": "河川敷のバーベキュー",
+        "type": "activity",
+        "associations": [
+          "炭",
+          "煙",
+          "週末"
+        ]
+      },
+      {
+        "term": "二子玉川の高層マンション",
+        "type": "architecture",
+        "associations": [
+          "バルコニー",
+          "夜景",
+          "再開発"
+        ]
+      },
+      {
+        "term": "多摩川の水音",
+        "type": "sound",
+        "associations": [
+          "石",
+          "流れ",
+          "耳を澄ます"
+        ]
+      },
+      {
+        "term": "河川敷を走るサイクリスト",
+        "type": "people",
+        "associations": [
+          "ヘルメット",
+          "すれ違い",
+          "土手道"
+        ]
+      }
+    ],
+    "association_source": "deepseek",
+    "image_source": "deepseek_grounded_in_candidate_names_and_anchors"
+  },
+  {
+    "area": "渋谷・道玄坂",
+    "aliases": [
+      "渋谷センター街",
+      "道玄坂",
+      "渋谷スクランブル交差点"
+    ],
+    "images": [
+      {
+        "term": "スクランブル交差点",
+        "type": "place",
+        "associations": [
+          "横断歩道",
+          "人混み",
+          "信号待ち"
+        ]
+      },
+      {
+        "term": "道玄坂の坂道",
+        "type": "place",
+        "associations": [
+          "上り",
+          "居酒屋",
+          "看板"
+        ]
+      },
+      {
+        "term": "渋谷センター街の雑踏",
+        "type": "people",
+        "associations": [
+          "すれ違い",
+          "呼び込み",
+          "夜"
+        ]
+      },
+      {
+        "term": "ハチ公像",
+        "type": "object",
+        "associations": [
+          "待ち合わせ",
+          "銅像",
+          "広場"
+        ]
+      },
+      {
+        "term": "スクランブル交差点の雑音",
+        "type": "sound",
+        "associations": [
+          "クラクション",
+          "足音",
+          "アナウンス"
+        ]
+      },
+      {
+        "term": "道玄坂の居酒屋の看板",
+        "type": "object",
+        "associations": [
+          "提灯",
+          "赤い文字",
+          "路地"
+        ]
+      },
+      {
+        "term": "渋谷駅の階段",
+        "type": "architecture",
+        "associations": [
+          "改札",
+          "人波",
+          "乗り換え"
+        ]
+      },
+      {
+        "term": "交差点を渡る群衆",
+        "type": "movement",
+        "associations": [
+          "一斉に歩く",
+          "青信号",
+          "肩が触れる"
+        ]
+      }
+    ],
+    "association_source": "deepseek",
+    "image_source": "deepseek_grounded_in_candidate_names_and_anchors"
+  },
+  {
+    "area": "原宿・竹下通り",
+    "aliases": [
+      "竹下通り",
+      "原宿駅周辺",
+      "原宿駅"
+    ],
+    "images": [
+      {
+        "term": "竹下通りのアーケード",
+        "type": "architecture",
+        "associations": [
+          "狭い道",
+          "看板",
+          "人通り"
+        ]
+      },
+      {
+        "term": "原宿駅の木造駅舎",
+        "type": "architecture",
+        "associations": [
+          "改札",
+          "屋根",
+          "歴史"
+        ]
+      },
+      {
+        "term": "クレープ屋の列",
+        "type": "people",
+        "associations": [
+          "行列",
+          "甘い匂い",
+          "食べ歩き"
+        ]
+      },
+      {
+        "term": "竹下通りの雑踏",
+        "type": "people",
+        "associations": [
+          "すれ違い",
+          "呼び込み",
+          "制服"
+        ]
+      },
+      {
+        "term": "カラフルな看板",
+        "type": "object",
+        "associations": [
+          "色",
+          "文字",
+          "店先"
+        ]
+      },
+      {
+        "term": "竹下通りの音",
+        "type": "sound",
+        "associations": [
+          "話し声",
+          "音楽",
+          "足音"
+        ]
+      },
+      {
+        "term": "原宿駅のホーム",
+        "type": "place",
+        "associations": [
+          "山手線",
+          "電車",
+          "ベンチ"
+        ]
+      },
+      {
+        "term": "食べ歩きのポップコーン",
+        "type": "food",
+        "associations": [
+          "紙袋",
+          "手に持つ",
+          "甘い"
+        ]
+      }
+    ],
+    "association_source": "deepseek",
+    "image_source": "deepseek_grounded_in_candidate_names_and_anchors"
+  },
+  {
+    "area": "表参道・キャットストリート",
+    "aliases": [
+      "キャットストリート",
+      "表参道",
+      "明治神宮前駅",
+      "表参道交差点"
+    ],
+    "images": [
+      {
+        "term": "キャットストリート",
+        "type": "place",
+        "associations": [
+          "遊歩道",
+          "川跡",
+          "並木"
+        ]
+      },
+      {
+        "term": "表参道交差点",
+        "type": "place",
+        "associations": [
+          "信号",
+          "歩道橋",
+          "交差点"
+        ]
+      },
+      {
+        "term": "明治神宮前駅の出口",
+        "type": "place",
+        "associations": [
+          "階段",
+          "改札",
+          "地上"
+        ]
+      },
+      {
+        "term": "表参道のケヤキ並木",
+        "type": "nature",
+        "associations": [
+          "街路樹",
+          "緑",
+          "日陰"
+        ]
+      },
+      {
+        "term": "キャットストリートのカフェ",
+        "type": "architecture",
+        "associations": [
+          "テラス",
+          "コーヒー",
+          "看板"
+        ]
+      },
+      {
+        "term": "並木道を歩く人",
+        "type": "people",
+        "associations": [
+          "買い物袋",
+          "散歩",
+          "すれ違い"
+        ]
+      },
+      {
+        "term": "表参道の路面店",
+        "type": "architecture",
+        "associations": [
+          "ショーウィンドウ",
+          "ガラス",
+          "ディスプレイ"
+        ]
+      },
+      {
+        "term": "キャットストリートの自転車",
+        "type": "movement",
+        "associations": [
+          "ペダル",
+          "すれ違い",
+          "坂道"
+        ]
+      }
+    ],
+    "association_source": "deepseek",
+    "image_source": "deepseek_grounded_in_candidate_names_and_anchors"
+  },
+  {
+    "area": "代官山",
+    "aliases": [
+      "代官山駅周辺",
+      "旧山手通り",
+      "代官山駅"
+    ],
+    "images": [
+      {
+        "term": "旧山手通り",
+        "type": "place",
+        "associations": [
+          "並木道",
+          "自転車",
+          "坂道"
+        ]
+      },
+      {
+        "term": "代官山駅の改札",
+        "type": "place",
+        "associations": [
+          "切符",
+          "階段",
+          "朝の通勤"
+        ]
+      },
+      {
+        "term": "蔦屋書店の前の広場",
+        "type": "place",
+        "associations": [
+          "ベンチ",
+          "待ち合わせ",
+          "犬の散歩"
+        ]
+      },
+      {
+        "term": "カフェのテラス席",
+        "type": "place",
+        "associations": [
+          "エスプレッソ",
+          "ノートパソコン",
+          "日傘"
+        ]
+      },
+      {
+        "term": "路地裏のセレクトショップ",
+        "type": "place",
+        "associations": [
+          "試着室",
+          "紙袋",
+          "ウィンドウ"
+        ]
+      },
+      {
+        "term": "坂の途中のマンション",
+        "type": "architecture",
+        "associations": [
+          "植栽",
+          "インターホン",
+          "ベランダ"
+        ]
+      },
+      {
+        "term": "鳩の羽音",
+        "type": "sound",
+        "associations": [
+          "石畳",
+          "パンくず",
+          "夕方"
+        ]
+      },
+      {
+        "term": "自転車を押す人",
+        "type": "people",
+        "associations": [
+          "ヘルメット",
+          "買い物袋",
+          "坂道"
+        ]
+      }
+    ],
+    "association_source": "deepseek",
+    "image_source": "deepseek_grounded_in_candidate_names_and_anchors"
+  },
+  {
+    "area": "中野サンモール・ブロードウェイ",
+    "aliases": [
+      "中野ブロードウェイ",
+      "中野サンモール",
+      "中野駅北口"
+    ],
+    "images": [
+      {
+        "term": "中野駅北口の階段",
+        "type": "place",
+        "associations": [
+          "待ち合わせ",
+          "人混み",
+          "看板"
+        ]
+      },
+      {
+        "term": "サンモールのアーケード",
+        "type": "architecture",
+        "associations": [
+          "雨宿り",
+          "提灯",
+          "自転車"
+        ]
+      },
+      {
+        "term": "中野ブロードウェイの入口",
+        "type": "place",
+        "associations": [
+          "エスカレーター",
+          "古書",
+          "フィギュア"
+        ]
+      },
+      {
+        "term": "ブロードウェイの地下通路",
+        "type": "place",
+        "associations": [
+          "タイル",
+          "店の看板",
+          "足音"
+        ]
+      },
+      {
+        "term": "古書店の店先",
+        "type": "place",
+        "associations": [
+          "均一棚",
+          "紙の匂い",
+          "立ち読み"
+        ]
+      },
+      {
+        "term": "フィギュア店のショーケース",
+        "type": "place",
+        "associations": [
+          "蛍光灯",
+          "値札",
+          "ガラス越し"
+        ]
+      },
+      {
+        "term": "アーケードの呼び込み",
+        "type": "sound",
+        "associations": [
+          "居酒屋",
+          "夕方",
+          "拍手"
+        ]
+      },
+      {
+        "term": "買い物袋を下げた人",
+        "type": "people",
+        "associations": [
+          "サラリーマン",
+          "学生",
+          "すれ違い"
+        ]
+      }
+    ],
+    "association_source": "deepseek",
+    "image_source": "deepseek_grounded_in_candidate_names_and_anchors"
+  },
+  {
+    "area": "新井薬師",
+    "aliases": [
+      "新井薬師前",
+      "薬師あいロード",
+      "新井薬師前駅",
+      "新井薬師梅照院"
+    ],
+    "images": [
+      {
+        "term": "新井薬師前駅のホーム",
+        "type": "place",
+        "associations": [
+          "各駅停車",
+          "ベンチ",
+          "改札"
+        ]
+      },
+      {
+        "term": "薬師あいロードの商店街",
+        "type": "place",
+        "associations": [
+          "アーケード",
+          "総菜屋",
+          "自転車"
+        ]
+      },
+      {
+        "term": "新井薬師梅照院の参道",
+        "type": "place",
+        "associations": [
+          "石段",
+          "手水舎",
+          "参拝者"
+        ]
+      },
+      {
+        "term": "梅照院の本堂",
+        "type": "architecture",
+        "associations": [
+          "賽銭箱",
+          "線香",
+          "屋根"
+        ]
+      },
+      {
+        "term": "境内の梅の木",
+        "type": "nature",
+        "associations": [
+          "花びら",
+          "枝",
+          "春"
+        ]
+      },
+      {
+        "term": "参道の出店",
+        "type": "place",
+        "associations": [
+          "だるま",
+          "縁起物",
+          "値段交渉"
+        ]
+      },
+      {
+        "term": "手水舎の水音",
+        "type": "sound",
+        "associations": [
+          "柄杓",
+          "石",
+          "冷たさ"
+        ]
+      },
+      {
+        "term": "商店街の店主",
+        "type": "people",
+        "associations": [
+          "エプロン",
+          "挨拶",
+          "値引き"
+        ]
+      }
+    ],
+    "association_source": "deepseek",
+    "image_source": "deepseek_grounded_in_candidate_names_and_anchors"
+  },
+  {
+    "area": "沼袋",
+    "aliases": [
+      "沼袋駅周辺",
+      "沼袋商店街",
+      "沼袋駅",
+      "沼袋氷川神社"
+    ],
+    "images": [
+      {
+        "term": "沼袋駅の改札",
+        "type": "place",
+        "associations": [
+          "自動改札",
+          "定期券",
+          "階段"
+        ]
+      },
+      {
+        "term": "沼袋商店街の看板",
+        "type": "place",
+        "associations": [
+          "アーケード",
+          "古い文字",
+          "電球"
+        ]
+      },
+      {
+        "term": "沼袋氷川神社の鳥居",
+        "type": "architecture",
+        "associations": [
+          "石段",
+          "狛犬",
+          "参道"
+        ]
+      },
+      {
+        "term": "氷川神社の境内",
+        "type": "place",
+        "associations": [
+          "砂利",
+          "木陰",
+          "ベンチ"
+        ]
+      },
+      {
+        "term": "神社の手水鉢",
+        "type": "place",
+        "associations": [
+          "柄杓",
+          "水面",
+          "苔"
+        ]
+      },
+      {
+        "term": "商店街の総菜屋",
+        "type": "food",
+        "associations": [
+          "コロッケ",
+          "油の匂い",
+          "紙袋"
+        ]
+      },
+      {
+        "term": "自転車のベル",
+        "type": "sound",
+        "associations": [
+          "路地",
+          "すれ違い",
+          "夕方"
+        ]
+      },
+      {
+        "term": "買い物帰りの主婦",
+        "type": "people",
+        "associations": [
+          "エコバッグ",
+          "井戸端会議",
+          "挨拶"
+        ]
+      }
+    ],
+    "association_source": "deepseek",
+    "image_source": "deepseek_grounded_in_candidate_names_and_anchors"
+  },
+  {
+    "area": "野方",
+    "aliases": [
+      "野方駅周辺",
+      "野方商店街",
+      "野方駅",
+      "野方文化マーケット"
+    ],
+    "images": [
+      {
+        "term": "野方駅のホーム",
+        "type": "place",
+        "associations": [
+          "中野区の北端",
+          "西武新宿線",
+          "各駅停車"
+        ]
+      },
+      {
+        "term": "野方商店街のアーケード",
+        "type": "architecture",
+        "associations": [
+          "買い物客",
+          "自転車",
+          "夕方の点灯"
+        ]
+      },
+      {
+        "term": "野方文化マーケット",
+        "type": "place",
+        "associations": [
+          "月に一度の開催",
+          "手作り雑貨",
+          "近所の家族連れ"
+        ]
+      },
+      {
+        "term": "踏切の警報音",
+        "type": "sound",
+        "associations": [
+          "西武新宿線",
+          "遮断機",
+          "通勤時間帯"
+        ]
+      },
+      {
+        "term": "商店街の総菜屋ののぼり",
+        "type": "object",
+        "associations": [
+          "揚げ物",
+          "ビニール袋",
+          "夕食の買い出し"
+        ]
+      },
+      {
+        "term": "妙法寺の参道",
+        "type": "place",
+        "associations": [
+          "中野区",
+          "仁王門",
+          "初詣"
+        ]
+      },
+      {
+        "term": "野方駅前のバスロータリー",
+        "type": "place",
+        "associations": [
+          "関東バス",
+          "乗り継ぎ",
+          "平日の朝"
+        ]
+      },
+      {
+        "term": "環七沿いの歩道橋",
+        "type": "architecture",
+        "associations": [
+          "階段",
+          "車の流れ",
+          "夜の街灯"
+        ]
+      }
+    ],
+    "association_source": "deepseek",
+    "image_source": "deepseek_grounded_in_candidate_names_and_anchors"
+  },
+  {
+    "area": "阿佐ヶ谷",
+    "aliases": [
+      "阿佐谷",
+      "阿佐ヶ谷パールセンター",
+      "阿佐ヶ谷駅"
+    ],
+    "images": [
+      {
+        "term": "阿佐ヶ谷駅の南口",
+        "type": "place",
+        "associations": [
+          "JR中央線",
+          "階段",
+          "待ち合わせ"
+        ]
+      },
+      {
+        "term": "阿佐ヶ谷パールセンター",
+        "type": "architecture",
+        "associations": [
+          "アーケード",
+          "七夕まつり",
+          "商店の看板"
+        ]
+      },
+      {
+        "term": "七夕まつりの吹き流し",
+        "type": "object",
+        "associations": [
+          "八月",
+          "パールセンター",
+          "紙飾り"
+        ]
+      },
+      {
+        "term": "阿佐谷神明宮の参道",
+        "type": "place",
+        "associations": [
+          "杉並区",
+          "狛犬",
+          "手水舎"
+        ]
+      },
+      {
+        "term": "駅前の立ち飲み屋の提灯",
+        "type": "object",
+        "associations": [
+          "赤提灯",
+          "仕事帰り",
+          "ガード下"
+        ]
+      },
+      {
+        "term": "中杉通りのケヤキ並木",
+        "type": "nature",
+        "associations": [
+          "杉並区",
+          "落ち葉",
+          "歩道"
+        ]
+      },
+      {
+        "term": "阿佐ヶ谷駅のホームの売店",
+        "type": "place",
+        "associations": [
+          "新聞",
+          "缶コーヒー",
+          "朝の乗り換え"
+        ]
+      },
+      {
+        "term": "パールセンターのシャッター",
+        "type": "architecture",
+        "associations": [
+          "閉店後",
+          "落書き",
+          "朝の開店準備"
+        ]
+      }
+    ],
+    "association_source": "deepseek",
+    "image_source": "deepseek_grounded_in_candidate_names_and_anchors"
+  },
+  {
+    "area": "荻窪",
+    "aliases": [
+      "荻窪駅周辺",
+      "荻窪南口仲通り",
+      "荻窪駅"
+    ],
+    "images": [
+      {
+        "term": "荻窪駅の西口",
+        "type": "place",
+        "associations": [
+          "JR中央線",
+          "東京メトロ丸ノ内線",
+          "バス乗り場"
+        ]
+      },
+      {
+        "term": "荻窪南口仲通り",
+        "type": "architecture",
+        "associations": [
+          "飲食店",
+          "看板",
+          "夜の灯り"
+        ]
+      },
+      {
+        "term": "荻窪ラーメンの暖簾",
+        "type": "food",
+        "associations": [
+          "中華そば",
+          "煮干し",
+          "行列"
+        ]
+      },
+      {
+        "term": "太田黒公園の池",
+        "type": "nature",
+        "associations": [
+          "杉並区",
+          "鯉",
+          "紅葉"
+        ]
+      },
+      {
+        "term": "荻窪駅前の交番",
+        "type": "place",
+        "associations": [
+          "杉並区",
+          "道案内",
+          "自転車"
+        ]
+      },
+      {
+        "term": "教会通りの坂道",
+        "type": "movement",
+        "associations": [
+          "自転車を押す",
+          "坂",
+          "住宅街"
+        ]
+      },
+      {
+        "term": "荻窪駅のホームの立ち食いそば",
+        "type": "food",
+        "associations": [
+          "券売機",
+          "かけそば",
+          "朝の乗車前"
+        ]
+      },
+      {
+        "term": "南口の古書店の店先",
+        "type": "place",
+        "associations": [
+          "均一棚",
+          "紙の匂い",
+          "立ち読み"
+        ]
+      }
+    ],
+    "association_source": "deepseek",
+    "image_source": "deepseek_grounded_in_candidate_names_and_anchors"
+  },
+  {
+    "area": "西荻窪",
+    "aliases": [
+      "西荻窪駅周辺",
+      "西荻",
+      "西荻窪駅",
+      "西荻南口商店街"
+    ],
+    "images": [
+      {
+        "term": "西荻窪駅の北口",
+        "type": "place",
+        "associations": [
+          "JR中央線",
+          "階段",
+          "タクシー乗り場"
+        ]
+      },
+      {
+        "term": "西荻南口商店街",
+        "type": "architecture",
+        "associations": [
+          "アーケード",
+          "個人商店",
+          "買い物客"
+        ]
+      },
+      {
+        "term": "西荻窪の古道具屋の店先",
+        "type": "place",
+        "associations": [
+          "陶器",
+          "看板",
+          "値札"
+        ]
+      },
+      {
+        "term": "善福寺川の遊歩道",
+        "type": "nature",
+        "associations": [
+          "杉並区",
+          "桜",
+          "散歩"
+        ]
+      },
+      {
+        "term": "西荻窪のカフェの看板",
+        "type": "object",
+        "associations": [
+          "コーヒー",
+          "手書き文字",
+          "テラス席"
+        ]
+      },
+      {
+        "term": "駅前の銭湯の煙突",
+        "type": "architecture",
+        "associations": [
+          "煙",
+          "番台",
+          "夕方"
+        ]
+      },
+      {
+        "term": "西荻窪の路地の猫",
+        "type": "people",
+        "associations": [
+          "餌やり",
+          "塀の上",
+          "昼寝"
+        ]
+      },
+      {
+        "term": "南口のライブハウスの看板",
+        "type": "place",
+        "associations": [
+          "杉並区",
+          "フライヤー",
+          "夜の開演"
+        ]
+      }
+    ],
+    "association_source": "deepseek",
+    "image_source": "deepseek_grounded_in_candidate_names_and_anchors"
+  },
+  {
+    "area": "池袋東口・乙女ロード",
+    "aliases": [
+      "池袋東口",
+      "乙女ロード",
+      "池袋駅東口"
+    ],
+    "images": [
+      {
+        "term": "乙女ロードの看板",
+        "type": "object",
+        "associations": [
+          "アニメショップ",
+          "駅東口",
+          "買い物客"
+        ]
+      },
+      {
+        "term": "同人誌即売会のチラシ",
+        "type": "object",
+        "associations": [
+          "ポスター",
+          "配布",
+          "手に取る"
+        ]
+      },
+      {
+        "term": "アニメショップの店頭",
+        "type": "place",
+        "associations": [
+          "新刊",
+          "グッズ",
+          "行列"
+        ]
+      },
+      {
+        "term": "ガチャガチャの機械",
+        "type": "object",
+        "associations": [
+          "カプセル",
+          "小銭",
+          "回す音"
+        ]
+      },
+      {
+        "term": "コスプレイヤー",
+        "type": "people",
+        "associations": [
+          "撮影",
+          "衣装",
+          "駅前"
+        ]
+      },
+      {
+        "term": "メイドカフェの呼び込み",
+        "type": "activity",
+        "associations": [
+          "声かけ",
+          "制服",
+          "通り"
+        ]
+      },
+      {
+        "term": "カラオケ館の看板",
+        "type": "architecture",
+        "associations": [
+          "ネオン",
+          "深夜",
+          "フリータイム"
+        ]
+      },
+      {
+        "term": "アニメソングの店内BGM",
+        "type": "sound",
+        "associations": [
+          "スピーカー",
+          "リズム",
+          "耳に残る"
+        ]
+      }
+    ],
+    "association_source": "deepseek",
+    "image_source": "deepseek_grounded_in_candidate_names_and_anchors"
+  },
+  {
+    "area": "池袋西口",
+    "aliases": [
+      "池袋西口繁華街",
+      "西池袋",
+      "池袋駅西口",
+      "立教通り"
+    ],
+    "images": [
+      {
+        "term": "西口五差路",
+        "type": "place",
+        "associations": [
+          "交差点",
+          "人波",
+          "信号"
+        ]
+      },
+      {
+        "term": "立教通りの並木",
+        "type": "nature",
+        "associations": [
+          "ケヤキ",
+          "歩道",
+          "落ち葉"
+        ]
+      },
+      {
+        "term": "居酒屋の赤提灯",
+        "type": "object",
+        "associations": [
+          "夜",
+          "飲み屋",
+          "提灯"
+        ]
+      },
+      {
+        "term": "ラーメン店の行列",
+        "type": "activity",
+        "associations": [
+          "券売機",
+          "待つ",
+          "湯気"
+        ]
+      },
+      {
+        "term": "パチンコ店の店内音",
+        "type": "sound",
+        "associations": [
+          "玉",
+          "スロット",
+          "大音量"
+        ]
+      },
+      {
+        "term": "西池袋の交番",
+        "type": "architecture",
+        "associations": [
+          "警察官",
+          "道案内",
+          "街角"
+        ]
+      },
+      {
+        "term": "キャッチの呼び声",
+        "type": "people",
+        "associations": [
+          "スーツ",
+          "客引き",
+          "夜道"
+        ]
+      },
+      {
+        "term": "飲み屋横丁の看板",
+        "type": "object",
+        "associations": [
+          "メニュー",
+          "値段",
+          "路地"
+        ]
+      }
+    ],
+    "association_source": "deepseek",
+    "image_source": "deepseek_grounded_in_candidate_names_and_anchors"
+  },
+  {
+    "area": "巣鴨地蔵通り",
+    "aliases": [
+      "巣鴨",
+      "巣鴨地蔵通商店街",
+      "巣鴨駅",
+      "高岩寺"
+    ],
+    "images": [
+      {
+        "term": "高岩寺の地蔵尊",
+        "type": "place",
+        "associations": [
+          "参拝",
+          "水をかける",
+          "信仰"
+        ]
+      },
+      {
+        "term": "おばあちゃんの原宿",
+        "type": "people",
+        "associations": [
+          "高齢者",
+          "買い物",
+          "賑わい"
+        ]
+      },
+      {
+        "term": "赤パンツの店頭",
+        "type": "object",
+        "associations": [
+          "縁起",
+          "下着",
+          "色"
+        ]
+      },
+      {
+        "term": "塩大福",
+        "type": "food",
+        "associations": [
+          "甘さ",
+          "和菓子",
+          "食べ歩き"
+        ]
+      },
+      {
+        "term": "地蔵通りの商店街",
+        "type": "place",
+        "associations": [
+          "アーケード",
+          "店先",
+          "歩行者"
+        ]
+      },
+      {
+        "term": "雷おこしの実演",
+        "type": "activity",
+        "associations": [
+          "菓子",
+          "販売",
+          "試食"
+        ]
+      },
+      {
+        "term": "巣鴨駅の改札",
+        "type": "architecture",
+        "associations": [
+          "JR",
+          "乗降客",
+          "階段"
+        ]
+      },
+      {
+        "term": "商店街の呼び込み",
+        "type": "sound",
+        "associations": [
+          "声",
+          "拡声器",
+          "売り場"
+        ]
+      }
+    ],
+    "association_source": "deepseek",
+    "image_source": "deepseek_grounded_in_candidate_names_and_anchors"
+  },
+  {
+    "area": "雑司が谷",
+    "aliases": [
+      "鬼子母神",
+      "雑司ヶ谷",
+      "雑司が谷駅",
+      "鬼子母神堂"
+    ],
+    "images": [
+      {
+        "term": "鬼子母神堂",
+        "type": "place",
+        "associations": [
+          "参道",
+          "御堂",
+          "安産"
+        ]
+      },
+      {
+        "term": "大イチョウ",
+        "type": "nature",
+        "associations": [
+          "巨木",
+          "黄葉",
+          "境内"
+        ]
+      },
+      {
+        "term": "雑司が谷駅の改札",
+        "type": "architecture",
+        "associations": [
+          "副都心線",
+          "地下",
+          "階段"
+        ]
+      },
+      {
+        "term": "鬼子母神の参道",
+        "type": "place",
+        "associations": [
+          "石畳",
+          "露店",
+          "歩く"
+        ]
+      },
+      {
+        "term": "手創り市の出店",
+        "type": "activity",
+        "associations": [
+          "手作り",
+          "雑貨",
+          "境内"
+        ]
+      },
+      {
+        "term": "都電の走行音",
+        "type": "sound",
+        "associations": [
+          "チンチン",
+          "線路",
+          "踏切"
+        ]
+      },
+      {
+        "term": "並木道の住宅街",
+        "type": "place",
+        "associations": [
+          "生垣",
+          "路地",
+          "自転車"
+        ]
+      },
+      {
+        "term": "旧宣教師館",
+        "type": "architecture",
+        "associations": [
+          "洋館",
+          "木造",
+          "見学"
+        ]
+      }
+    ],
+    "association_source": "deepseek",
+    "image_source": "deepseek_grounded_in_candidate_names_and_anchors"
+  },
+  {
+    "area": "赤羽",
+    "aliases": [
+      "赤羽一番街",
+      "OK横丁",
+      "赤羽駅東口"
+    ],
+    "images": [
+      {
+        "term": "赤羽一番街のアーケード",
+        "type": "architecture",
+        "associations": [
+          "赤羽駅東口",
+          "飲み屋の看板",
+          "雨の日でも濡れない"
+        ]
+      },
+      {
+        "term": "OK横丁の路地",
+        "type": "place",
+        "associations": [
+          "立ち飲み",
+          "赤提灯",
+          "週末の混雑"
+        ]
+      },
+      {
+        "term": "赤羽駅東口のロータリー",
+        "type": "place",
+        "associations": [
+          "バス乗り場",
+          "待ち合わせ",
+          "タクシー"
+        ]
+      },
+      {
+        "term": "焼き鳥の煙",
+        "type": "food",
+        "associations": [
+          "炭火",
+          "串",
+          "夕方の匂い"
+        ]
+      },
+      {
+        "term": "ホッピー",
+        "type": "food",
+        "associations": [
+          "居酒屋",
+          "焼酎",
+          "氷入りグラス"
+        ]
+      },
+      {
+        "term": "赤羽の飲み屋のはしご",
+        "type": "activity",
+        "associations": [
+          "一軒目",
+          "二軒目",
+          "終電"
+        ]
+      },
+      {
+        "term": "赤羽駅のホーム",
+        "type": "place",
+        "associations": [
+          "埼京線",
+          "湘南新宿ライン",
+          "通勤ラッシュ"
+        ]
+      },
+      {
+        "term": "赤羽の商店街の呼び込み",
+        "type": "sound",
+        "associations": [
+          "夕方",
+          "店先",
+          "声"
+        ]
+      }
+    ],
+    "association_source": "deepseek",
+    "image_source": "deepseek_grounded_in_candidate_names_and_anchors"
+  },
+  {
+    "area": "十条銀座",
+    "aliases": [
+      "十条銀座商店街",
+      "十条駅周辺",
+      "十条駅"
+    ],
+    "images": [
+      {
+        "term": "十条銀座商店街のアーケード",
+        "type": "architecture",
+        "associations": [
+          "十条駅",
+          "買い物客",
+          "自転車"
+        ]
+      },
+      {
+        "term": "十条駅の改札",
+        "type": "place",
+        "associations": [
+          "埼京線",
+          "北口",
+          "南口"
+        ]
+      },
+      {
+        "term": "惣菜屋の揚げ物",
+        "type": "food",
+        "associations": [
+          "コロッケ",
+          "紙袋",
+          "油の匂い"
+        ]
+      },
+      {
+        "term": "八百屋の店先",
+        "type": "place",
+        "associations": [
+          "野菜の箱",
+          "値札",
+          "朝"
+        ]
+      },
+      {
+        "term": "商店街の自転車",
+        "type": "movement",
+        "associations": [
+          "買い物",
+          "荷台",
+          "すれ違い"
+        ]
+      },
+      {
+        "term": "魚屋の氷",
+        "type": "food",
+        "associations": [
+          "鮮魚",
+          "発泡スチロール",
+          "水滴"
+        ]
+      },
+      {
+        "term": "十条の夕市",
+        "type": "activity",
+        "associations": [
+          "値引き",
+          "主婦",
+          "閉店前"
+        ]
+      },
+      {
+        "term": "商店街の呼び声",
+        "type": "sound",
+        "associations": [
+          "いらっしゃい",
+          "店員",
+          "拡声器"
+        ]
+      }
+    ],
+    "association_source": "deepseek",
+    "image_source": "deepseek_grounded_in_candidate_names_and_anchors"
+  },
+  {
+    "area": "王子・飛鳥山",
+    "aliases": [
+      "飛鳥山公園",
+      "王子駅周辺",
+      "王子駅"
+    ],
+    "images": [
+      {
+        "term": "飛鳥山公園の桜",
+        "type": "nature",
+        "associations": [
+          "花見",
+          "シート",
+          "春"
+        ]
+      },
+      {
+        "term": "飛鳥山の坂",
+        "type": "place",
+        "associations": [
+          "石段",
+          "ベビーカー",
+          "登り"
+        ]
+      },
+      {
+        "term": "都電荒川線の王子駅前",
+        "type": "place",
+        "associations": [
+          "路面電車",
+          "停留所",
+          "踏切"
+        ]
+      },
+      {
+        "term": "紙の博物館",
+        "type": "architecture",
+        "associations": [
+          "飛鳥山",
+          "紙漉き",
+          "展示"
+        ]
+      },
+      {
+        "term": "渋沢栄一の像",
+        "type": "history",
+        "associations": [
+          "飛鳥山",
+          "実業家",
+          "銅像"
+        ]
+      },
+      {
+        "term": "王子駅の音",
+        "type": "sound",
+        "associations": [
+          "京浜東北線",
+          "発車ベル",
+          "ホーム"
+        ]
+      },
+      {
+        "term": "飛鳥山のベンチ",
+        "type": "place",
+        "associations": [
+          "休憩",
+          "木陰",
+          "弁当"
+        ]
+      },
+      {
+        "term": "桜の花びら",
+        "type": "nature",
+        "associations": [
+          "散る",
+          "地面",
+          "風"
+        ]
+      }
+    ],
+    "association_source": "deepseek",
+    "image_source": "deepseek_grounded_in_candidate_names_and_anchors"
+  },
+  {
+    "area": "田端",
+    "aliases": [
+      "田端文士村",
+      "田端駅周辺",
+      "田端駅",
+      "田端文士村記念館"
+    ],
+    "images": [
+      {
+        "term": "田端文士村記念館",
+        "type": "architecture",
+        "associations": [
+          "田端駅",
+          "文人",
+          "展示"
+        ]
+      },
+      {
+        "term": "田端駅の跨線橋",
+        "type": "place",
+        "associations": [
+          "山手線",
+          "京浜東北線",
+          "階段"
+        ]
+      },
+      {
+        "term": "田端の坂道",
+        "type": "place",
+        "associations": [
+          "台地",
+          "住宅",
+          "自転車を押す"
+        ]
+      },
+      {
+        "term": "芥川龍之介の旧居跡",
+        "type": "history",
+        "associations": [
+          "田端",
+          "作家",
+          "石碑"
+        ]
+      },
+      {
+        "term": "田端の住宅街の路地",
+        "type": "place",
+        "associations": [
+          "生け垣",
+          "猫",
+          "曲がり角"
+        ]
+      },
+      {
+        "term": "文士村の散歩道",
+        "type": "activity",
+        "associations": [
+          "文学",
+          "案内板",
+          "歩く"
+        ]
+      },
+      {
+        "term": "田端の坂の途中の階段",
+        "type": "movement",
+        "associations": [
+          "上り下り",
+          "手すり",
+          "息切れ"
+        ]
+      },
+      {
+        "term": "田端駅のホームの風",
+        "type": "sound",
+        "associations": [
+          "電車の通過",
+          "山手線",
+          "線路"
+        ]
+      }
+    ],
+    "association_source": "deepseek",
+    "image_source": "deepseek_grounded_in_candidate_names_and_anchors"
+  },
+  {
+    "area": "日暮里繊維街",
+    "aliases": [
+      "日暮里中央通り",
+      "日暮里繊維問屋街",
+      "日暮里駅"
+    ],
+    "images": [
+      {
+        "term": "繊維問屋の店先に積まれた反物",
+        "type": "object",
+        "associations": [
+          "色柄のロール",
+          "値札の手書き文字",
+          "店員が寸法を測る"
+        ]
+      },
+      {
+        "term": "日暮里中央通りのアーケード",
+        "type": "architecture",
+        "associations": [
+          "日除けの屋根",
+          "自転車のすれ違い",
+          "買い物客の足音"
+        ]
+      },
+      {
+        "term": "ボタンとレースの量り売り",
+        "type": "activity",
+        "associations": [
+          "小さなビニール袋",
+          "はかりの針",
+          "手芸店の棚"
+        ]
+      },
+      {
+        "term": "日暮里駅南口の階段",
+        "type": "place",
+        "associations": [
+          "改札を出る人波",
+          "キャリーケースの音",
+          "待ち合わせの視線"
+        ]
+      },
+      {
+        "term": "ミシンの試し縫い",
+        "type": "sound",
+        "associations": [
+          "針の上下",
+          "布の送り",
+          "店内のBGM"
+        ]
+      },
+      {
+        "term": "生地を選ぶ手つき",
+        "type": "movement",
+        "associations": [
+          "指で触る",
+          "光にかざす",
+          "巻き直す"
+        ]
+      },
+      {
+        "term": "問屋街のカートを引く仕入れ客",
+        "type": "people",
+        "associations": [
+          "台車のキャスター音",
+          "メモ帳",
+          "早足の移動"
+        ]
+      },
+      {
+        "term": "繊維街のシャッター通り",
+        "type": "place",
+        "associations": [
+          "閉店後の静けさ",
+          "落ちたチラシ",
+          "夕方の帰り道"
+        ]
+      }
+    ],
+    "association_source": "deepseek",
+    "image_source": "deepseek_grounded_in_candidate_names_and_anchors"
+  },
+  {
+    "area": "町屋",
+    "aliases": [
+      "町屋駅周辺",
+      "町屋斎場周辺",
+      "町屋駅",
+      "尾竹橋通り"
+    ],
+    "images": [
+      {
+        "term": "町屋駅のホーム端",
+        "type": "place",
+        "associations": [
+          "都電の乗り換え",
+          "線路のカーブ",
+          "発車ベル"
+        ]
+      },
+      {
+        "term": "尾竹橋通りの歩道",
+        "type": "architecture",
+        "associations": [
+          "街路樹の影",
+          "バス停の標識",
+          "自転車レーン"
+        ]
+      },
+      {
+        "term": "町屋斎場前の交差点",
+        "type": "place",
+        "associations": [
+          "黒い服の列",
+          "信号待ち",
+          "案内看板"
+        ]
+      },
+      {
+        "term": "都電の併用軌道",
+        "type": "movement",
+        "associations": [
+          "路面のレール",
+          "車とのすれ違い",
+          "踏切の音"
+        ]
+      },
+      {
+        "term": "商店街の総菜屋のショーケース",
+        "type": "food",
+        "associations": [
+          "揚げ物のトレー",
+          "値段の札",
+          "ビニール手袋"
+        ]
+      },
+      {
+        "term": "夕方の町屋駅前広場",
+        "type": "people",
+        "associations": [
+          "塾帰りの子供",
+          "買い物袋",
+          "自転車の列"
+        ]
+      },
+      {
+        "term": "荒川沿いの土手へ向かう坂",
+        "type": "nature",
+        "associations": [
+          "草の匂い",
+          "ジョギングする人",
+          "川風"
+        ]
+      },
+      {
+        "term": "町屋の路地の電線",
+        "type": "object",
+        "associations": [
+          "電柱の影",
+          "止まったカラス",
+          "夕焼けの色"
+        ]
+      }
+    ],
+    "association_source": "deepseek",
+    "image_source": "deepseek_grounded_in_candidate_names_and_anchors"
+  },
+  {
+    "area": "三ノ輪・ジョイフル三ノ輪",
+    "aliases": [
+      "ジョイフル三の輪",
+      "三ノ輪橋",
+      "三ノ輪橋停留場",
+      "ジョイフル三ノ輪"
+    ],
+    "images": [
+      {
+        "term": "ジョイフル三ノ輪のアーケード入口",
+        "type": "architecture",
+        "associations": [
+          "のれんの文字",
+          "買い物客の往来",
+          "自転車を押す人"
+        ]
+      },
+      {
+        "term": "三ノ輪橋停留場のホーム",
+        "type": "place",
+        "associations": [
+          "都電の到着",
+          "ベンチに座る人",
+          "運賃箱の音"
+        ]
+      },
+      {
+        "term": "アーケード内の鮮魚店",
+        "type": "food",
+        "associations": [
+          "氷の上の魚",
+          "包丁の音",
+          "値引きの声"
+        ]
+      },
+      {
+        "term": "三ノ輪の交差点の横断歩道",
+        "type": "movement",
+        "associations": [
+          "青信号で渡る人",
+          "車のウィンカー",
+          "日傘"
+        ]
+      },
+      {
+        "term": "アーケードの天井の蛍光灯",
+        "type": "object",
+        "associations": [
+          "白い光",
+          "虫よけの吊り下げ",
+          "影の落ち方"
+        ]
+      },
+      {
+        "term": "店先で立ち話をする主婦",
+        "type": "people",
+        "associations": [
+          "エコバッグ",
+          "笑い声",
+          "手に持つ財布"
+        ]
+      },
+      {
+        "term": "都電の走行音",
+        "type": "sound",
+        "associations": [
+          "レールの継ぎ目",
+          "警笛",
+          "車内アナウンス"
+        ]
+      },
+      {
+        "term": "アーケード裏の細い路地",
+        "type": "place",
+        "associations": [
+          "飲食店の看板",
+          "自転車の駐輪",
+          "排水の匂い"
+        ]
+      }
+    ],
+    "association_source": "deepseek",
+    "image_source": "deepseek_grounded_in_candidate_names_and_anchors"
+  },
+  {
+    "area": "尾久・荒川遊園",
+    "aliases": [
+      "あらかわ遊園",
+      "荒川遊園地前",
+      "荒川遊園地前停留場"
+    ],
+    "images": [
+      {
+        "term": "あらかわ遊園の観覧車",
+        "type": "architecture",
+        "associations": [
+          "ゆっくり回るゴンドラ",
+          "子供の歓声",
+          "空の色"
+        ]
+      },
+      {
+        "term": "荒川遊園地前停留場の線路",
+        "type": "place",
+        "associations": [
+          "都電の停車",
+          "遮断機の音",
+          "線路脇の草"
+        ]
+      },
+      {
+        "term": "遊園のミニSL",
+        "type": "movement",
+        "associations": [
+          "煙の匂い",
+          "レールの音",
+          "乗車列"
+        ]
+      },
+      {
+        "term": "尾久の住宅街の路地",
+        "type": "place",
+        "associations": [
+          "生垣",
+          "宅配便のバイク",
+          "猫の通り道"
+        ]
+      },
+      {
+        "term": "荒川遊園のポニー",
+        "type": "nature",
+        "associations": [
+          "柵越しの手",
+          "干し草",
+          "蹄の音"
+        ]
+      },
+      {
+        "term": "遊園の売店のソフトクリーム",
+        "type": "food",
+        "associations": [
+          "コーンの紙",
+          "溶ける速さ",
+          "ベンチの親子"
+        ]
+      },
+      {
+        "term": "尾久駅前のバスロータリー",
+        "type": "place",
+        "associations": [
+          "バスの待機",
+          "タクシー乗り場",
+          "通勤客の列"
+        ]
+      },
+      {
+        "term": "遊園の入り口の券売機",
+        "type": "object",
+        "associations": [
+          "並ぶ家族",
+          "ボタンの音",
+          "半券"
+        ]
+      }
+    ],
+    "association_source": "deepseek",
+    "image_source": "deepseek_grounded_in_candidate_names_and_anchors"
+  },
+  {
+    "area": "大山",
+    "aliases": [
+      "ハッピーロード大山",
+      "大山駅周辺",
+      "大山駅"
+    ],
+    "images": [
+      {
+        "term": "ハッピーロード大山のアーケード",
+        "type": "architecture",
+        "associations": [
+          "商店街",
+          "買い物客",
+          "雨の日"
+        ]
+      },
+      {
+        "term": "大山駅のホーム",
+        "type": "place",
+        "associations": [
+          "東武東上線",
+          "通勤ラッシュ",
+          "改札"
+        ]
+      },
+      {
+        "term": "商店街の総菜屋のショーケース",
+        "type": "food",
+        "associations": [
+          "コロッケ",
+          "揚げたて",
+          "夕方"
+        ]
+      },
+      {
+        "term": "自転車で走る主婦",
+        "type": "people",
+        "associations": [
+          "前かご",
+          "買い物袋",
+          "路地"
+        ]
+      },
+      {
+        "term": "ハッピーロードの福引ガラガラ",
+        "type": "activity",
+        "associations": [
+          "抽選",
+          "商店街",
+          "年末"
+        ]
+      },
+      {
+        "term": "駅前のタクシー乗り場",
+        "type": "place",
+        "associations": [
+          "列",
+          "運転手",
+          "行き先"
+        ]
+      },
+      {
+        "term": "商店街のシャッター",
+        "type": "architecture",
+        "associations": [
+          "閉店",
+          "朝",
+          "通り抜け"
+        ]
+      },
+      {
+        "term": "踏切の警報音",
+        "type": "sound",
+        "associations": [
+          "遮断機",
+          "電車",
+          "待つ人"
+        ]
+      }
+    ],
+    "association_source": "deepseek",
+    "image_source": "deepseek_grounded_in_candidate_names_and_anchors"
+  },
+  {
+    "area": "板橋宿・仲宿",
+    "aliases": [
+      "仲宿商店街",
+      "旧中山道板橋宿",
+      "板橋本町駅"
+    ],
+    "images": [
+      {
+        "term": "旧中山道の石畳",
+        "type": "architecture",
+        "associations": [
+          "街道",
+          "江戸",
+          "歩く"
+        ]
+      },
+      {
+        "term": "仲宿商店街の看板",
+        "type": "place",
+        "associations": [
+          "アーケード",
+          "店先",
+          "買い物"
+        ]
+      },
+      {
+        "term": "板橋本町駅の改札",
+        "type": "place",
+        "associations": [
+          "都営三田線",
+          "通勤",
+          "階段"
+        ]
+      },
+      {
+        "term": "宿場跡の案内板",
+        "type": "history",
+        "associations": [
+          "板橋宿",
+          "中山道",
+          "旅人"
+        ]
+      },
+      {
+        "term": "商店街の魚屋の店先",
+        "type": "food",
+        "associations": [
+          "鮮魚",
+          "氷",
+          "値札"
+        ]
+      },
+      {
+        "term": "自転車で配達する人",
+        "type": "people",
+        "associations": [
+          "荷台",
+          "商店街",
+          "昼"
+        ]
+      },
+      {
+        "term": "石神井川の橋",
+        "type": "nature",
+        "associations": [
+          "川面",
+          "欄干",
+          "桜並木"
+        ]
+      },
+      {
+        "term": "商店街の呼び込みの声",
+        "type": "sound",
+        "associations": [
+          "店員",
+          "夕方",
+          "客引き"
+        ]
+      }
+    ],
+    "association_source": "deepseek",
+    "image_source": "deepseek_grounded_in_candidate_names_and_anchors"
+  },
+  {
+    "area": "高島平",
+    "aliases": [
+      "高島平団地",
+      "高島平駅周辺",
+      "高島平駅"
+    ],
+    "images": [
+      {
+        "term": "高島平団地の棟",
+        "type": "architecture",
+        "associations": [
+          "集合住宅",
+          "廊下",
+          "ベランダ"
+        ]
+      },
+      {
+        "term": "高島平駅のホーム",
+        "type": "place",
+        "associations": [
+          "都営三田線",
+          "通勤",
+          "始発"
+        ]
+      },
+      {
+        "term": "団地の広場のベンチ",
+        "type": "place",
+        "associations": [
+          "高齢者",
+          "日向",
+          "会話"
+        ]
+      },
+      {
+        "term": "団地の給水塔",
+        "type": "architecture",
+        "associations": [
+          "屋上",
+          "影",
+          "団地"
+        ]
+      },
+      {
+        "term": "団地の商店街のシャッター",
+        "type": "place",
+        "associations": [
+          "閉店",
+          "通路",
+          "朝"
+        ]
+      },
+      {
+        "term": "団地の植え込みの猫",
+        "type": "nature",
+        "associations": [
+          "日陰",
+          "餌",
+          "昼寝"
+        ]
+      },
+      {
+        "term": "団地の階段を上る人",
+        "type": "people",
+        "associations": [
+          "買い物袋",
+          "手すり",
+          "エレベーター"
+        ]
+      },
+      {
+        "term": "団地の廊下の足音",
+        "type": "sound",
+        "associations": [
+          "反響",
+          "夜",
+          "帰宅"
+        ]
+      }
+    ],
+    "association_source": "deepseek",
+    "image_source": "deepseek_grounded_in_candidate_names_and_anchors"
+  },
+  {
+    "area": "常盤台",
+    "aliases": [
+      "ときわ台",
+      "常盤台住宅地",
+      "ときわ台駅"
+    ],
+    "images": [
+      {
+        "term": "ときわ台駅の改札",
+        "type": "place",
+        "associations": [
+          "東武東上線",
+          "通勤",
+          "階段"
+        ]
+      },
+      {
+        "term": "常盤台の住宅街の生け垣",
+        "type": "nature",
+        "associations": [
+          "庭",
+          "手入れ",
+          "通り"
+        ]
+      },
+      {
+        "term": "住宅街のカーブした道",
+        "type": "architecture",
+        "associations": [
+          "区画",
+          "見通し",
+          "散歩"
+        ]
+      },
+      {
+        "term": "住宅街の門柱と表札",
+        "type": "architecture",
+        "associations": [
+          "一戸建て",
+          "表札",
+          "玄関"
+        ]
+      },
+      {
+        "term": "住宅街を歩く犬の散歩",
+        "type": "activity",
+        "associations": [
+          "リード",
+          "朝",
+          "飼い主"
+        ]
+      },
+      {
+        "term": "住宅街の電柱と電線",
+        "type": "architecture",
+        "associations": [
+          "影",
+          "夕方",
+          "路地"
+        ]
+      },
+      {
+        "term": "住宅街の庭の木",
+        "type": "nature",
+        "associations": [
+          "枝",
+          "落ち葉",
+          "季節"
+        ]
+      },
+      {
+        "term": "住宅街の自転車のベル",
+        "type": "sound",
+        "associations": [
+          "すれ違い",
+          "路地",
+          "昼"
+        ]
+      }
+    ],
+    "association_source": "deepseek",
+    "image_source": "deepseek_grounded_in_candidate_names_and_anchors"
+  },
+  {
+    "area": "江古田",
+    "aliases": [
+      "江古田駅周辺",
+      "江古田ゆうゆうロード",
+      "江古田駅"
+    ],
+    "images": [
+      {
+        "term": "江古田駅の北口階段",
+        "type": "place",
+        "associations": [
+          "武蔵野線の乗り換え",
+          "自転車置き場",
+          "朝の通学路"
+        ]
+      },
+      {
+        "term": "江古田ゆうゆうロードのアーケード",
+        "type": "architecture",
+        "associations": [
+          "買い物客",
+          "日よけ",
+          "夕方の点灯"
+        ]
+      },
+      {
+        "term": "武蔵野音楽大学の校舎",
+        "type": "architecture",
+        "associations": [
+          "楽器の音",
+          "学生の行き来",
+          "発表会の貼り紙"
+        ]
+      },
+      {
+        "term": "江古田の商店街の総菜屋",
+        "type": "food",
+        "associations": [
+          "揚げ物の匂い",
+          "量り売り",
+          "帰宅途中の主婦"
+        ]
+      },
+      {
+        "term": "千川通りを走る自転車",
+        "type": "movement",
+        "associations": [
+          "ベルを鳴らす",
+          "車道の端",
+          "通勤の時間帯"
+        ]
+      },
+      {
+        "term": "江古田駅前の交番",
+        "type": "place",
+        "associations": [
+          "道を尋ねる人",
+          "掲示板の地図",
+          "夜の巡回"
+        ]
+      },
+      {
+        "term": "江古田の路地の飲み屋",
+        "type": "place",
+        "associations": [
+          "赤提灯",
+          "短冊メニュー",
+          "仕事帰りの客"
+        ]
+      },
+      {
+        "term": "江古田駅のホームの電車",
+        "type": "movement",
+        "associations": [
+          "西武池袋線",
+          "発車ベル",
+          "吊り革"
+        ]
+      }
+    ],
+    "association_source": "deepseek",
+    "image_source": "deepseek_grounded_in_candidate_names_and_anchors"
+  },
+  {
+    "area": "練馬駅周辺",
+    "aliases": [
+      "練馬",
+      "練馬駅前商店街",
+      "練馬駅"
+    ],
+    "images": [
+      {
+        "term": "練馬駅前商店街の看板",
+        "type": "architecture",
+        "associations": [
+          "アーケードの天井",
+          "店名の文字",
+          "夕方の明かり"
+        ]
+      },
+      {
+        "term": "練馬駅の改札口",
+        "type": "place",
+        "associations": [
+          "定期券",
+          "ラッシュの列",
+          "西武池袋線と都営大江戸線"
+        ]
+      },
+      {
+        "term": "練馬区役所の建物",
+        "type": "architecture",
+        "associations": [
+          "窓口の番号札",
+          "自転車置き場",
+          "手続きの列"
+        ]
+      },
+      {
+        "term": "練馬駅前のバスターミナル",
+        "type": "place",
+        "associations": [
+          "バスの待ち列",
+          "行き先表示",
+          "発車のアナウンス"
+        ]
+      },
+      {
+        "term": "練馬の商店街の青果店",
+        "type": "food",
+        "associations": [
+          "段ボール箱",
+          "値札の手書き文字",
+          "旬の野菜"
+        ]
+      },
+      {
+        "term": "練馬駅周辺の駐輪場",
+        "type": "place",
+        "associations": [
+          "並んだ自転車",
+          "精算機",
+          "朝の混雑"
+        ]
+      },
+      {
+        "term": "練馬の飲み屋街の提灯",
+        "type": "architecture",
+        "associations": [
+          "路地の奥",
+          "夜の灯り",
+          "焼き鳥の煙"
+        ]
+      },
+      {
+        "term": "練馬駅のホームの売店",
+        "type": "place",
+        "associations": [
+          "新聞",
+          "立ち読み",
+          "発車間際の乗客"
+        ]
+      }
+    ],
+    "association_source": "deepseek",
+    "image_source": "deepseek_grounded_in_candidate_names_and_anchors"
+  },
+  {
+    "area": "石神井公園",
+    "aliases": [
+      "石神井池",
+      "石神井公園駅周辺",
+      "石神井公園駅"
+    ],
+    "images": [
+      {
+        "term": "石神井池の水面",
+        "type": "nature",
+        "associations": [
+          "ボート",
+          "カモ",
+          "木々の映り込み"
+        ]
+      },
+      {
+        "term": "石神井公園駅の南口",
+        "type": "place",
+        "associations": [
+          "西武池袋線",
+          "商店街への道",
+          "待ち合わせ"
+        ]
+      },
+      {
+        "term": "石神井池のボート乗り場",
+        "type": "activity",
+        "associations": [
+          "手漕ぎボート",
+          "桟橋",
+          "ライフジャケット"
+        ]
+      },
+      {
+        "term": "石神井公園の遊歩道",
+        "type": "place",
+        "associations": [
+          "散歩する人",
+          "木漏れ日",
+          "ベンチ"
+        ]
+      },
+      {
+        "term": "三宝寺池の湿地",
+        "type": "nature",
+        "associations": [
+          "水草",
+          "木道",
+          "野鳥観察"
+        ]
+      },
+      {
+        "term": "石神井公園の桜並木",
+        "type": "nature",
+        "associations": [
+          "花見の敷物",
+          "春の週末",
+          "花びらの絨毯"
+        ]
+      },
+      {
+        "term": "石神井公園駅前の商店街",
+        "type": "place",
+        "associations": [
+          "買い物帰りの人",
+          "自転車",
+          "店先の商品"
+        ]
+      },
+      {
+        "term": "石神井公園のベンチの鳩",
+        "type": "people",
+        "associations": [
+          "餌を探す",
+          "近づく足音",
+          "飛び立つ羽音"
+        ]
+      }
+    ],
+    "association_source": "deepseek",
+    "image_source": "deepseek_grounded_in_candidate_names_and_anchors"
+  },
+  {
+    "area": "大泉学園",
+    "aliases": [
+      "大泉学園駅周辺",
+      "ゆめーてる商店街",
+      "大泉学園駅"
+    ],
+    "images": [
+      {
+        "term": "大泉学園駅の北口",
+        "type": "place",
+        "associations": [
+          "西武池袋線",
+          "バス乗り場",
+          "通学の列"
+        ]
+      },
+      {
+        "term": "ゆめーてる商店街のアーケード",
+        "type": "architecture",
+        "associations": [
+          "買い物客",
+          "日よけの屋根",
+          "店先の陳列"
+        ]
+      },
+      {
+        "term": "大泉学園の映画館の看板",
+        "type": "architecture",
+        "associations": [
+          "上映中の文字",
+          "夜の照明",
+          "チケット売り場"
+        ]
+      },
+      {
+        "term": "ゆめーてる商店街のパン屋",
+        "type": "food",
+        "associations": [
+          "焼きたての匂い",
+          "トング",
+          "紙袋"
+        ]
+      },
+      {
+        "term": "大泉学園の住宅街の生け垣",
+        "type": "nature",
+        "associations": [
+          "剪定された枝",
+          "通学路",
+          "朝の水やり"
+        ]
+      },
+      {
+        "term": "大泉学園駅前のバスロータリー",
+        "type": "movement",
+        "associations": [
+          "バスの発着",
+          "行き先案内",
+          "乗降する人"
+        ]
+      },
+      {
+        "term": "ゆめーてる商店街の書店",
+        "type": "place",
+        "associations": [
+          "立ち読み",
+          "雑誌の棚",
+          "レジの列"
+        ]
+      },
+      {
+        "term": "大泉学園の公園の砂場",
+        "type": "activity",
+        "associations": [
+          "スコップ",
+          "子供の声",
+          "ベンチの親"
+        ]
+      }
+    ],
+    "association_source": "deepseek",
+    "image_source": "deepseek_grounded_in_candidate_names_and_anchors"
+  },
+  {
+    "area": "北千住",
+    "aliases": [
+      "北千住駅周辺",
+      "宿場町通り",
+      "北千住駅"
+    ],
+    "images": [
+      {
+        "term": "北千住駅の東西連絡通路",
+        "type": "place",
+        "associations": [
+          "乗り換え改札",
+          "通勤ラッシュ",
+          "パン屋の看板"
+        ]
+      },
+      {
+        "term": "宿場町通りのアーケード",
+        "type": "architecture",
+        "associations": [
+          "千住宿の名残",
+          "自転車の列",
+          "夕方の買い物客"
+        ]
+      },
+      {
+        "term": "千住大橋の欄干",
+        "type": "place",
+        "associations": [
+          "隅田川の水面",
+          "橋を渡るトラック",
+          "朝のジョギング"
+        ]
+      },
+      {
+        "term": "飲み屋横丁の提灯",
+        "type": "object",
+        "associations": [
+          "焼き鳥の煙",
+          "仕事帰りの一杯",
+          "赤提灯の灯り"
+        ]
+      },
+      {
+        "term": "学生服の集団",
+        "type": "people",
+        "associations": [
+          "大学のキャンパス",
+          "夕方の駅前",
+          "自転車通学"
+        ]
+      },
+      {
+        "term": "商店街の呼び込みの声",
+        "type": "sound",
+        "associations": [
+          "八百屋の店先",
+          "魚を焼く匂い",
+          "値引きの札"
+        ]
+      },
+      {
+        "term": "隅田川沿いの遊歩道",
+        "type": "nature",
+        "associations": [
+          "桜並木",
+          "川面の反射",
+          "犬の散歩"
+        ]
+      },
+      {
+        "term": "北千住駅前のバスターミナル",
+        "type": "movement",
+        "associations": [
+          "路線バスの発着",
+          "スーツケースを引く人",
+          "時刻表の掲示"
+        ]
+      }
+    ],
+    "association_source": "deepseek",
+    "image_source": "deepseek_grounded_in_candidate_names_and_anchors"
+  },
+  {
+    "area": "西新井大師",
+    "aliases": [
+      "西新井大師参道",
+      "總持寺周辺",
+      "大師前駅",
+      "西新井大師"
+    ],
+    "images": [
+      {
+        "term": "大師前駅の改札",
+        "type": "place",
+        "associations": [
+          "参拝客の列",
+          "小さな駅舎",
+          "日曜の朝"
+        ]
+      },
+      {
+        "term": "西新井大師の仁王門",
+        "type": "architecture",
+        "associations": [
+          "仁王像",
+          "石段",
+          "参道の土産屋"
+        ]
+      },
+      {
+        "term": "参道の草だんご屋",
+        "type": "food",
+        "associations": [
+          "串に刺さった団子",
+          "みたらしのたれ",
+          "店先のベンチ"
+        ]
+      },
+      {
+        "term": "本堂前の線香の煙",
+        "type": "object",
+        "associations": [
+          "香炉",
+          "手を合わせる人",
+          "煙を浴びる仕草"
+        ]
+      },
+      {
+        "term": "おみくじを結ぶ紐",
+        "type": "activity",
+        "associations": [
+          "凶を結ぶ",
+          "木の枝",
+          "紙の音"
+        ]
+      },
+      {
+        "term": "参道の塩豆大福",
+        "type": "food",
+        "associations": [
+          "甘じょっぱい餡",
+          "土産の包み",
+          "行列の先"
+        ]
+      },
+      {
+        "term": "大師様の縁日の露店",
+        "type": "place",
+        "associations": [
+          "たこ焼きの鉄板",
+          "綿菓子",
+          "下駄の音"
+        ]
+      },
+      {
+        "term": "読経の声",
+        "type": "sound",
+        "associations": [
+          "本堂の内陣",
+          "木魚",
+          "静かな参拝者"
+        ]
+      }
+    ],
+    "association_source": "deepseek",
+    "image_source": "deepseek_grounded_in_candidate_names_and_anchors"
+  },
+  {
+    "area": "綾瀬",
+    "aliases": [
+      "綾瀬駅周辺",
+      "綾瀬商店街",
+      "綾瀬駅",
+      "綾瀬川沿い"
+    ],
+    "images": [
+      {
+        "term": "綾瀬駅の高架下",
+        "type": "place",
+        "associations": [
+          "千代田線のホーム",
+          "自転車置き場",
+          "ラーメン店の暖簾"
+        ]
+      },
+      {
+        "term": "綾瀬川の土手",
+        "type": "nature",
+        "associations": [
+          "草の匂い",
+          "釣り糸",
+          "夕暮れの散歩"
+        ]
+      },
+      {
+        "term": "綾瀬商店街のアーケード",
+        "type": "architecture",
+        "associations": [
+          "惣菜屋の棚",
+          "自転車のすれ違い",
+          "買い物袋"
+        ]
+      },
+      {
+        "term": "綾瀬川に架かる橋",
+        "type": "place",
+        "associations": [
+          "欄干の錆",
+          "通学路",
+          "川面の鴨"
+        ]
+      },
+      {
+        "term": "商店街の惣菜屋の揚げ物",
+        "type": "food",
+        "associations": [
+          "コロッケ",
+          "油の匂い",
+          "紙袋"
+        ]
+      },
+      {
+        "term": "駅前の自転車整理員",
+        "type": "people",
+        "associations": [
+          "駐輪場の誘導",
+          "黄色い旗",
+          "朝のラッシュ"
+        ]
+      },
+      {
+        "term": "綾瀬川沿いのジョギング",
+        "type": "movement",
+        "associations": [
+          "ランニングシューズ",
+          "土手の道",
+          "汗を拭う"
+        ]
+      },
+      {
+        "term": "踏切の警報音",
+        "type": "sound",
+        "associations": [
+          "遮断機",
+          "自転車を押す人",
+          "電車の通過"
+        ]
+      }
+    ],
+    "association_source": "deepseek",
+    "image_source": "deepseek_grounded_in_candidate_names_and_anchors"
+  },
+  {
+    "area": "竹ノ塚",
+    "aliases": [
+      "竹の塚",
+      "竹ノ塚駅周辺",
+      "竹ノ塚駅",
+      "竹の塚東口商店街"
+    ],
+    "images": [
+      {
+        "term": "竹ノ塚駅の東口階段",
+        "type": "place",
+        "associations": [
+          "改札を出る人",
+          "朝の通勤",
+          "駅前ロータリー"
+        ]
+      },
+      {
+        "term": "竹の塚東口商店街の看板",
+        "type": "object",
+        "associations": [
+          "老舗の文字",
+          "アーケードの骨組み",
+          "夕方の灯り"
+        ]
+      },
+      {
+        "term": "竹ノ塚駅前のバスロータリー",
+        "type": "movement",
+        "associations": [
+          "路線バスの待機",
+          "タクシー乗り場",
+          "送迎の車"
+        ]
+      },
+      {
+        "term": "商店街の八百屋の店先",
+        "type": "food",
+        "associations": [
+          "旬の野菜",
+          "値札",
+          "ビニール袋"
+        ]
+      },
+      {
+        "term": "竹の塚の踏切",
+        "type": "place",
+        "associations": [
+          "東武線の線路",
+          "遮断機の音",
+          "自転車の列"
+        ]
+      },
+      {
+        "term": "商店街のシャッター",
+        "type": "architecture",
+        "associations": [
+          "閉店後の通り",
+          "落書き",
+          "朝の開店準備"
+        ]
+      },
+      {
+        "term": "駅前の喫煙所",
+        "type": "place",
+        "associations": [
+          "煙草の煙",
+          "灰皿",
+          "短い休憩"
+        ]
+      },
+      {
+        "term": "商店街の呼び声",
+        "type": "sound",
+        "associations": [
+          "惣菜屋の声",
+          "自転車のベル",
+          "夕方の買い物"
+        ]
+      }
+    ],
+    "association_source": "deepseek",
+    "image_source": "deepseek_grounded_in_candidate_names_and_anchors"
+  },
+  {
+    "area": "柴又",
+    "aliases": [
+      "柴又帝釈天参道",
+      "帝釈天参道",
+      "柴又駅",
+      "柴又帝釈天"
+    ],
+    "images": [
+      {
+        "term": "帝釈天参道の石畳",
+        "type": "place",
+        "associations": [
+          "参拝客の下駄音",
+          "煎餅屋の店先",
+          "柴又駅からのびる道"
+        ]
+      },
+      {
+        "term": "柴又帝釈天の山門",
+        "type": "architecture",
+        "associations": [
+          "彫刻の施された柱",
+          "参拝の列",
+          "線香の煙"
+        ]
+      },
+      {
+        "term": "参道の草だんご",
+        "type": "food",
+        "associations": [
+          "串に刺さった団子",
+          "あんこの甘さ",
+          "茶屋の縁台"
+        ]
+      },
+      {
+        "term": "帝釈天の彫刻ギャラリー",
+        "type": "place",
+        "associations": [
+          "木彫の浮き彫り",
+          "解説板を読む人",
+          "薄暗い廊下"
+        ]
+      },
+      {
+        "term": "江戸川の土手",
+        "type": "nature",
+        "associations": [
+          "柴又公園の桜",
+          "川風に揺れる草",
+          "自転車を押す人"
+        ]
+      },
+      {
+        "term": "矢切の渡しの船着き場",
+        "type": "place",
+        "associations": [
+          "対岸へ渡る小舟",
+          "船頭の櫓",
+          "川面の反射"
+        ]
+      },
+      {
+        "term": "柴又駅の改札",
+        "type": "place",
+        "associations": [
+          "京成線のホーム",
+          "寅さんの像を探す人",
+          "Suicaのタッチ音"
+        ]
+      },
+      {
+        "term": "参道の煎餅屋",
+        "type": "food",
+        "associations": [
+          "醤油の焦げた香り",
+          "手焼きの網",
+          "袋を提げた観光客"
+        ]
+      }
+    ],
+    "association_source": "deepseek",
+    "image_source": "deepseek_grounded_in_candidate_names_and_anchors"
+  },
+  {
+    "area": "立石",
+    "aliases": [
+      "立石仲見世",
+      "京成立石駅周辺",
+      "京成立石駅",
+      "立石仲見世商店街"
+    ],
+    "images": [
+      {
+        "term": "立石仲見世商店街のアーケード",
+        "type": "architecture",
+        "associations": [
+          "赤提灯の列",
+          "夕方の買い物客",
+          "自転車のすれ違い"
+        ]
+      },
+      {
+        "term": "京成立石駅の高架下",
+        "type": "place",
+        "associations": [
+          "電車の通過音",
+          "立ち飲みの看板",
+          "線路に沿う細い道"
+        ]
+      },
+      {
+        "term": "もつ焼きの煙",
+        "type": "food",
+        "associations": [
+          "串の並ぶカウンター",
+          "ビールのジョッキ",
+          "七輪の炭"
+        ]
+      },
+      {
+        "term": "立石の立ち飲み屋",
+        "type": "place",
+        "associations": [
+          "肩が触れ合う距離",
+          "瓶ビールを注ぐ音",
+          "短冊メニュー"
+        ]
+      },
+      {
+        "term": "中川の土手",
+        "type": "nature",
+        "associations": [
+          "釣り糸を垂れる人",
+          "水門の影",
+          "土手を走るランナー"
+        ]
+      },
+      {
+        "term": "立石駅前のロータリー",
+        "type": "place",
+        "associations": [
+          "タクシーの列",
+          "バスを待つ列",
+          "キオスクの灯り"
+        ]
+      },
+      {
+        "term": "仲見世の総菜屋",
+        "type": "food",
+        "associations": [
+          "揚げ物のトレイ",
+          "値札の手書き文字",
+          "ビニール袋の音"
+        ]
+      },
+      {
+        "term": "四つ木方面へ続く道",
+        "type": "movement",
+        "associations": [
+          "歩行者と自転車",
+          "街路樹の影",
+          "夕暮れの帰り道"
+        ]
+      }
+    ],
+    "association_source": "deepseek",
+    "image_source": "deepseek_grounded_in_candidate_names_and_anchors"
+  },
+  {
+    "area": "亀有",
+    "aliases": [
+      "亀有駅周辺",
+      "ゆうろーど",
+      "亀有駅",
+      "亀有ゆうろーど"
+    ],
+    "images": [
+      {
+        "term": "亀有駅の北口",
+        "type": "place",
+        "associations": [
+          "両さんの銅像",
+          "待ち合わせの人",
+          "バス乗り場の列"
+        ]
+      },
+      {
+        "term": "亀有ゆうろーどのアーケード",
+        "type": "architecture",
+        "associations": [
+          "買い物客の足音",
+          "店先のワゴン",
+          "雨をしのぐ屋根"
+        ]
+      },
+      {
+        "term": "亀有公園のベンチ",
+        "type": "place",
+        "associations": [
+          "両さんの像の前",
+          "鳩に餌をやる人",
+          "木陰で休む高齢者"
+        ]
+      },
+      {
+        "term": "ゆうろーどのパン屋",
+        "type": "food",
+        "associations": [
+          "焼きたての香り",
+          "トレイとトング",
+          "袋詰めの食パン"
+        ]
+      },
+      {
+        "term": "環七沿いの歩道",
+        "type": "movement",
+        "associations": [
+          "トラックの走行音",
+          "信号待ちの列",
+          "排気ガスの熱"
+        ]
+      },
+      {
+        "term": "亀有の商店街の惣菜屋",
+        "type": "food",
+        "associations": [
+          "コロッケの揚げ音",
+          "パック詰めの煮物",
+          "レジのベル"
+        ]
+      },
+      {
+        "term": "中川沿いの遊歩道",
+        "type": "nature",
+        "associations": [
+          "水辺の鳥",
+          "ジョギングする人",
+          "橋の欄干"
+        ]
+      },
+      {
+        "term": "亀有駅の南口広場",
+        "type": "place",
+        "associations": [
+          "タクシー乗り場",
+          "喫煙所の煙",
+          "改札へ向かう人波"
+        ]
+      }
+    ],
+    "association_source": "deepseek",
+    "image_source": "deepseek_grounded_in_candidate_names_and_anchors"
+  },
+  {
+    "area": "小岩",
+    "aliases": [
+      "小岩駅周辺",
+      "昭和通り商店街",
+      "小岩駅"
+    ],
+    "images": [
+      {
+        "term": "小岩駅の南口",
+        "type": "place",
+        "associations": [
+          "総武線のホーム",
+          "待ち合わせの人影",
+          "バスの発着"
+        ]
+      },
+      {
+        "term": "昭和通り商店街のアーケード",
+        "type": "architecture",
+        "associations": [
+          "シャッターの並び",
+          "自転車の通行",
+          "夕方の買い物客"
+        ]
+      },
+      {
+        "term": "小岩の焼き鳥屋",
+        "type": "food",
+        "associations": [
+          "煙の立ちのぼる店先",
+          "串の並ぶ棚",
+          "赤提灯の灯り"
+        ]
+      },
+      {
+        "term": "蔵前橋通りの歩道",
+        "type": "movement",
+        "associations": [
+          "車のヘッドライト",
+          "横断歩道の白線",
+          "歩行者用信号の音"
+        ]
+      },
+      {
+        "term": "江戸川の河川敷",
+        "type": "nature",
+        "associations": [
+          "野球をする少年",
+          "土手を走る自転車",
+          "川面の夕日"
+        ]
+      },
+      {
+        "term": "小岩駅前のパチンコ店",
+        "type": "place",
+        "associations": [
+          "点滅する看板",
+          "玉の音",
+          "出入りする人"
+        ]
+      },
+      {
+        "term": "昭和通りのラーメン屋",
+        "type": "food",
+        "associations": [
+          "湯気の立つ丼",
+          "カウンターの椅子",
+          "券売機のボタン"
+        ]
+      },
+      {
+        "term": "小岩の路地裏",
+        "type": "place",
+        "associations": [
+          "看板の灯り",
+          "猫の通り道",
+          "自転車の影"
+        ]
+      }
+    ],
+    "association_source": "deepseek",
+    "image_source": "deepseek_grounded_in_candidate_names_and_anchors"
+  },
+  {
+    "area": "葛西",
+    "aliases": [
+      "葛西駅周辺",
+      "地下鉄博物館周辺",
+      "葛西駅",
+      "地下鉄博物館"
+    ],
+    "images": [
+      {
+        "term": "葛西駅の高架下",
+        "type": "place",
+        "associations": [
+          "総武線の通過音",
+          "自転車置き場",
+          "夕方の買い物客"
+        ]
+      },
+      {
+        "term": "地下鉄博物館の丸ノ内線車両",
+        "type": "architecture",
+        "associations": [
+          "つり革",
+          "運転台のハンドル",
+          "鉄道ファンの列"
+        ]
+      },
+      {
+        "term": "葛西駅前のバスターミナル",
+        "type": "place",
+        "associations": [
+          "都営バスの行き先表示",
+          "通勤ラッシュ",
+          "路線図"
+        ]
+      },
+      {
+        "term": "環七通りの渋滞",
+        "type": "movement",
+        "associations": [
+          "トラックの排気",
+          "信号待ち",
+          "夜のヘッドライト"
+        ]
+      },
+      {
+        "term": "葛西駅の改札口",
+        "type": "place",
+        "associations": [
+          "ICカードのタッチ音",
+          "定期券",
+          "朝の足音"
+        ]
+      },
+      {
+        "term": "中葛西の住宅街",
+        "type": "place",
+        "associations": [
+          "ブロック塀",
+          "植木鉢",
+          "小学生の下校"
+        ]
+      },
+      {
+        "term": "地下鉄博物館のジオラマ",
+        "type": "object",
+        "associations": [
+          "模型の街並み",
+          "小さな踏切",
+          "照明の点滅"
+        ]
+      },
+      {
+        "term": "葛西駅前のコンビニ",
+        "type": "place",
+        "associations": [
+          "夜勤の店員",
+          "おでんの湯気",
+          "雑誌の立ち読み"
+        ]
+      }
+    ],
+    "association_source": "deepseek",
+    "image_source": "deepseek_grounded_in_candidate_names_and_anchors"
+  },
+  {
+    "area": "船堀",
+    "aliases": [
+      "船堀駅周辺",
+      "新川",
+      "船堀駅",
+      "新川千本桜"
+    ],
+    "images": [
+      {
+        "term": "船堀駅のタワーホール",
+        "type": "architecture",
+        "associations": [
+          "コンサートの看板",
+          "エスカレーター",
+          "開演前の列"
+        ]
+      },
+      {
+        "term": "新川千本桜の遊歩道",
+        "type": "nature",
+        "associations": [
+          "桜のトンネル",
+          "花見のシート",
+          "川面の花びら"
+        ]
+      },
+      {
+        "term": "船堀駅前のロータリー",
+        "type": "place",
+        "associations": [
+          "タクシー乗り場",
+          "バス待ちの列",
+          "送迎の車"
+        ]
+      },
+      {
+        "term": "新川の水門",
+        "type": "architecture",
+        "associations": [
+          "コンクリートの壁",
+          "水位標",
+          "釣り人"
+        ]
+      },
+      {
+        "term": "船堀の団地",
+        "type": "architecture",
+        "associations": [
+          "外階段",
+          "洗濯物",
+          "自治会の掲示板"
+        ]
+      },
+      {
+        "term": "都営新宿線の高架",
+        "type": "place",
+        "associations": [
+          "電車の走行音",
+          "架線",
+          "橋の下の駐輪場"
+        ]
+      },
+      {
+        "term": "新川沿いのジョギング",
+        "type": "movement",
+        "associations": [
+          "ランナーの足音",
+          "給水ボトル",
+          "朝の光"
+        ]
+      },
+      {
+        "term": "船堀駅の売店",
+        "type": "place",
+        "associations": [
+          "新聞の束",
+          "立ち読み",
+          "定期券売り場"
+        ]
+      }
+    ],
+    "association_source": "deepseek",
+    "image_source": "deepseek_grounded_in_candidate_names_and_anchors"
+  },
+  {
+    "area": "平井",
+    "aliases": [
+      "平井駅周辺",
+      "平井親和会商店街",
+      "平井駅"
+    ],
+    "images": [
+      {
+        "term": "平井親和会商店街のアーケード",
+        "type": "architecture",
+        "associations": [
+          "青空の看板",
+          "自転車のすれ違い",
+          "買い物帰りの主婦"
+        ]
+      },
+      {
+        "term": "平井駅のホーム",
+        "type": "place",
+        "associations": [
+          "総武線の快速通過",
+          "ベンチ",
+          "発車メロディ"
+        ]
+      },
+      {
+        "term": "商店街の総菜屋",
+        "type": "food",
+        "associations": [
+          "コロッケの匂い",
+          "揚げたてのトレイ",
+          "値札"
+        ]
+      },
+      {
+        "term": "平井駅前の交番",
+        "type": "place",
+        "associations": [
+          "赤い灯り",
+          "落とし物の届け出",
+          "地図の掲示"
+        ]
+      },
+      {
+        "term": "旧中川の土手",
+        "type": "nature",
+        "associations": [
+          "草野球",
+          "川風",
+          "釣り竿"
+        ]
+      },
+      {
+        "term": "平井の路地裏",
+        "type": "place",
+        "associations": [
+          "猫の通り道",
+          "ゴミ置き場",
+          "路地の看板"
+        ]
+      },
+      {
+        "term": "商店街の八百屋",
+        "type": "food",
+        "associations": [
+          "野菜の箱",
+          "値引きの声",
+          "ビニール袋"
+        ]
+      },
+      {
+        "term": "平井駅の自転車置き場",
+        "type": "place",
+        "associations": [
+          "駐輪シール",
+          "朝の混雑",
+          "カゴの荷物"
+        ]
+      }
+    ],
+    "association_source": "deepseek",
+    "image_source": "deepseek_grounded_in_candidate_names_and_anchors"
+  },
+  {
+    "area": "葛西臨海公園",
+    "aliases": [
+      "葛西臨海公園駅",
+      "葛西臨海公園周辺",
+      "葛西臨海水族園"
+    ],
+    "images": [
+      {
+        "term": "葛西臨海水族園のマグロ水槽",
+        "type": "nature",
+        "associations": [
+          "群れの動き",
+          "水の青",
+          "ガラス越しの子供"
+        ]
+      },
+      {
+        "term": "観覧車のゴンドラ",
+        "type": "architecture",
+        "associations": [
+          "ゆっくり回る",
+          "海の眺め",
+          "頂上の風"
+        ]
+      },
+      {
+        "term": "葛西臨海公園駅の改札",
+        "type": "place",
+        "associations": [
+          "京葉線の到着",
+          "ベビーカー",
+          "潮の匂い"
+        ]
+      },
+      {
+        "term": "海沿いの砂浜",
+        "type": "nature",
+        "associations": [
+          "波の音",
+          "貝殻",
+          "カモメ"
+        ]
+      },
+      {
+        "term": "園内の芝生広場",
+        "type": "place",
+        "associations": [
+          "ピクニックシート",
+          "ボール遊び",
+          "日傘"
+        ]
+      },
+      {
+        "term": "葛西臨海公園の遊歩道",
+        "type": "movement",
+        "associations": [
+          "散歩の足音",
+          "ベンチ",
+          "海風"
+        ]
+      },
+      {
+        "term": "水族園のペンギン舎",
+        "type": "nature",
+        "associations": [
+          "泳ぐペンギン",
+          "岩場",
+          "飼育員のバケツ"
+        ]
+      },
+      {
+        "term": "夕暮れの東京湾",
+        "type": "nature",
+        "associations": [
+          "水平線",
+          "貨物船",
+          "オレンジの空"
+        ]
+      }
+    ],
+    "association_source": "deepseek",
+    "image_source": "deepseek_grounded_in_candidate_names_and_anchors"
+  },
+  {
+    "area": "神田須田町・淡路町",
+    "aliases": [
+      "須田町",
+      "淡路町",
+      "万世橋",
+      "淡路町駅"
+    ],
+    "images": [
+      {
+        "term": "万世橋",
+        "type": "place",
+        "associations": [
+          "神田川",
+          "鉄道高架",
+          "秋葉原"
+        ]
+      },
+      {
+        "term": "淡路町駅",
+        "type": "place",
+        "associations": [
+          "丸ノ内線",
+          "改札",
+          "通勤"
+        ]
+      },
+      {
+        "term": "神田川",
+        "type": "nature",
+        "associations": [
+          "水面",
+          "橋",
+          "桜"
+        ]
+      },
+      {
+        "term": "昌平橋通り",
+        "type": "place",
+        "associations": [
+          "車道",
+          "歩道",
+          "坂"
+        ]
+      },
+      {
+        "term": "老舗の看板",
+        "type": "architecture",
+        "associations": [
+          "木彫",
+          "文字",
+          "暖簾"
+        ]
+      },
+      {
+        "term": "そば屋の湯気",
+        "type": "food",
+        "associations": [
+          "昼時",
+          "丼",
+          "箸"
+        ]
+      },
+      {
+        "term": "工具店の店先",
+        "type": "place",
+        "associations": [
+          "金物",
+          "台車",
+          "職人"
+        ]
+      },
+      {
+        "term": "高架下の飲食店",
+        "type": "architecture",
+        "associations": [
+          "赤提灯",
+          "線路",
+          "夜"
+        ]
+      }
+    ],
+    "association_source": "deepseek",
+    "image_source": "deepseek_grounded_in_candidate_names_and_anchors"
+  },
+  {
+    "area": "人形町・甘酒横丁",
+    "aliases": [
+      "甘酒横丁",
+      "人形町商店街",
+      "人形町駅"
+    ],
+    "images": [
+      {
+        "term": "甘酒横丁",
+        "type": "place",
+        "associations": [
+          "看板",
+          "甘酒",
+          "人形町駅"
+        ]
+      },
+      {
+        "term": "人形町駅",
+        "type": "place",
+        "associations": [
+          "日比谷線",
+          "改札",
+          "商店街"
+        ]
+      },
+      {
+        "term": "水天宮",
+        "type": "place",
+        "associations": [
+          "参道",
+          "戌の日",
+          "階段"
+        ]
+      },
+      {
+        "term": "人形焼",
+        "type": "food",
+        "associations": [
+          "型",
+          "餡",
+          "土産"
+        ]
+      },
+      {
+        "term": "老舗の暖簾",
+        "type": "architecture",
+        "associations": [
+          "藍色",
+          "店先",
+          "染め"
+        ]
+      },
+      {
+        "term": "からくり時計",
+        "type": "architecture",
+        "associations": [
+          "時報",
+          "人形",
+          "広場"
+        ]
+      },
+      {
+        "term": "玉ひで",
+        "type": "place",
+        "associations": [
+          "親子丼",
+          "行列",
+          "明治"
+        ]
+      },
+      {
+        "term": "日本橋川",
+        "type": "nature",
+        "associations": [
+          "橋",
+          "水辺",
+          "柳"
+        ]
+      }
+    ],
+    "association_source": "deepseek",
+    "image_source": "deepseek_grounded_in_candidate_names_and_anchors"
+  },
+  {
+    "area": "新橋・烏森通り",
+    "aliases": [
+      "烏森通り",
+      "新橋駅西口",
+      "新橋駅",
+      "烏森神社"
+    ],
+    "images": [
+      {
+        "term": "烏森神社",
+        "type": "place",
+        "associations": [
+          "鳥居",
+          "参拝",
+          "新橋駅"
+        ]
+      },
+      {
+        "term": "新橋駅",
+        "type": "place",
+        "associations": [
+          "改札",
+          "ホーム",
+          "乗り換え"
+        ]
+      },
+      {
+        "term": "烏森通り",
+        "type": "place",
+        "associations": [
+          "居酒屋",
+          "看板",
+          "夜"
+        ]
+      },
+      {
+        "term": "SL広場",
+        "type": "place",
+        "associations": [
+          "蒸気機関車",
+          "待ち合わせ",
+          "喫煙"
+        ]
+      },
+      {
+        "term": "ガード下の横丁",
+        "type": "architecture",
+        "associations": [
+          "提灯",
+          "焼き鳥",
+          "煙"
+        ]
+      },
+      {
+        "term": "サラリーマン",
+        "type": "people",
+        "associations": [
+          "ネクタイ",
+          "鞄",
+          "帰宅"
+        ]
+      },
+      {
+        "term": "焼き鳥の煙",
+        "type": "food",
+        "associations": [
+          "串",
+          "炭",
+          "匂い"
+        ]
+      },
+      {
+        "term": "赤提灯",
+        "type": "architecture",
+        "associations": [
+          "灯り",
+          "文字",
+          "軒先"
+        ]
+      }
+    ],
+    "association_source": "deepseek",
+    "image_source": "deepseek_grounded_in_candidate_names_and_anchors"
+  },
+  {
+    "area": "落合・中井",
+    "aliases": [
+      "中井駅周辺",
+      "妙正寺川沿い",
+      "中井駅",
+      "林芙美子記念館"
+    ],
+    "images": [
+      {
+        "term": "中井駅",
+        "type": "place",
+        "associations": [
+          "西武新宿線",
+          "大江戸線",
+          "改札"
+        ]
+      },
+      {
+        "term": "妙正寺川",
+        "type": "nature",
+        "associations": [
+          "流れ",
+          "桜",
+          "橋"
+        ]
+      },
+      {
+        "term": "林芙美子記念館",
+        "type": "place",
+        "associations": [
+          "文学",
+          "住宅",
+          "見学"
+        ]
+      },
+      {
+        "term": "商店街のアーケード",
+        "type": "architecture",
+        "associations": [
+          "屋根",
+          "店先",
+          "自転車"
+        ]
+      },
+      {
+        "term": "線路沿いの踏切",
+        "type": "place",
+        "associations": [
+          "警報音",
+          "遮断機",
+          "電車"
+        ]
+      },
+      {
+        "term": "団子坂",
+        "type": "place",
+        "associations": [
+          "坂道",
+          "石段",
+          "住宅"
+        ]
+      },
+      {
+        "term": "猫",
+        "type": "nature",
+        "associations": [
+          "路地",
+          "塀",
+          "昼寝"
+        ]
+      },
+      {
+        "term": "銭湯の煙突",
+        "type": "architecture",
+        "associations": [
+          "湯気",
+          "番台",
+          "下駄"
+        ]
+      }
+    ],
+    "association_source": "deepseek",
+    "image_source": "deepseek_grounded_in_candidate_names_and_anchors"
+  },
+  {
+    "area": "砂町銀座",
+    "aliases": [
+      "砂町銀座商店街",
+      "北砂",
+      "明治通り入口",
+      "丸八通り入口"
+    ],
+    "images": [
+      {
+        "term": "砂町銀座商店街のアーケード",
+        "type": "architecture",
+        "associations": [
+          "明治通り入口",
+          "丸八通り入口",
+          "夕方の買い物客"
+        ]
+      },
+      {
+        "term": "総菜屋の揚げ物",
+        "type": "food",
+        "associations": [
+          "コロッケ",
+          "紙袋",
+          "油の匂い"
+        ]
+      },
+      {
+        "term": "鮮魚店の氷",
+        "type": "object",
+        "associations": [
+          "発泡スチロール箱",
+          "朝の入荷",
+          "水浸しの床"
+        ]
+      },
+      {
+        "term": "自転車の荷台",
+        "type": "movement",
+        "associations": [
+          "買い物袋",
+          "路地",
+          "押し歩き"
+        ]
+      },
+      {
+        "term": "商店街の呼び込み",
+        "type": "sound",
+        "associations": [
+          "拡声器",
+          "日曜の昼",
+          "値引き"
+        ]
+      },
+      {
+        "term": "北砂の路地",
+        "type": "place",
+        "associations": [
+          "細い道",
+          "植木鉢",
+          "表札"
+        ]
+      },
+      {
+        "term": "祭りの神輿",
+        "type": "activity",
+        "associations": [
+          "担ぎ手",
+          "法被",
+          "掛け声"
+        ]
+      },
+      {
+        "term": "下町の銭湯",
+        "type": "place",
+        "associations": [
+          "煙突",
+          "番台",
+          "帰り道"
+        ]
+      }
+    ],
+    "association_source": "deepseek",
+    "image_source": "deepseek_grounded_in_candidate_names_and_anchors"
+  },
+  {
+    "area": "武蔵小山・パルム",
+    "aliases": [
+      "武蔵小山商店街パルム",
+      "武蔵小山駅周辺",
+      "武蔵小山駅",
+      "パルム商店街"
+    ],
+    "images": [
+      {
+        "term": "パルム商店街のアーケード",
+        "type": "architecture",
+        "associations": [
+          "武蔵小山駅",
+          "買い物客",
+          "日除け"
+        ]
+      },
+      {
+        "term": "武蔵小山駅の改札",
+        "type": "place",
+        "associations": [
+          "通勤客",
+          "自動改札",
+          "夕ラッシュ"
+        ]
+      },
+      {
+        "term": "商店街の青果店",
+        "type": "food",
+        "associations": [
+          "旬の野菜",
+          "値札",
+          "量り売り"
+        ]
+      },
+      {
+        "term": "パルムの路面店",
+        "type": "place",
+        "associations": [
+          "シャッター",
+          "看板",
+          "自転車"
+        ]
+      },
+      {
+        "term": "駅前の自転車置き場",
+        "type": "movement",
+        "associations": [
+          "通勤",
+          "駐輪",
+          "朝の混雑"
+        ]
+      },
+      {
+        "term": "商店街の呼び声",
+        "type": "sound",
+        "associations": [
+          "八百屋",
+          "拡声器",
+          "夕方"
+        ]
+      },
+      {
+        "term": "路地の飲み屋",
+        "type": "place",
+        "associations": [
+          "提灯",
+          "のれん",
+          "常連"
+        ]
+      },
+      {
+        "term": "買い物帰りの手さげ",
+        "type": "object",
+        "associations": [
+          "エコバッグ",
+          "駅までの道",
+          "重さ"
+        ]
+      }
+    ],
+    "association_source": "deepseek",
+    "image_source": "deepseek_grounded_in_candidate_names_and_anchors"
+  },
+  {
+    "area": "駒場",
+    "aliases": [
+      "駒場東大前",
+      "駒場公園周辺",
+      "駒場東大前駅",
+      "旧前田家本邸"
+    ],
+    "images": [
+      {
+        "term": "駒場東大前駅のホーム",
+        "type": "place",
+        "associations": [
+          "学生",
+          "井の頭線",
+          "朝の通学"
+        ]
+      },
+      {
+        "term": "旧前田家本邸の洋館",
+        "type": "architecture",
+        "associations": [
+          "駒場公園",
+          "赤レンガ",
+          "見学"
+        ]
+      },
+      {
+        "term": "駒場公園の芝生",
+        "type": "nature",
+        "associations": [
+          "散歩",
+          "ベンチ",
+          "木陰"
+        ]
+      },
+      {
+        "term": "キャンパスの銀杏並木",
+        "type": "nature",
+        "associations": [
+          "落ち葉",
+          "秋",
+          "学生"
+        ]
+      },
+      {
+        "term": "駒場の住宅街の生け垣",
+        "type": "place",
+        "associations": [
+          "坂道",
+          "表札",
+          "静かな通り"
+        ]
+      },
+      {
+        "term": "学生の自転車",
+        "type": "movement",
+        "associations": [
+          "キャンパス",
+          "坂",
+          "すれ違い"
+        ]
+      },
+      {
+        "term": "図書館の窓",
+        "type": "architecture",
+        "associations": [
+          "勉強",
+          "夕方",
+          "照明"
+        ]
+      },
+      {
+        "term": "駒場の坂道",
+        "type": "place",
+        "associations": [
+          "歩行者",
+          "階段",
+          "住宅"
+        ]
+      }
+    ],
+    "association_source": "deepseek",
+    "image_source": "deepseek_grounded_in_candidate_names_and_anchors"
+  },
+  {
+    "area": "大森",
+    "aliases": [
+      "大森海岸",
+      "大森海苔のふるさと館周辺",
+      "大森駅",
+      "大森海苔のふるさと館"
+    ],
+    "images": [
+      {
+        "term": "大森駅の東口",
+        "type": "place",
+        "associations": [
+          "通勤客",
+          "バス乗り場",
+          "商店街"
+        ]
+      },
+      {
+        "term": "大森海苔のふるさと館",
+        "type": "history",
+        "associations": [
+          "海苔養殖",
+          "展示",
+          "大森海岸"
+        ]
+      },
+      {
+        "term": "海苔の乾場",
+        "type": "activity",
+        "associations": [
+          "簀",
+          "干し海苔",
+          "浜辺"
+        ]
+      },
+      {
+        "term": "大森海岸の埋立地",
+        "type": "place",
+        "associations": [
+          "運河",
+          "工場",
+          "橋"
+        ]
+      },
+      {
+        "term": "海苔の香り",
+        "type": "food",
+        "associations": [
+          "焼き海苔",
+          "磯",
+          "弁当"
+        ]
+      },
+      {
+        "term": "大森の商店街",
+        "type": "place",
+        "associations": [
+          "アーケード",
+          "買い物",
+          "駅前"
+        ]
+      },
+      {
+        "term": "京浜運河の水音",
+        "type": "sound",
+        "associations": [
+          "波",
+          "船",
+          "岸壁"
+        ]
+      },
+      {
+        "term": "海苔すきの道具",
+        "type": "object",
+        "associations": [
+          "木枠",
+          "簀",
+          "職人"
+        ]
+      }
+    ],
+    "association_source": "deepseek",
+    "image_source": "deepseek_grounded_in_candidate_names_and_anchors"
+  }
+]

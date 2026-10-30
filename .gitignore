@@ -1,0 +1,6 @@
+node_modules/
+.env
+.npm-cache/
+data/selection-diagnostics.jsonl
+data/song-audio-features.json
+npm-debug.log*

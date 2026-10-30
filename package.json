@@ -1,0 +1,29 @@
+{
+  "name": "route-music-agent",
+  "version": "0.1.0",
+  "private": true,
+  "description": "根据路线时长生成网易云音乐播放清单的本地 MVP 后端",
+  "type": "module",
+  "scripts": {
+    "dev": "node src/server.js",
+    "start": "node src/server.js",
+    "test": "node --test test/pear-agent.test.js",
+    "netease": "NeteaseCloudMusicApi",
+    "audio:profile": "node scripts/profile-song-audio.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.6.1",
+    "express": "^5.1.0",
+    "mpg123-decoder": "^0.4.8",
+    "NeteaseCloudMusicApi": "^4.32.0",
+    "undici": "^7.16.0",
+    "zod": "^3.24.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}

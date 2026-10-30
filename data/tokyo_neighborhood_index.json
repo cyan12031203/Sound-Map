@@ -1,0 +1,1624 @@
+{
+  "version": 1,
+  "scope": "tokyo_23_wards",
+  "status": "candidate_index",
+  "geometry_note": "anchors are place-name lookup hints, not verified polygon boundaries or coordinates",
+  "areas": [
+    {
+      "id": "chiyoda-jimbocho",
+      "ward": [
+        "千代田区"
+      ],
+      "name": "神保町",
+      "aliases": [
+        "神田神保町",
+        "神保町駅周辺"
+      ],
+      "anchors": [
+        "神保町駅",
+        "すずらん通り"
+      ],
+      "imagery_area": "神保町"
+    },
+    {
+      "id": "chiyoda-ochanomizu",
+      "ward": [
+        "千代田区",
+        "文京区"
+      ],
+      "name": "御茶ノ水",
+      "aliases": [
+        "お茶の水",
+        "御茶の水",
+        "御茶ノ水駅周辺",
+        "神田駿河台"
+      ],
+      "anchors": [
+        "御茶ノ水駅",
+        "聖橋",
+        "神田川"
+      ],
+      "imagery_area": "御茶ノ水"
+    },
+    {
+      "id": "chiyoda-akihabara",
+      "ward": [
+        "千代田区"
+      ],
+      "name": "秋葉原",
+      "aliases": [
+        "秋葉原電気街",
+        "アキバ"
+      ],
+      "anchors": [
+        "秋葉原駅",
+        "中央通り"
+      ],
+      "imagery_area": "秋葉原"
+    },
+    {
+      "id": "chiyoda-marunouchi",
+      "ward": [
+        "千代田区"
+      ],
+      "name": "丸の内",
+      "aliases": [
+        "東京駅丸の内口",
+        "丸の内仲通り"
+      ],
+      "anchors": [
+        "東京駅丸の内口",
+        "丸の内仲通り"
+      ],
+      "imagery_area": "丸の内"
+    },
+    {
+      "id": "chuo-ginza",
+      "ward": [
+        "中央区"
+      ],
+      "name": "銀座",
+      "aliases": [
+        "銀座四丁目",
+        "銀座中央通り"
+      ],
+      "anchors": [
+        "銀座一丁目",
+        "銀座八丁目"
+      ],
+      "imagery_area": "銀座"
+    },
+    {
+      "id": "chuo-nihombashi",
+      "ward": [
+        "中央区"
+      ],
+      "name": "日本橋",
+      "aliases": [
+        "日本橋室町",
+        "日本橋本町"
+      ],
+      "anchors": [
+        "日本橋",
+        "コレド室町"
+      ],
+      "imagery_area": "日本橋"
+    },
+    {
+      "id": "chuo-tsukiji",
+      "ward": [
+        "中央区"
+      ],
+      "name": "築地",
+      "aliases": [
+        "築地場外市場",
+        "築地市場跡"
+      ],
+      "anchors": [
+        "築地駅",
+        "築地場外市場"
+      ],
+      "imagery_area": "築地"
+    },
+    {
+      "id": "chuo-tsukishima-tsukuda",
+      "ward": [
+        "中央区"
+      ],
+      "name": "月島・佃",
+      "aliases": [
+        "月島もんじゃストリート",
+        "佃島"
+      ],
+      "anchors": [
+        "月島駅",
+        "佃公園"
+      ],
+      "imagery_area": "月島・佃"
+    },
+    {
+      "id": "minato-roppongi",
+      "ward": [
+        "港区"
+      ],
+      "name": "六本木",
+      "aliases": [
+        "六本木交差点",
+        "六本木ヒルズ周辺"
+      ],
+      "anchors": [
+        "六本木交差点",
+        "東京ミッドタウン"
+      ],
+      "imagery_area": "六本木"
+    },
+    {
+      "id": "minato-azabujuban",
+      "ward": [
+        "港区"
+      ],
+      "name": "麻布十番",
+      "aliases": [
+        "麻布十番商店街",
+        "麻布十番駅周辺"
+      ],
+      "anchors": [
+        "麻布十番駅",
+        "麻布十番商店街"
+      ],
+      "imagery_area": "麻布十番"
+    },
+    {
+      "id": "minato-toranomon-shiba",
+      "ward": [
+        "港区"
+      ],
+      "name": "虎ノ門・芝",
+      "aliases": [
+        "芝公園",
+        "増上寺大門"
+      ],
+      "anchors": [
+        "虎ノ門駅",
+        "増上寺大門"
+      ],
+      "imagery_area": "虎ノ門・芝"
+    },
+    {
+      "id": "minato-akasaka",
+      "ward": [
+        "港区"
+      ],
+      "name": "赤坂",
+      "aliases": [
+        "赤坂見附",
+        "赤坂サカス周辺"
+      ],
+      "anchors": [
+        "赤坂見附駅",
+        "赤坂サカス"
+      ],
+      "imagery_area": "赤坂"
+    },
+    {
+      "id": "shinjuku-kagurazaka",
+      "ward": [
+        "新宿区"
+      ],
+      "name": "神楽坂",
+      "aliases": [
+        "神楽坂通り",
+        "兵庫横丁"
+      ],
+      "anchors": [
+        "神楽坂駅",
+        "兵庫横丁",
+        "飯田橋駅"
+      ],
+      "imagery_area": "神楽坂"
+    },
+    {
+      "id": "shinjuku-shinjuku3-golden-gai",
+      "ward": [
+        "新宿区"
+      ],
+      "name": "新宿三丁目・ゴールデン街",
+      "aliases": [
+        "新宿ゴールデン街",
+        "歌舞伎町一丁目"
+      ],
+      "anchors": [
+        "新宿三丁目駅",
+        "ゴールデン街",
+        "花園神社"
+      ],
+      "imagery_area": "新宿三丁目・ゴールデン街"
+    },
+    {
+      "id": "shinjuku-okubo-shinokubo",
+      "ward": [
+        "新宿区"
+      ],
+      "name": "大久保・新大久保",
+      "aliases": [
+        "新大久保コリアンタウン",
+        "大久保通り"
+      ],
+      "anchors": [
+        "新大久保駅",
+        "大久保駅"
+      ],
+      "imagery_area": "大久保・新大久保"
+    },
+    {
+      "id": "shinjuku-yotsuya-arakicho",
+      "ward": [
+        "新宿区"
+      ],
+      "name": "四谷荒木町",
+      "aliases": [
+        "荒木町",
+        "車力門通り"
+      ],
+      "anchors": [
+        "四谷三丁目駅",
+        "車力門通り"
+      ],
+      "imagery_area": "四谷荒木町"
+    },
+    {
+      "id": "bunkyo-nezu",
+      "ward": [
+        "文京区"
+      ],
+      "name": "根津",
+      "aliases": [
+        "根津神社周辺",
+        "根津一丁目"
+      ],
+      "anchors": [
+        "根津駅",
+        "根津神社"
+      ],
+      "imagery_area": "根津"
+    },
+    {
+      "id": "bunkyo-hongo",
+      "ward": [
+        "文京区"
+      ],
+      "name": "本郷",
+      "aliases": [
+        "本郷三丁目",
+        "東京大学本郷キャンパス周辺"
+      ],
+      "anchors": [
+        "本郷三丁目駅",
+        "東京大学赤門"
+      ],
+      "imagery_area": "本郷"
+    },
+    {
+      "id": "bunkyo-koishikawa-myogadani",
+      "ward": [
+        "文京区"
+      ],
+      "name": "小石川・茗荷谷",
+      "aliases": [
+        "茗荷谷",
+        "播磨坂"
+      ],
+      "anchors": [
+        "茗荷谷駅",
+        "播磨坂"
+      ],
+      "imagery_area": "小石川・茗荷谷"
+    },
+    {
+      "id": "bunkyo-hakusan",
+      "ward": [
+        "文京区"
+      ],
+      "name": "白山",
+      "aliases": [
+        "白山神社周辺",
+        "白山通り"
+      ],
+      "anchors": [
+        "白山駅",
+        "白山神社"
+      ],
+      "imagery_area": "白山"
+    },
+    {
+      "id": "taito-yanaka",
+      "ward": [
+        "台東区"
+      ],
+      "name": "谷中",
+      "aliases": [
+        "谷中銀座",
+        "夕焼けだんだん"
+      ],
+      "anchors": [
+        "日暮里駅西口",
+        "夕焼けだんだん",
+        "谷中銀座"
+      ],
+      "imagery_area": "谷中"
+    },
+    {
+      "id": "taito-asakusa",
+      "ward": [
+        "台東区"
+      ],
+      "name": "浅草",
+      "aliases": [
+        "浅草寺周辺",
+        "仲見世通り"
+      ],
+      "anchors": [
+        "雷門",
+        "仲見世通り",
+        "浅草寺"
+      ],
+      "imagery_area": "浅草"
+    },
+    {
+      "id": "taito-ueno-ameyoko",
+      "ward": [
+        "台東区"
+      ],
+      "name": "上野・アメ横",
+      "aliases": [
+        "アメヤ横丁",
+        "アメ横商店街"
+      ],
+      "anchors": [
+        "上野駅",
+        "御徒町駅",
+        "アメ横"
+      ],
+      "imagery_area": "上野・アメ横"
+    },
+    {
+      "id": "taito-kuramae",
+      "ward": [
+        "台東区"
+      ],
+      "name": "蔵前",
+      "aliases": [
+        "蔵前駅周辺",
+        "蔵前橋通り"
+      ],
+      "anchors": [
+        "蔵前駅",
+        "蔵前橋通り"
+      ],
+      "imagery_area": "蔵前"
+    },
+    {
+      "id": "sumida-ryogoku",
+      "ward": [
+        "墨田区"
+      ],
+      "name": "両国",
+      "aliases": [
+        "両国国技館周辺",
+        "両国駅周辺"
+      ],
+      "anchors": [
+        "両国駅",
+        "両国国技館"
+      ],
+      "imagery_area": "両国"
+    },
+    {
+      "id": "sumida-oshiage",
+      "ward": [
+        "墨田区"
+      ],
+      "name": "押上",
+      "aliases": [
+        "東京スカイツリータウン",
+        "押上駅周辺"
+      ],
+      "anchors": [
+        "押上駅",
+        "東京スカイツリー"
+      ],
+      "imagery_area": "押上"
+    },
+    {
+      "id": "sumida-mukojima-hatononomachi",
+      "ward": [
+        "墨田区"
+      ],
+      "name": "向島・鳩の街",
+      "aliases": [
+        "鳩の街通り",
+        "向島百花園周辺"
+      ],
+      "anchors": [
+        "向島百花園",
+        "鳩の街通り"
+      ],
+      "imagery_area": "向島・鳩の街"
+    },
+    {
+      "id": "sumida-kinshicho",
+      "ward": [
+        "墨田区"
+      ],
+      "name": "錦糸町",
+      "aliases": [
+        "錦糸町駅周辺",
+        "北斎通り"
+      ],
+      "anchors": [
+        "錦糸町駅",
+        "北斎通り"
+      ],
+      "imagery_area": "錦糸町"
+    },
+    {
+      "id": "koto-kiyosumishirakawa",
+      "ward": [
+        "江東区"
+      ],
+      "name": "清澄白河",
+      "aliases": [
+        "清澄",
+        "清澄庭園周辺"
+      ],
+      "anchors": [
+        "清澄白河駅",
+        "清澄庭園"
+      ],
+      "imagery_area": "清澄白河"
+    },
+    {
+      "id": "koto-monzen-nakacho-fukagawa",
+      "ward": [
+        "江東区"
+      ],
+      "name": "門前仲町・深川",
+      "aliases": [
+        "深川",
+        "富岡八幡宮周辺"
+      ],
+      "anchors": [
+        "門前仲町駅",
+        "富岡八幡宮",
+        "深川不動堂"
+      ],
+      "imagery_area": "門前仲町・深川"
+    },
+    {
+      "id": "koto-kameido",
+      "ward": [
+        "江東区"
+      ],
+      "name": "亀戸",
+      "aliases": [
+        "亀戸天神周辺",
+        "亀戸駅周辺"
+      ],
+      "anchors": [
+        "亀戸駅",
+        "亀戸天神社"
+      ],
+      "imagery_area": "亀戸"
+    },
+    {
+      "id": "koto-toyosu",
+      "ward": [
+        "江東区"
+      ],
+      "name": "豊洲",
+      "aliases": [
+        "豊洲駅周辺",
+        "豊洲ぐるり公園"
+      ],
+      "anchors": [
+        "豊洲駅",
+        "豊洲ぐるり公園"
+      ],
+      "imagery_area": "豊洲"
+    },
+    {
+      "id": "shinagawa-togoshiginza",
+      "ward": [
+        "品川区"
+      ],
+      "name": "戸越銀座",
+      "aliases": [
+        "戸越銀座商店街",
+        "戸越銀座駅周辺"
+      ],
+      "anchors": [
+        "戸越銀座駅",
+        "戸越銀座商店街"
+      ],
+      "imagery_area": "戸越銀座"
+    },
+    {
+      "id": "shinagawa-kitashinagawa",
+      "ward": [
+        "品川区"
+      ],
+      "name": "北品川・旧東海道",
+      "aliases": [
+        "北品川商店街",
+        "旧東海道品川宿"
+      ],
+      "anchors": [
+        "新馬場駅",
+        "品川神社"
+      ],
+      "imagery_area": "北品川・旧東海道"
+    },
+    {
+      "id": "shinagawa-oimachi",
+      "ward": [
+        "品川区"
+      ],
+      "name": "大井町",
+      "aliases": [
+        "大井町駅周辺",
+        "東小路"
+      ],
+      "anchors": [
+        "大井町駅",
+        "東小路"
+      ],
+      "imagery_area": "大井町"
+    },
+    {
+      "id": "shinagawa-tennozu",
+      "ward": [
+        "品川区"
+      ],
+      "name": "天王洲アイル",
+      "aliases": [
+        "天王洲",
+        "天王洲運河"
+      ],
+      "anchors": [
+        "天王洲アイル駅",
+        "天王洲運河"
+      ],
+      "imagery_area": "天王洲アイル"
+    },
+    {
+      "id": "meguro-nakameguro",
+      "ward": [
+        "目黒区"
+      ],
+      "name": "中目黒",
+      "aliases": [
+        "目黒川沿い",
+        "中目黒駅周辺"
+      ],
+      "anchors": [
+        "中目黒駅",
+        "目黒川"
+      ],
+      "imagery_area": "中目黒"
+    },
+    {
+      "id": "meguro-jiyugaoka",
+      "ward": [
+        "目黒区"
+      ],
+      "name": "自由が丘",
+      "aliases": [
+        "自由ヶ丘",
+        "自由が丘駅周辺"
+      ],
+      "anchors": [
+        "自由が丘駅",
+        "九品仏川緑道"
+      ],
+      "imagery_area": "自由が丘"
+    },
+    {
+      "id": "meguro-gakugeidaigaku",
+      "ward": [
+        "目黒区"
+      ],
+      "name": "学芸大学",
+      "aliases": [
+        "学芸大学駅周辺",
+        "学大"
+      ],
+      "anchors": [
+        "学芸大学駅",
+        "東口商店街"
+      ],
+      "imagery_area": "学芸大学"
+    },
+    {
+      "id": "meguro-megurofudoson",
+      "ward": [
+        "目黒区"
+      ],
+      "name": "目黒不動前",
+      "aliases": [
+        "目黒不動尊",
+        "瀧泉寺周辺"
+      ],
+      "anchors": [
+        "不動前駅",
+        "目黒不動尊"
+      ],
+      "imagery_area": "目黒不動前"
+    },
+    {
+      "id": "ota-kamata",
+      "ward": [
+        "大田区"
+      ],
+      "name": "蒲田",
+      "aliases": [
+        "蒲田駅周辺",
+        "蒲田東口商店街"
+      ],
+      "anchors": [
+        "蒲田駅",
+        "サンライズ蒲田"
+      ],
+      "imagery_area": "蒲田"
+    },
+    {
+      "id": "ota-ikegami",
+      "ward": [
+        "大田区"
+      ],
+      "name": "池上",
+      "aliases": [
+        "池上本門寺周辺",
+        "池上駅周辺"
+      ],
+      "anchors": [
+        "池上駅",
+        "池上本門寺"
+      ],
+      "imagery_area": "池上"
+    },
+    {
+      "id": "ota-haneda-anamori",
+      "ward": [
+        "大田区"
+      ],
+      "name": "羽田・穴守稲荷",
+      "aliases": [
+        "羽田穴守町",
+        "穴守稲荷神社周辺"
+      ],
+      "anchors": [
+        "穴守稲荷駅",
+        "穴守稲荷神社"
+      ],
+      "imagery_area": "羽田・穴守稲荷"
+    },
+    {
+      "id": "ota-senzokuike",
+      "ward": [
+        "大田区"
+      ],
+      "name": "洗足池",
+      "aliases": [
+        "洗足池公園周辺",
+        "洗足池駅周辺"
+      ],
+      "anchors": [
+        "洗足池駅",
+        "洗足池公園"
+      ],
+      "imagery_area": "洗足池"
+    },
+    {
+      "id": "setagaya-shimokitazawa",
+      "ward": [
+        "世田谷区"
+      ],
+      "name": "下北沢",
+      "aliases": [
+        "下北",
+        "シモキタ",
+        "下北沢一番街"
+      ],
+      "anchors": [
+        "下北沢駅",
+        "下北沢一番街"
+      ],
+      "imagery_area": "下北沢"
+    },
+    {
+      "id": "setagaya-sangenjaya",
+      "ward": [
+        "世田谷区"
+      ],
+      "name": "三軒茶屋・三角地帯",
+      "aliases": [
+        "三軒茶屋",
+        "三角地帯"
+      ],
+      "anchors": [
+        "三軒茶屋駅",
+        "三角地帯"
+      ],
+      "imagery_area": "三軒茶屋・三角地帯"
+    },
+    {
+      "id": "setagaya-gotokuji-shoin",
+      "ward": [
+        "世田谷区"
+      ],
+      "name": "豪徳寺・松陰神社前",
+      "aliases": [
+        "豪徳寺",
+        "松陰神社通り"
+      ],
+      "anchors": [
+        "豪徳寺駅",
+        "松陰神社前駅"
+      ],
+      "imagery_area": "豪徳寺・松陰神社前"
+    },
+    {
+      "id": "setagaya-futako-tamagawa",
+      "ward": [
+        "世田谷区"
+      ],
+      "name": "二子玉川",
+      "aliases": [
+        "二子玉川駅周辺",
+        "二子玉川ライズ"
+      ],
+      "anchors": [
+        "二子玉川駅",
+        "多摩川河川敷"
+      ],
+      "imagery_area": "二子玉川"
+    },
+    {
+      "id": "shibuya-shibuya-dogenzaka",
+      "ward": [
+        "渋谷区"
+      ],
+      "name": "渋谷・道玄坂",
+      "aliases": [
+        "渋谷センター街",
+        "道玄坂"
+      ],
+      "anchors": [
+        "渋谷スクランブル交差点",
+        "道玄坂"
+      ],
+      "imagery_area": "渋谷・道玄坂"
+    },
+    {
+      "id": "shibuya-harajuku-takeshita",
+      "ward": [
+        "渋谷区"
+      ],
+      "name": "原宿・竹下通り",
+      "aliases": [
+        "竹下通り",
+        "原宿駅周辺"
+      ],
+      "anchors": [
+        "原宿駅",
+        "竹下通り"
+      ],
+      "imagery_area": "原宿・竹下通り"
+    },
+    {
+      "id": "shibuya-omotesando-catstreet",
+      "ward": [
+        "渋谷区",
+        "港区"
+      ],
+      "name": "表参道・キャットストリート",
+      "aliases": [
+        "キャットストリート",
+        "表参道"
+      ],
+      "anchors": [
+        "明治神宮前駅",
+        "キャットストリート",
+        "表参道交差点"
+      ],
+      "imagery_area": "表参道・キャットストリート"
+    },
+    {
+      "id": "shibuya-daikanyama",
+      "ward": [
+        "渋谷区"
+      ],
+      "name": "代官山",
+      "aliases": [
+        "代官山駅周辺",
+        "旧山手通り"
+      ],
+      "anchors": [
+        "代官山駅",
+        "旧山手通り"
+      ],
+      "imagery_area": "代官山"
+    },
+    {
+      "id": "nakano-nakano-sunmall-broadway",
+      "ward": [
+        "中野区"
+      ],
+      "name": "中野サンモール・ブロードウェイ",
+      "aliases": [
+        "中野ブロードウェイ",
+        "中野サンモール"
+      ],
+      "anchors": [
+        "中野駅北口",
+        "中野ブロードウェイ"
+      ],
+      "imagery_area": "中野サンモール・ブロードウェイ"
+    },
+    {
+      "id": "nakano-araiyakushi",
+      "ward": [
+        "中野区"
+      ],
+      "name": "新井薬師",
+      "aliases": [
+        "新井薬師前",
+        "薬師あいロード"
+      ],
+      "anchors": [
+        "新井薬師前駅",
+        "新井薬師梅照院"
+      ],
+      "imagery_area": "新井薬師"
+    },
+    {
+      "id": "nakano-numabukuro",
+      "ward": [
+        "中野区"
+      ],
+      "name": "沼袋",
+      "aliases": [
+        "沼袋駅周辺",
+        "沼袋商店街"
+      ],
+      "anchors": [
+        "沼袋駅",
+        "沼袋氷川神社"
+      ],
+      "imagery_area": "沼袋"
+    },
+    {
+      "id": "nakano-nogata",
+      "ward": [
+        "中野区"
+      ],
+      "name": "野方",
+      "aliases": [
+        "野方駅周辺",
+        "野方商店街"
+      ],
+      "anchors": [
+        "野方駅",
+        "野方文化マーケット"
+      ],
+      "imagery_area": "野方"
+    },
+    {
+      "id": "suginami-koenji",
+      "ward": [
+        "杉並区"
+      ],
+      "name": "高円寺",
+      "aliases": [
+        "高円寺駅周辺",
+        "高円寺パル",
+        "高円寺ルック"
+      ],
+      "anchors": [
+        "高円寺駅",
+        "高円寺PAL商店街",
+        "高円寺ルック商店街"
+      ],
+      "imagery_area": "高円寺"
+    },
+    {
+      "id": "suginami-asagaya",
+      "ward": [
+        "杉並区"
+      ],
+      "name": "阿佐ヶ谷",
+      "aliases": [
+        "阿佐谷",
+        "阿佐ヶ谷パールセンター"
+      ],
+      "anchors": [
+        "阿佐ヶ谷駅",
+        "阿佐ヶ谷パールセンター"
+      ],
+      "imagery_area": "阿佐ヶ谷"
+    },
+    {
+      "id": "suginami-ogikubo",
+      "ward": [
+        "杉並区"
+      ],
+      "name": "荻窪",
+      "aliases": [
+        "荻窪駅周辺",
+        "荻窪南口仲通り"
+      ],
+      "anchors": [
+        "荻窪駅",
+        "荻窪南口仲通り"
+      ],
+      "imagery_area": "荻窪"
+    },
+    {
+      "id": "suginami-nishiogikubo",
+      "ward": [
+        "杉並区"
+      ],
+      "name": "西荻窪",
+      "aliases": [
+        "西荻窪駅周辺",
+        "西荻"
+      ],
+      "anchors": [
+        "西荻窪駅",
+        "西荻南口商店街"
+      ],
+      "imagery_area": "西荻窪"
+    },
+    {
+      "id": "toshima-ikebukuro-east",
+      "ward": [
+        "豊島区"
+      ],
+      "name": "池袋東口・乙女ロード",
+      "aliases": [
+        "池袋東口",
+        "乙女ロード"
+      ],
+      "anchors": [
+        "池袋駅東口",
+        "乙女ロード"
+      ],
+      "imagery_area": "池袋東口・乙女ロード"
+    },
+    {
+      "id": "toshima-ikebukuro-west",
+      "ward": [
+        "豊島区"
+      ],
+      "name": "池袋西口",
+      "aliases": [
+        "池袋西口繁華街",
+        "西池袋"
+      ],
+      "anchors": [
+        "池袋駅西口",
+        "立教通り"
+      ],
+      "imagery_area": "池袋西口"
+    },
+    {
+      "id": "toshima-sugamo",
+      "ward": [
+        "豊島区"
+      ],
+      "name": "巣鴨地蔵通り",
+      "aliases": [
+        "巣鴨",
+        "巣鴨地蔵通商店街"
+      ],
+      "anchors": [
+        "巣鴨駅",
+        "高岩寺"
+      ],
+      "imagery_area": "巣鴨地蔵通り"
+    },
+    {
+      "id": "toshima-zoshigaya",
+      "ward": [
+        "豊島区"
+      ],
+      "name": "雑司が谷",
+      "aliases": [
+        "鬼子母神",
+        "雑司ヶ谷"
+      ],
+      "anchors": [
+        "雑司が谷駅",
+        "鬼子母神堂"
+      ],
+      "imagery_area": "雑司が谷"
+    },
+    {
+      "id": "kita-akabane",
+      "ward": [
+        "北区"
+      ],
+      "name": "赤羽",
+      "aliases": [
+        "赤羽一番街",
+        "OK横丁"
+      ],
+      "anchors": [
+        "赤羽駅東口",
+        "赤羽一番街"
+      ],
+      "imagery_area": "赤羽"
+    },
+    {
+      "id": "kita-jujo",
+      "ward": [
+        "北区"
+      ],
+      "name": "十条銀座",
+      "aliases": [
+        "十条銀座商店街",
+        "十条駅周辺"
+      ],
+      "anchors": [
+        "十条駅",
+        "十条銀座商店街"
+      ],
+      "imagery_area": "十条銀座"
+    },
+    {
+      "id": "kita-oji-asukayama",
+      "ward": [
+        "北区"
+      ],
+      "name": "王子・飛鳥山",
+      "aliases": [
+        "飛鳥山公園",
+        "王子駅周辺"
+      ],
+      "anchors": [
+        "王子駅",
+        "飛鳥山公園"
+      ],
+      "imagery_area": "王子・飛鳥山"
+    },
+    {
+      "id": "kita-tabata",
+      "ward": [
+        "北区"
+      ],
+      "name": "田端",
+      "aliases": [
+        "田端文士村",
+        "田端駅周辺"
+      ],
+      "anchors": [
+        "田端駅",
+        "田端文士村記念館"
+      ],
+      "imagery_area": "田端"
+    },
+    {
+      "id": "arakawa-nippori-textile",
+      "ward": [
+        "荒川区"
+      ],
+      "name": "日暮里繊維街",
+      "aliases": [
+        "日暮里中央通り",
+        "日暮里繊維問屋街"
+      ],
+      "anchors": [
+        "日暮里駅",
+        "日暮里中央通り"
+      ],
+      "imagery_area": "日暮里繊維街"
+    },
+    {
+      "id": "arakawa-machiya",
+      "ward": [
+        "荒川区"
+      ],
+      "name": "町屋",
+      "aliases": [
+        "町屋駅周辺",
+        "町屋斎場周辺"
+      ],
+      "anchors": [
+        "町屋駅",
+        "尾竹橋通り"
+      ],
+      "imagery_area": "町屋"
+    },
+    {
+      "id": "arakawa-minowa",
+      "ward": [
+        "荒川区",
+        "台東区"
+      ],
+      "name": "三ノ輪・ジョイフル三ノ輪",
+      "aliases": [
+        "ジョイフル三の輪",
+        "三ノ輪橋"
+      ],
+      "anchors": [
+        "三ノ輪橋停留場",
+        "ジョイフル三ノ輪"
+      ],
+      "imagery_area": "三ノ輪・ジョイフル三ノ輪"
+    },
+    {
+      "id": "arakawa-oku-arakawayuen",
+      "ward": [
+        "荒川区"
+      ],
+      "name": "尾久・荒川遊園",
+      "aliases": [
+        "あらかわ遊園",
+        "荒川遊園地前"
+      ],
+      "anchors": [
+        "荒川遊園地前停留場",
+        "あらかわ遊園"
+      ],
+      "imagery_area": "尾久・荒川遊園"
+    },
+    {
+      "id": "itabashi-oyama",
+      "ward": [
+        "板橋区"
+      ],
+      "name": "大山",
+      "aliases": [
+        "ハッピーロード大山",
+        "大山駅周辺"
+      ],
+      "anchors": [
+        "大山駅",
+        "ハッピーロード大山"
+      ],
+      "imagery_area": "大山"
+    },
+    {
+      "id": "itabashi-itabashi-juku",
+      "ward": [
+        "板橋区"
+      ],
+      "name": "板橋宿・仲宿",
+      "aliases": [
+        "仲宿商店街",
+        "旧中山道板橋宿"
+      ],
+      "anchors": [
+        "板橋本町駅",
+        "仲宿商店街"
+      ],
+      "imagery_area": "板橋宿・仲宿"
+    },
+    {
+      "id": "itabashi-takashimadaira",
+      "ward": [
+        "板橋区"
+      ],
+      "name": "高島平",
+      "aliases": [
+        "高島平団地",
+        "高島平駅周辺"
+      ],
+      "anchors": [
+        "高島平駅",
+        "高島平団地"
+      ],
+      "imagery_area": "高島平"
+    },
+    {
+      "id": "itabashi-tokiwadai",
+      "ward": [
+        "板橋区"
+      ],
+      "name": "常盤台",
+      "aliases": [
+        "ときわ台",
+        "常盤台住宅地"
+      ],
+      "anchors": [
+        "ときわ台駅",
+        "常盤台住宅地"
+      ],
+      "imagery_area": "常盤台"
+    },
+    {
+      "id": "nerima-ekoda",
+      "ward": [
+        "練馬区"
+      ],
+      "name": "江古田",
+      "aliases": [
+        "江古田駅周辺",
+        "江古田ゆうゆうロード"
+      ],
+      "anchors": [
+        "江古田駅",
+        "江古田ゆうゆうロード"
+      ],
+      "imagery_area": "江古田"
+    },
+    {
+      "id": "nerima-nerima",
+      "ward": [
+        "練馬区"
+      ],
+      "name": "練馬駅周辺",
+      "aliases": [
+        "練馬",
+        "練馬駅前商店街"
+      ],
+      "anchors": [
+        "練馬駅",
+        "練馬駅前商店街"
+      ],
+      "imagery_area": "練馬駅周辺"
+    },
+    {
+      "id": "nerima-shakujii-koen",
+      "ward": [
+        "練馬区"
+      ],
+      "name": "石神井公園",
+      "aliases": [
+        "石神井池",
+        "石神井公園駅周辺"
+      ],
+      "anchors": [
+        "石神井公園駅",
+        "石神井池"
+      ],
+      "imagery_area": "石神井公園"
+    },
+    {
+      "id": "nerima-oizumigakuen",
+      "ward": [
+        "練馬区"
+      ],
+      "name": "大泉学園",
+      "aliases": [
+        "大泉学園駅周辺",
+        "ゆめーてる商店街"
+      ],
+      "anchors": [
+        "大泉学園駅",
+        "ゆめーてる商店街"
+      ],
+      "imagery_area": "大泉学園"
+    },
+    {
+      "id": "adachi-kitasenju",
+      "ward": [
+        "足立区"
+      ],
+      "name": "北千住",
+      "aliases": [
+        "北千住駅周辺",
+        "宿場町通り"
+      ],
+      "anchors": [
+        "北千住駅",
+        "宿場町通り"
+      ],
+      "imagery_area": "北千住"
+    },
+    {
+      "id": "adachi-nishiarai",
+      "ward": [
+        "足立区"
+      ],
+      "name": "西新井大師",
+      "aliases": [
+        "西新井大師参道",
+        "總持寺周辺"
+      ],
+      "anchors": [
+        "大師前駅",
+        "西新井大師"
+      ],
+      "imagery_area": "西新井大師"
+    },
+    {
+      "id": "adachi-ayase",
+      "ward": [
+        "足立区"
+      ],
+      "name": "綾瀬",
+      "aliases": [
+        "綾瀬駅周辺",
+        "綾瀬商店街"
+      ],
+      "anchors": [
+        "綾瀬駅",
+        "綾瀬川沿い"
+      ],
+      "imagery_area": "綾瀬"
+    },
+    {
+      "id": "adachi-takenotsuka",
+      "ward": [
+        "足立区"
+      ],
+      "name": "竹ノ塚",
+      "aliases": [
+        "竹の塚",
+        "竹ノ塚駅周辺"
+      ],
+      "anchors": [
+        "竹ノ塚駅",
+        "竹の塚東口商店街"
+      ],
+      "imagery_area": "竹ノ塚"
+    },
+    {
+      "id": "katsushika-shibamata",
+      "ward": [
+        "葛飾区"
+      ],
+      "name": "柴又",
+      "aliases": [
+        "柴又帝釈天参道",
+        "帝釈天参道"
+      ],
+      "anchors": [
+        "柴又駅",
+        "柴又帝釈天"
+      ],
+      "imagery_area": "柴又"
+    },
+    {
+      "id": "katsushika-tateishi",
+      "ward": [
+        "葛飾区"
+      ],
+      "name": "立石",
+      "aliases": [
+        "立石仲見世",
+        "京成立石駅周辺"
+      ],
+      "anchors": [
+        "京成立石駅",
+        "立石仲見世商店街"
+      ],
+      "imagery_area": "立石"
+    },
+    {
+      "id": "katsushika-kameari",
+      "ward": [
+        "葛飾区"
+      ],
+      "name": "亀有",
+      "aliases": [
+        "亀有駅周辺",
+        "ゆうろーど"
+      ],
+      "anchors": [
+        "亀有駅",
+        "亀有ゆうろーど"
+      ],
+      "imagery_area": "亀有"
+    },
+    {
+      "id": "edogawa-koiwa",
+      "ward": [
+        "江戸川区"
+      ],
+      "name": "小岩",
+      "aliases": [
+        "小岩駅周辺",
+        "昭和通り商店街"
+      ],
+      "anchors": [
+        "小岩駅",
+        "昭和通り商店街"
+      ],
+      "imagery_area": "小岩"
+    },
+    {
+      "id": "edogawa-kasai",
+      "ward": [
+        "江戸川区"
+      ],
+      "name": "葛西",
+      "aliases": [
+        "葛西駅周辺",
+        "地下鉄博物館周辺"
+      ],
+      "anchors": [
+        "葛西駅",
+        "地下鉄博物館"
+      ],
+      "imagery_area": "葛西"
+    },
+    {
+      "id": "edogawa-funabori",
+      "ward": [
+        "江戸川区"
+      ],
+      "name": "船堀",
+      "aliases": [
+        "船堀駅周辺",
+        "新川"
+      ],
+      "anchors": [
+        "船堀駅",
+        "新川千本桜"
+      ],
+      "imagery_area": "船堀"
+    },
+    {
+      "id": "edogawa-hirai",
+      "ward": [
+        "江戸川区"
+      ],
+      "name": "平井",
+      "aliases": [
+        "平井駅周辺",
+        "平井親和会商店街"
+      ],
+      "anchors": [
+        "平井駅",
+        "平井親和会商店街"
+      ],
+      "imagery_area": "平井"
+    },
+    {
+      "id": "edogawa-kasairinkai",
+      "ward": [
+        "江戸川区"
+      ],
+      "name": "葛西臨海公園",
+      "aliases": [
+        "葛西臨海公園駅",
+        "葛西臨海公園周辺"
+      ],
+      "anchors": [
+        "葛西臨海公園駅",
+        "葛西臨海水族園"
+      ],
+      "imagery_area": "葛西臨海公園"
+    },
+    {
+      "id": "chiyoda-kanda-sudacho",
+      "ward": [
+        "千代田区"
+      ],
+      "name": "神田須田町・淡路町",
+      "aliases": [
+        "須田町",
+        "淡路町"
+      ],
+      "anchors": [
+        "万世橋",
+        "淡路町駅"
+      ],
+      "imagery_area": "神田須田町・淡路町"
+    },
+    {
+      "id": "chuo-ningyocho-amazakeyokocho",
+      "ward": [
+        "中央区"
+      ],
+      "name": "人形町・甘酒横丁",
+      "aliases": [
+        "甘酒横丁",
+        "人形町商店街"
+      ],
+      "anchors": [
+        "人形町駅",
+        "甘酒横丁"
+      ],
+      "imagery_area": "人形町・甘酒横丁"
+    },
+    {
+      "id": "minato-shimbashi-karasumori",
+      "ward": [
+        "港区"
+      ],
+      "name": "新橋・烏森通り",
+      "aliases": [
+        "烏森通り",
+        "新橋駅西口"
+      ],
+      "anchors": [
+        "新橋駅",
+        "烏森神社"
+      ],
+      "imagery_area": "新橋・烏森通り"
+    },
+    {
+      "id": "shinjuku-ochiai-nakai",
+      "ward": [
+        "新宿区"
+      ],
+      "name": "落合・中井",
+      "aliases": [
+        "中井駅周辺",
+        "妙正寺川沿い"
+      ],
+      "anchors": [
+        "中井駅",
+        "林芙美子記念館"
+      ],
+      "imagery_area": "落合・中井"
+    },
+    {
+      "id": "koto-sunamachi-ginza",
+      "ward": [
+        "江東区"
+      ],
+      "name": "砂町銀座",
+      "aliases": [
+        "砂町銀座商店街",
+        "北砂"
+      ],
+      "anchors": [
+        "明治通り入口",
+        "丸八通り入口"
+      ],
+      "imagery_area": "砂町銀座"
+    },
+    {
+      "id": "shinagawa-musashikoyama-palm",
+      "ward": [
+        "品川区"
+      ],
+      "name": "武蔵小山・パルム",
+      "aliases": [
+        "武蔵小山商店街パルム",
+        "武蔵小山駅周辺"
+      ],
+      "anchors": [
+        "武蔵小山駅",
+        "パルム商店街"
+      ],
+      "imagery_area": "武蔵小山・パルム"
+    },
+    {
+      "id": "meguro-komaba",
+      "ward": [
+        "目黒区"
+      ],
+      "name": "駒場",
+      "aliases": [
+        "駒場東大前",
+        "駒場公園周辺"
+      ],
+      "anchors": [
+        "駒場東大前駅",
+        "旧前田家本邸"
+      ],
+      "imagery_area": "駒場"
+    },
+    {
+      "id": "ota-omori",
+      "ward": [
+        "大田区"
+      ],
+      "name": "大森",
+      "aliases": [
+        "大森海岸",
+        "大森海苔のふるさと館周辺"
+      ],
+      "anchors": [
+        "大森駅",
+        "大森海苔のふるさと館"
+      ],
+      "imagery_area": "大森"
+    }
+  ]
+}

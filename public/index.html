@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="theme-color" content="#dce59d" />
+    <title>Sound-Map</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <main class="demo-canvas" id="sound-map-app">
+      <canvas class="landscape-particles mobile-ambient-background" aria-hidden="true"></canvas>
+      <div class="screen-deck">
+        <section class="app-screen route-screen is-active" data-screen="route" aria-label="Sound-Map 路线设置">
+          <canvas class="landscape-particles" aria-hidden="true"></canvas>
+          <div class="screen-content">
+            <div class="status-bar" aria-hidden="true">
+              <span>9:41</span>
+              <span class="system-icons">
+                <svg viewBox="0 0 24 18"><path d="M2 16h3V11H2zm5 0h3V8H7zm5 0h3V5h-3zm5 0h3V2h-3z"/></svg>
+                <svg viewBox="0 0 24 18"><path d="M2 6.5C7.8 1.2 16.2 1.2 22 6.5l-2.2 2.3a11.2 11.2 0 0 0-15.6 0zM6 10.5a8.5 8.5 0 0 1 12 0l-2.3 2.3a5.2 5.2 0 0 0-7.4 0zM10 14.5a2.8 2.8 0 0 1 4 0L12 17z"/></svg>
+                <svg class="battery" viewBox="0 0 30 16"><rect x="1" y="1" width="25" height="14" rx="3" fill="none" stroke="currentColor" stroke-width="1.5"/><rect x="3.5" y="3.5" width="20" height="9" rx="1.5"/><path d="M28 5v6" stroke="currentColor" stroke-width="2"/></svg>
+              </span>
+            </div>
+
+            <header class="screen-header">
+              <span>SOUNDTRACK</span>
+            </header>
+
+            <form class="route-form" id="route-form" novalidate>
+              <div class="address-combobox">
+              <label class="route-field glass" for="origin">
+                <span class="field-label">from</span>
+                <svg class="field-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 10c0 5-8 11-8 11S4 15 4 10a8 8 0 1 1 16 0Z"/><circle cx="12" cy="10" r="2.7"/></svg>
+                <input id="origin" name="origin" type="text" autocomplete="off" placeholder="输入出发地" maxlength="200" role="combobox" aria-autocomplete="list" aria-controls="origin-listbox" aria-expanded="false" aria-describedby="form-error" />
+                <button class="address-clear" type="button" aria-label="清除出发地" hidden><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m7 7 10 10M17 7 7 17"/></svg></button>
+              </label>
+              <div class="address-listbox glass" id="origin-listbox" role="listbox" aria-label="出发地建议" hidden></div>
+              </div>
+
+              <div class="address-combobox">
+              <label class="route-field glass" for="destination">
+                <span class="field-label">to</span>
+                <svg class="field-icon field-icon--fill" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 21V4m0 1c5-4 8 4 14 0v10c-6 4-9-4-14 0"/></svg>
+                <input id="destination" name="destination" type="text" autocomplete="off" placeholder="输入目的地" maxlength="200" role="combobox" aria-autocomplete="list" aria-controls="destination-listbox" aria-expanded="false" aria-describedby="form-error" />
+                <button class="address-clear" type="button" aria-label="清除目的地" hidden><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m7 7 10 10M17 7 7 17"/></svg></button>
+              </label>
+              <div class="address-listbox glass" id="destination-listbox" role="listbox" aria-label="目的地建议" hidden></div>
+              </div>
+
+              <div class="mode-combobox">
+                <input id="mode" name="mode" type="hidden" value="driving" />
+                <button class="route-field glass mode-trigger" id="mode-trigger" type="button" aria-label="交通方式，当前为驾车" aria-haspopup="listbox" aria-controls="mode-listbox" aria-expanded="false">
+                  <span class="field-label">by</span>
+                  <svg class="field-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="m5 17-1 2m15-2 1 2M5 17h14M6 17a2 2 0 1 1-4 0 2 2 0 0 1 4 0Zm16 0a2 2 0 1 1-4 0 2 2 0 0 1 4 0ZM5 14l2-6h10l2 6M8 8l1-3h6l1 3"/></svg>
+                  <span class="mode-value">驾车</span>
+                  <svg class="chevron chevron--down" viewBox="0 0 24 24" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg>
+                </button>
+                <div class="address-listbox mode-listbox glass" id="mode-listbox" role="listbox" aria-label="交通方式" hidden>
+                  <button class="address-option mode-option" type="button" role="option" data-value="walking" aria-selected="false"><strong>步行</strong></button>
+                  <button class="address-option mode-option is-highlighted" type="button" role="option" data-value="driving" aria-selected="true"><strong>驾车</strong></button>
+                  <button class="address-option mode-option" type="button" role="option" data-value="bicycling" aria-selected="false"><strong>骑行</strong></button>
+                </div>
+              </div>
+
+              <p class="form-error" id="form-error" role="alert" hidden></p>
+
+              <button class="generate-button" id="generate-button" type="submit">
+                <span>生成 Sound-Map</span>
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14m-5-5 5 5-5 5"/></svg>
+              </button>
+            </form>
+          </div>
+        </section>
+
+        <section class="app-screen intro-screen" data-screen="intro" aria-label="Sound-Map 导语">
+          <canvas class="landscape-particles" aria-hidden="true"></canvas>
+          <div class="screen-content">
+            <div class="status-bar" aria-hidden="true">
+              <span>9:41</span>
+              <span class="system-icons">
+                <svg viewBox="0 0 24 18"><path d="M2 16h3V11H2zm5 0h3V8H7zm5 0h3V5h-3zm5 0h3V2h-3z"/></svg>
+                <svg viewBox="0 0 24 18"><path d="M2 6.5C7.8 1.2 16.2 1.2 22 6.5l-2.2 2.3a11.2 11.2 0 0 0-15.6 0zM6 10.5a8.5 8.5 0 0 1 12 0l-2.3 2.3a5.2 5.2 0 0 0-7.4 0zM10 14.5a2.8 2.8 0 0 1 4 0L12 17z"/></svg>
+                <svg class="battery" viewBox="0 0 30 16"><rect x="1" y="1" width="25" height="14" rx="3" fill="none" stroke="currentColor" stroke-width="1.5"/><rect x="3.5" y="3.5" width="20" height="9" rx="1.5"/><path d="M28 5v6" stroke="currentColor" stroke-width="2"/></svg>
+              </span>
+            </div>
+
+            <article class="intro-card glass" aria-live="polite" aria-atomic="true">
+              <span class="quote-mark" aria-hidden="true">“</span>
+              <div id="intro-copy" class="intro-copy" aria-label="日语俳句与中文对照">
+                <div class="poem-line-pair"><p class="poem-ja" lang="ja"><span class="poem-text" data-poem-ja>道の曲がり目</span></p><p class="poem-zh" lang="zh-CN"><span class="poem-text" data-poem-zh>路在转弯</span></p></div>
+                <div class="poem-line-pair"><p class="poem-ja" lang="ja"><span class="poem-text" data-poem-ja>足音つづく</span></p><p class="poem-zh" lang="zh-CN"><span class="poem-text" data-poem-zh>脚步仍相续</span></p></div>
+                <div class="poem-line-pair"><p class="poem-ja" lang="ja"><span class="poem-text" data-poem-ja>余白へ</span></p><p class="poem-zh" lang="zh-CN"><span class="poem-text" data-poem-zh>余白渐深</span></p></div>
+              </div>
+            </article>
+
+            <button class="swipe-cue" type="button" data-go="player" aria-label="进入播放页面">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5.5 18 12 8 18.5z"/></svg>
+              <span>点击进入播放</span>
+            </button>
+          </div>
+        </section>
+
+        <section class="app-screen player-screen" data-screen="player" aria-label="Sound-Map 播放器预览">
+          <canvas class="landscape-particles" aria-hidden="true"></canvas>
+          <div class="screen-content">
+            <div class="status-bar" aria-hidden="true">
+              <span>9:41</span>
+              <span class="system-icons">
+                <svg viewBox="0 0 24 18"><path d="M2 16h3V11H2zm5 0h3V8H7zm5 0h3V5h-3zm5 0h3V2h-3z"/></svg>
+                <svg viewBox="0 0 24 18"><path d="M2 6.5C7.8 1.2 16.2 1.2 22 6.5l-2.2 2.3a11.2 11.2 0 0 0-15.6 0zM6 10.5a8.5 8.5 0 0 1 12 0l-2.3 2.3a5.2 5.2 0 0 0-7.4 0zM10 14.5a2.8 2.8 0 0 1 4 0L12 17z"/></svg>
+                <svg class="battery" viewBox="0 0 30 16"><rect x="1" y="1" width="25" height="14" rx="3" fill="none" stroke="currentColor" stroke-width="1.5"/><rect x="3.5" y="3.5" width="20" height="9" rx="1.5"/><path d="M28 5v6" stroke="currentColor" stroke-width="2"/></svg>
+              </span>
+            </div>
+
+            <header class="screen-header">
+              <span>NOW PLAYING</span>
+            </header>
+
+            <article class="song-card glass">
+              <span class="song-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 18V5l11-2v13M9 9l11-2M9 18a3 3 0 1 1-6 0 3 3 0 0 1 6 0Zm11-2a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"/></svg></span>
+              <span class="song-meta"><strong id="song-title">Midnight City</strong><small><span id="song-artist">M83</span> · <em id="song-album">Sound-Map Mix</em></small></span>
+            </article>
+
+            <article class="song-progress glass">
+              <div class="module-heading">
+                <span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 18V5l11-2v13M9 9l11-2M9 18a3 3 0 1 1-6 0 3 3 0 0 1 6 0Zm11-2a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"/></svg>单曲进度</span>
+                <time id="song-time">02:15 / 04:20</time>
+              </div>
+              <div class="waveform-wrap">
+                <div class="waveform" id="waveform" aria-hidden="true"></div>
+                <input class="song-seek" id="song-seek" type="range" min="0" max="1000" value="0" step="1" aria-label="单曲播放进度" />
+              </div>
+            </article>
+
+            <article class="route-progress glass">
+              <div class="module-heading">
+                <span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m5 17-1 2m15-2 1 2M5 17h14M6 17a2 2 0 1 1-4 0 2 2 0 0 1 4 0Zm16 0a2 2 0 1 1-4 0 2 2 0 0 1 4 0ZM5 14l2-6h10l2 6M8 8l1-3h6l1 3"/></svg>行程</span>
+                <span class="route-progress-value" id="route-progress-value">0%</span>
+              </div>
+              <div class="progress-track" id="route-progress-track" role="progressbar" aria-label="行程进度" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"><span id="route-progress-fill"></span></div>
+            </article>
+
+            <article class="lyrics-player glass">
+              <div class="lyrics">
+                <span id="lyric-status">-- 实时同步歌词 --</span>
+                <ol class="lyrics-list" id="lyrics-list" aria-label="同步歌词">
+                  <li class="is-active">点击播放，歌词将在这里同步滚动</li>
+                </ol>
+              </div>
+              <div class="playback-controls">
+                <button type="button" id="previous-song" aria-label="上一首"><svg viewBox="0 0 24 24"><path d="M6 5v14M19 6 9 12l10 6z"/></svg></button>
+                <button class="play-pause" type="button" id="play-pause" aria-label="暂停" aria-pressed="true"><svg viewBox="0 0 24 24"><path d="M8 5v14M16 5v14"/></svg></button>
+                <button type="button" id="next-song" aria-label="下一首"><svg viewBox="0 0 24 24"><path d="M18 5v14M5 6l10 6-10 6z"/></svg></button>
+              </div>
+            </article>
+            <audio id="audio-player" preload="metadata"></audio>
+          </div>
+        </section>
+      </div>
+
+      <p class="sr-only" id="app-status" aria-live="polite"></p>
+    </main>
+    <script type="module" src="/background.js"></script>
+    <script type="module" src="/app.js"></script>
+  </body>
+</html>

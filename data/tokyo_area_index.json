@@ -1,0 +1,2812 @@
+{
+  "version": 1,
+  "coverage": "candidate_100_geocoded",
+  "geometry": "circle",
+  "sampling_interval_m": 30,
+  "coordinate_note": "Google Places text-search centers are provisional neighborhood anchors, not authoritative boundaries. Active radii are heuristic and require route calibration; unresolved entries are retained but excluded from matching.",
+  "areas": [
+    {
+      "id": "chiyoda-jimbocho",
+      "name": "神保町",
+      "ward": [
+        "千代田区"
+      ],
+      "aliases": [
+        "神田神保町",
+        "神保町駅"
+      ],
+      "center": {
+        "lat": 35.6957,
+        "lng": 139.7575
+      },
+      "radius_m": 330,
+      "imagery_area": "神保町",
+      "anchors": [
+        "神保町駅",
+        "すずらん通り"
+      ]
+    },
+    {
+      "id": "chiyoda-ochanomizu",
+      "name": "御茶ノ水",
+      "ward": [
+        "千代田区",
+        "文京区"
+      ],
+      "aliases": [
+        "お茶の水",
+        "御茶ノ水駅",
+        "神田駿河台"
+      ],
+      "center": {
+        "lat": 35.6994,
+        "lng": 139.7652
+      },
+      "radius_m": 360,
+      "imagery_area": "御茶ノ水",
+      "anchors": [
+        "御茶ノ水駅",
+        "聖橋",
+        "神田川"
+      ]
+    },
+    {
+      "id": "musashino-kichijoji",
+      "name": "吉祥寺",
+      "ward": [
+        "武蔵野市"
+      ],
+      "aliases": [
+        "吉祥寺駅",
+        "吉祥寺本町"
+      ],
+      "center": {
+        "lat": 35.7033,
+        "lng": 139.5798
+      },
+      "radius_m": 310,
+      "imagery_area": "吉祥寺"
+    },
+    {
+      "id": "musashino-inokashira-park",
+      "name": "井の頭公園",
+      "ward": [
+        "武蔵野市",
+        "三鷹市"
+      ],
+      "aliases": [
+        "井の頭恩賜公園",
+        "井の頭公園駅",
+        "井の頭池"
+      ],
+      "center": {
+        "lat": 35.6994,
+        "lng": 139.5739
+      },
+      "radius_m": 430,
+      "imagery_area": "井の頭公園"
+    },
+    {
+      "id": "setagaya-shimokitazawa",
+      "name": "下北沢",
+      "ward": [
+        "世田谷区"
+      ],
+      "aliases": [
+        "下北沢駅",
+        "下北沢一番街"
+      ],
+      "center": {
+        "lat": 35.6617,
+        "lng": 139.6674
+      },
+      "radius_m": 360,
+      "imagery_area": "下北沢",
+      "anchors": [
+        "下北沢駅",
+        "下北沢一番街"
+      ]
+    },
+    {
+      "id": "taito-yanaka",
+      "name": "谷中",
+      "ward": [
+        "台東区"
+      ],
+      "aliases": [
+        "谷中銀座",
+        "夕焼けだんだん"
+      ],
+      "center": {
+        "lat": 35.7273,
+        "lng": 139.7668
+      },
+      "radius_m": 360,
+      "imagery_area": "谷中",
+      "anchors": [
+        "日暮里駅西口",
+        "夕焼けだんだん",
+        "谷中銀座"
+      ]
+    },
+    {
+      "id": "bunkyo-nezu",
+      "name": "根津",
+      "ward": [
+        "文京区"
+      ],
+      "aliases": [
+        "根津駅",
+        "根津神社"
+      ],
+      "center": {
+        "lat": 35.7173,
+        "lng": 139.7631
+      },
+      "radius_m": 330,
+      "imagery_area": "根津",
+      "anchors": [
+        "根津駅",
+        "根津神社"
+      ]
+    },
+    {
+      "id": "suginami-koenji",
+      "name": "高円寺",
+      "ward": [
+        "杉並区"
+      ],
+      "aliases": [
+        "高円寺駅",
+        "高円寺純情商店街"
+      ],
+      "center": {
+        "lat": 35.7055,
+        "lng": 139.6495
+      },
+      "radius_m": 360,
+      "imagery_area": "高円寺",
+      "anchors": [
+        "高円寺駅",
+        "高円寺PAL商店街",
+        "高円寺ルック商店街"
+      ]
+    },
+    {
+      "id": "shinjuku-kagurazaka",
+      "name": "神楽坂",
+      "ward": [
+        "新宿区"
+      ],
+      "aliases": [
+        "神楽坂通り",
+        "兵庫横丁"
+      ],
+      "center": {
+        "lat": 35.702,
+        "lng": 139.74
+      },
+      "radius_m": 360,
+      "imagery_area": "神楽坂",
+      "anchors": [
+        "神楽坂駅",
+        "兵庫横丁",
+        "飯田橋駅"
+      ]
+    },
+    {
+      "id": "chiyoda-akihabara",
+      "name": "秋葉原",
+      "ward": [
+        "千代田区"
+      ],
+      "aliases": [
+        "秋葉原電気街",
+        "アキバ"
+      ],
+      "active": true,
+      "center": {
+        "lat": 35.699647299999995,
+        "lng": 139.7713703
+      },
+      "radius_m": 350,
+      "coordinate_source": "google_places_text_search",
+      "resolution_status": "verified_name_match",
+      "resolved_name": "秋葉原電気街",
+      "coordinate_query": "秋葉原 千代田区 東京都 日本",
+      "radius_source": "mvp_heuristic",
+      "radius_status": "needs_route_calibration",
+      "anchors": [
+        "秋葉原駅",
+        "中央通り"
+      ],
+      "imagery_area": "秋葉原"
+    },
+    {
+      "id": "chiyoda-marunouchi",
+      "name": "丸の内",
+      "ward": [
+        "千代田区"
+      ],
+      "aliases": [
+        "東京駅丸の内口",
+        "丸の内仲通り"
+      ],
+      "active": true,
+      "center": {
+        "lat": 35.6804062,
+        "lng": 139.7664859
+      },
+      "radius_m": 400,
+      "coordinate_source": "google_places_text_search",
+      "resolution_status": "verified_name_match",
+      "resolved_name": "丸の内",
+      "coordinate_query": "丸の内 千代田区 東京都 日本",
+      "radius_source": "mvp_heuristic",
+      "radius_status": "needs_route_calibration",
+      "anchors": [
+        "東京駅丸の内口",
+        "丸の内仲通り"
+      ],
+      "imagery_area": "丸の内"
+    },
+    {
+      "id": "chuo-ginza",
+      "name": "銀座",
+      "ward": [
+        "中央区"
+      ],
+      "aliases": [
+        "銀座四丁目",
+        "銀座中央通り"
+      ],
+      "active": true,
+      "center": {
+        "lat": 35.671222799999995,
+        "lng": 139.7664859
+      },
+      "radius_m": 400,
+      "coordinate_source": "google_places_text_search",
+      "resolution_status": "verified_name_match",
+      "resolved_name": "銀座",
+      "coordinate_query": "銀座 中央区 東京都 日本",
+      "radius_source": "mvp_heuristic",
+      "radius_status": "needs_route_calibration",
+      "anchors": [
+        "銀座一丁目",
+        "銀座八丁目"
+      ],
+      "imagery_area": "銀座"
+    },
+    {
+      "id": "chuo-nihombashi",
+      "name": "日本橋",
+      "ward": [
+        "中央区"
+      ],
+      "aliases": [
+        "日本橋室町",
+        "日本橋本町"
+      ],
+      "active": true,
+      "center": {
+        "lat": 35.6811836,
+        "lng": 139.7741538
+      },
+      "radius_m": 350,
+      "coordinate_source": "google_places_text_search",
+      "resolution_status": "verified_name_match",
+      "resolved_name": "日本橋",
+      "coordinate_query": "日本橋 中央区 東京都 日本",
+      "radius_source": "mvp_heuristic",
+      "radius_status": "needs_route_calibration",
+      "anchors": [
+        "日本橋",
+        "コレド室町"
+      ],
+      "imagery_area": "日本橋"
+    },
+    {
+      "id": "chuo-tsukiji",
+      "name": "築地",
+      "ward": [
+        "中央区"
+      ],
+      "aliases": [
+        "築地場外市場",
+        "築地市場跡"
+      ],
+      "active": true,
+      "center": {
+        "lat": 35.6640869,
+        "lng": 139.7715977
+      },
+      "radius_m": 350,
+      "coordinate_source": "google_places_text_search",
+      "resolution_status": "verified_name_match",
+      "resolved_name": "築地",
+      "coordinate_query": "築地 中央区 東京都 日本",
+      "radius_source": "mvp_heuristic",
+      "radius_status": "needs_route_calibration",
+      "anchors": [
+        "築地駅",
+        "築地場外市場"
+      ],
+      "imagery_area": "築地"
+    },
+    {
+      "id": "chuo-tsukishima-tsukuda",
+      "name": "月島・佃",
+      "ward": [
+        "中央区"
+      ],
+      "aliases": [
+        "月島もんじゃストリート",
+        "佃島"
+      ],
+      "active": true,
+      "center": {
+        "lat": 35.6692074,
+        "lng": 139.7843792
+      },
+      "radius_m": 350,
+      "coordinate_source": "google_places_text_search",
+      "resolution_status": "verified_name_match",
+      "resolved_name": "佃",
+      "coordinate_query": "月島・佃 中央区 東京都 日本",
+      "radius_source": "mvp_heuristic",
+      "radius_status": "needs_route_calibration",
+      "anchors": [
+        "月島駅",
+        "佃公園"
+      ],
+      "imagery_area": "月島・佃"
+    },
+    {
+      "id": "minato-roppongi",
+      "name": "六本木",
+      "ward": [
+        "港区"
+      ],
+      "aliases": [
+        "六本木交差点",
+        "六本木ヒルズ周辺"
+      ],
+      "active": true,
+      "center": {
+        "lat": 35.661858599999995,
+        "lng": 139.7345469
+      },
+      "radius_m": 350,
+      "coordinate_source": "google_places_text_search",
+      "resolution_status": "verified_name_match",
+      "resolved_name": "六本木",
+      "coordinate_query": "六本木 港区 東京都 日本",
+      "radius_source": "mvp_heuristic",
+      "radius_status": "needs_route_calibration",
+      "anchors": [
+        "六本木交差点",
+        "東京ミッドタウン"
+      ],
+      "imagery_area": "六本木"
+    },
+    {
+      "id": "minato-azabujuban",
+      "name": "麻布十番",
+      "ward": [
+        "港区"
+      ],
+      "aliases": [
+        "麻布十番商店街",
+        "麻布十番駅周辺"
+      ],
+      "active": true,
+      "center": {
+        "lat": 35.6546541,
+        "lng": 139.7351855
+      },
+      "radius_m": 400,
+      "coordinate_source": "google_places_text_search",
+      "resolution_status": "verified_name_match",
+      "resolved_name": "麻布十番",
+      "coordinate_query": "麻布十番 港区 東京都 日本",
+      "radius_source": "mvp_heuristic",
+      "radius_status": "needs_route_calibration",
+      "anchors": [
+        "麻布十番駅",
+        "麻布十番商店街"
+      ],
+      "imagery_area": "麻布十番"
+    },
+    {
+      "id": "minato-toranomon-shiba",
+      "name": "虎ノ門・芝",
+      "ward": [
+        "港区"
+      ],
+      "aliases": [
+        "芝公園",
+        "増上寺大門"
+      ],
+      "active": true,
+      "center": {
+        "lat": 35.6653224,
+        "lng": 139.7460429
+      },
+      "radius_m": 550,
+      "coordinate_source": "google_places_text_search",
+      "resolution_status": "verified_name_match",
+      "resolved_name": "虎ノ門",
+      "coordinate_query": "虎ノ門・芝 港区 東京都 日本",
+      "radius_source": "mvp_heuristic",
+      "radius_status": "needs_route_calibration",
+      "anchors": [
+        "虎ノ門駅",
+        "増上寺大門"
+      ],
+      "imagery_area": "虎ノ門・芝"
+    },
+    {
+      "id": "minato-akasaka",
+      "name": "赤坂",
+      "ward": [
+        "港区"
+      ],
+      "aliases": [
+        "赤坂見附",
+        "赤坂サカス周辺"
+      ],
+      "active": true,
+      "center": {
+        "lat": 35.6710403,
+        "lng": 139.7345469
+      },
+      "radius_m": 350,
+      "coordinate_source": "google_places_text_search",
+      "resolution_status": "verified_name_match",
+      "resolved_name": "赤坂",
+      "coordinate_query": "赤坂 港区 東京都 日本",
+      "radius_source": "mvp_heuristic",
+      "radius_status": "needs_route_calibration",
+      "anchors": [
+        "赤坂見附駅",
+        "赤坂サカス"
+      ],
+      "imagery_area": "赤坂"
+    },
+    {
+      "id": "shinjuku-shinjuku3-golden-gai",
+      "name": "新宿三丁目・ゴールデン街",
+      "ward": [
+        "新宿区"
+      ],
+      "aliases": [
+        "新宿ゴールデン街",
+        "歌舞伎町一丁目"
+      ],
+      "active": true,
+      "center": {
+        "lat": 35.6941118,
+        "lng": 139.70476109999998
+      },
+      "radius_m": 400,
+      "coordinate_source": "google_places_text_search",
+      "resolution_status": "verified_name_match",
+      "resolved_name": "新宿ゴールデン街",
+      "coordinate_query": "新宿三丁目・ゴールデン街 新宿区 東京都 日本",
+      "radius_source": "mvp_heuristic",
+      "radius_status": "needs_route_calibration",
+      "anchors": [
+        "新宿三丁目駅",
+        "ゴールデン街",
+        "花園神社"
+      ],
+      "imagery_area": "新宿三丁目・ゴールデン街"
+    },
+    {
+      "id": "shinjuku-okubo-shinokubo",
+      "name": "大久保・新大久保",
+      "ward": [
+        "新宿区"
+      ],
+      "aliases": [
+        "新大久保コリアンタウン",
+        "大久保通り"
+      ],
+      "active": true,
+      "center": {
+        "lat": 35.7043549,
+        "lng": 139.7071335
+      },
+      "radius_m": 400,
+      "coordinate_source": "google_places_text_search",
+      "resolution_status": "verified_name_match",
+      "resolved_name": "大久保",
+      "coordinate_query": "大久保・新大久保 新宿区 東京都 日本",
+      "radius_source": "mvp_heuristic",
+      "radius_status": "needs_route_calibration",
+      "anchors": [
+        "新大久保駅",
+        "大久保駅"
+      ],
+      "imagery_area": "大久保・新大久保"
+    },
+    {
+      "id": "shinjuku-yotsuya-arakicho",
+      "name": "四谷荒木町",
+      "ward": [
+        "新宿区"
+      ],
+      "aliases": [
+        "荒木町",
+        "車力門通り"
+      ],
+      "active": true,
+      "center": {
+        "lat": 35.6896933,
+        "lng": 139.7224146
+      },
+      "radius_m": 400,
+      "coordinate_source": "google_places_text_search",
+      "resolution_status": "verified_name_match",
+      "resolved_name": "荒木町",
+      "coordinate_query": "四谷荒木町 新宿区 東京都 日本",
+      "radius_source": "mvp_heuristic",
+      "radius_status": "needs_route_calibration",
+      "anchors": [
+        "四谷三丁目駅",
+        "車力門通り"
+      ],
+      "imagery_area": "四谷荒木町"
+    },
+    {
+      "id": "bunkyo-hongo",
+      "name": "本郷",
+      "ward": [
+        "文京区"
+      ],
+      "aliases": [
+        "本郷三丁目",
+        "東京大学本郷キャンパス周辺"
+      ],
+      "active": true,
+      "center": {
+        "lat": 35.7088306,
+        "lng": 139.7600967
+      },
+      "radius_m": 350,
+      "coordinate_source": "google_places_text_search",
+      "resolution_status": "verified_name_match",
+      "resolved_name": "本郷",
+      "coordinate_query": "本郷 文京区 東京都 日本",
+      "radius_source": "mvp_heuristic",
+      "radius_status": "needs_route_calibration",
+      "anchors": [
+        "本郷三丁目駅",
+        "東京大学赤門"
+      ],
+      "imagery_area": "本郷"
+    },
+    {
+      "id": "bunkyo-koishikawa-myogadani",
+      "name": "小石川・茗荷谷",
+      "ward": [
+        "文京区"
+      ],
+      "aliases": [
+        "茗荷谷",
+        "播磨坂"
+      ],
+      "active": true,
+      "center": {
+        "lat": 35.717373099999996,
+        "lng": 139.73677990000002
+      },
+      "radius_m": 350,
+      "coordinate_source": "google_places_text_search",
+      "resolution_status": "verified_name_match",
+      "resolved_name": "茗荷谷駅",
+      "coordinate_query": "小石川・茗荷谷 文京区 東京都 日本",
+      "radius_source": "mvp_heuristic",
+      "radius_status": "needs_route_calibration",
+      "anchors": [
+        "茗荷谷駅",
+        "播磨坂"
+      ],
+      "imagery_area": "小石川・茗荷谷"
+    },
+    {
+      "id": "bunkyo-hakusan",
+      "name": "白山",
+      "ward": [
+        "文京区"
+      ],
+      "aliases": [
+        "白山神社周辺",
+        "白山通り"
+      ],
+      "active": true,
+      "center": {
+        "lat": 35.7191323,
+        "lng": 139.7485979
+      },
+      "radius_m": 400,
+      "coordinate_source": "google_places_text_search",
+      "resolution_status": "verified_name_match",
+      "resolved_name": "白山",
+      "coordinate_query": "白山 文京区 東京都 日本",
+      "radius_source": "mvp_heuristic",
+      "radius_status": "needs_route_calibration",
+      "anchors": [
+        "白山駅",
+        "白山神社"
+      ],
+      "imagery_area": "白山"
+    },
+    {
+      "id": "taito-asakusa",
+      "name": "浅草",
+      "ward": [
+        "台東区"
+      ],
+      "aliases": [
+        "浅草寺周辺",
+        "仲見世通り"
+      ],
+      "active": true,
+      "center": {
+        "lat": 35.7185858,
+        "lng": 139.7958849
+      },
+      "radius_m": 400,
+      "coordinate_source": "google_places_text_search",
+      "resolution_status": "verified_name_match",
+      "resolved_name": "浅草",
+      "coordinate_query": "浅草 台東区 東京都 日本",
+      "radius_source": "mvp_heuristic",
+      "radius_status": "needs_route_calibration",
+      "anchors": [
+        "雷門",
+        "仲見世通り",
+        "浅草寺"
+      ],
+      "imagery_area": "浅草"
+    },
+    {
+      "id": "taito-ueno-ameyoko",
+      "name": "上野・アメ横",
+      "ward": [
+        "台東区"
+      ],
+      "aliases": [
+        "アメヤ横丁",
+        "アメ横商店街"
+      ],
+      "active": true,
+      "center": {
+        "lat": 35.710068199999995,
+        "lng": 139.7746009
+      },
+      "radius_m": 400,
+      "coordinate_source": "google_places_text_search",
+      "resolution_status": "verified_name_match",
+      "resolved_name": "アメ横商店街",
+      "coordinate_query": "上野・アメ横 台東区 東京都 日本",
+      "radius_source": "mvp_heuristic",
+      "radius_status": "needs_route_calibration",
+      "anchors": [
+        "上野駅",
+        "御徒町駅",
+        "アメ横"
+      ],
+      "imagery_area": "上野・アメ横"
+    },
+    {
+      "id": "taito-kuramae",
+      "name": "蔵前",
+      "ward": [
+        "台東区"
+      ],
+      "aliases": [
+        "蔵前駅周辺",
+        "蔵前橋通り"
+      ],
+      "active": true,
+      "center": {
+        "lat": 35.7021284,
+        "lng": 139.7920494
+      },
+      "radius_m": 400,
+      "coordinate_source": "google_places_text_search",
+      "resolution_status": "verified_name_match",
+      "resolved_name": "蔵前",
+      "coordinate_query": "蔵前 台東区 東京都 日本",
+      "radius_source": "mvp_heuristic",
+      "radius_status": "needs_route_calibration",
+      "anchors": [
+        "蔵前駅",
+        "蔵前橋通り"
+      ],
+      "imagery_area": "蔵前"
+    },
+    {
+      "id": "sumida-ryogoku",
+      "name": "両国",
+      "ward": [
+        "墨田区"
+      ],
+      "aliases": [
+        "両国国技館周辺",
+        "両国駅周辺"
+      ],
+      "active": true,
+      "center": {
+        "lat": 35.6937752,
+        "lng": 139.79268869999999
+      },
+      "radius_m": 350,
+      "coordinate_source": "google_places_text_search",
+      "resolution_status": "verified_name_match",
+      "resolved_name": "両国",
+      "coordinate_query": "両国 墨田区 東京都 日本",
+      "radius_source": "mvp_heuristic",
+      "radius_status": "needs_route_calibration",
+      "anchors": [
+        "両国駅",
+        "両国国技館"
+      ],
+      "imagery_area": "両国"
+    },
+    {
+      "id": "sumida-oshiage",
+      "name": "押上",
+      "ward": [
+        "墨田区"
+      ],
+      "aliases": [
+        "東京スカイツリータウン",
+        "押上駅周辺"
+      ],
+      "active": true,
+      "center": {
+        "lat": 35.7113453,
+        "lng": 139.8150661
+      },
+      "radius_m": 350,
+      "coordinate_source": "google_places_text_search",
+      "resolution_status": "verified_name_match",
+      "resolved_name": "押上",
+      "coordinate_query": "押上 墨田区 東京都 日本",
+      "radius_source": "mvp_heuristic",
+      "radius_status": "needs_route_calibration",
+      "anchors": [
+        "押上駅",
+        "東京スカイツリー"
+      ],
+      "imagery_area": "押上"
+    },
+    {
+      "id": "sumida-kinshicho",
+      "name": "錦糸町",
+      "ward": [
+        "墨田区"
+      ],
+      "aliases": [
+        "錦糸町駅周辺",
+        "北斎通り"
+      ],
+      "active": true,
+      "center": {
+        "lat": 35.6985923,
+        "lng": 139.817624
+      },
+      "radius_m": 400,
+      "coordinate_source": "google_places_text_search",
+      "resolution_status": "verified_name_match",
+      "resolved_name": "錦糸",
+      "coordinate_query": "錦糸町 墨田区 東京都 日本",
+      "radius_source": "mvp_heuristic",
+      "radius_status": "needs_route_calibration",
+      "anchors": [
+        "錦糸町駅",
+        "北斎通り"
+      ],
+      "imagery_area": "錦糸町"
+    },
+    {
+      "id": "koto-kiyosumishirakawa",
+      "name": "清澄白河",
+      "ward": [
+        "江東区"
+      ],
+      "aliases": [
+        "清澄",
+        "清澄庭園周辺",
+        "清澄白河駅",
+        "清澄庭園"
+      ],
+      "imagery_area": "清澄白河",
+      "active": true,
+      "center": {
+        "lat": 35.6822525,
+        "lng": 139.79877779999998
+      },
+      "radius_m": 420,
+      "coordinate_source": "google_places_text_search",
+      "resolution_status": "verified_name_match",
+      "resolved_name": "清澄白河駅",
+      "coordinate_query": "清澄白河 江東区 東京都 日本",
+      "radius_source": "legacy_pilot_calibrated",
+      "radius_status": "retained_from_pilot",
+      "anchors": [
+        "清澄白河駅",
+        "清澄庭園"
+      ]
+    },
+    {
+      "id": "koto-monzen-nakacho-fukagawa",
+      "name": "門前仲町・深川",
+      "ward": [
+        "江東区"
+      ],
+      "aliases": [
+        "深川",
+        "富岡八幡宮周辺"
+      ],
+      "active": true,
+      "center": {
+        "lat": 35.672985,
+        "lng": 139.79524569999998
+      },
+      "radius_m": 350,
+      "coordinate_source": "google_places_text_search",
+      "resolution_status": "verified_name_match",
+      "resolved_name": "門前仲町",
+      "coordinate_query": "門前仲町・深川 江東区 東京都 日本",
+      "radius_source": "mvp_heuristic",
+      "radius_status": "needs_route_calibration",
+      "anchors": [
+        "門前仲町駅",
+        "富岡八幡宮",
+        "深川不動堂"
+      ],
+      "imagery_area": "門前仲町・深川"
+    },
+    {
+      "id": "koto-kameido",
+      "name": "亀戸",
+      "ward": [
+        "江東区"
+      ],
+      "aliases": [
+        "亀戸天神周辺",
+        "亀戸駅周辺"
+      ],
+      "active": true,
+      "center": {
+        "lat": 35.698730399999995,
+        "lng": 139.82657770000003
+      },
+      "radius_m": 350,
+      "coordinate_source": "google_places_text_search",
+      "resolution_status": "verified_name_match",
+      "resolved_name": "亀戸",
+      "coordinate_query": "亀戸 江東区 東京都 日本",
+      "radius_source": "mvp_heuristic",
+      "radius_status": "needs_route_calibration",
+      "anchors": [
+        "亀戸駅",
+        "亀戸天神社"
+      ],
+      "imagery_area": "亀戸"
+    },
+    {
+      "id": "koto-toyosu",
+      "name": "豊洲",
+      "ward": [
+        "江東区"
+      ],
+      "aliases": [
+        "豊洲駅周辺",
+        "豊洲ぐるり公園"
+      ],
+      "active": true,
+      "center": {
+        "lat": 35.6545886,
+        "lng": 139.79652009999998
+      },
+      "radius_m": 550,
+      "coordinate_source": "google_places_text_search",
+      "resolution_status": "verified_name_match",
+      "resolved_name": "豊洲",
+      "coordinate_query": "豊洲 江東区 東京都 日本",
+      "radius_source": "mvp_heuristic",
+      "radius_status": "needs_route_calibration",
+      "anchors": [
+        "豊洲駅",
+        "豊洲ぐるり公園"
+      ],
+      "imagery_area": "豊洲"
+    },
+    {
+      "id": "shinagawa-togoshiginza",
+      "name": "戸越銀座",
+      "ward": [
+        "品川区"
+      ],
+      "aliases": [
+        "戸越銀座商店街",
+        "戸越銀座駅周辺"
+      ],
+      "active": true,
+      "center": {
+        "lat": 35.6151915,
+        "lng": 139.7172573
+      },
+      "radius_m": 400,
+      "coordinate_source": "google_places_text_search",
+      "resolution_status": "verified_name_match",
+      "resolved_name": "戸越銀座通り",
+      "coordinate_query": "戸越銀座 品川区 東京都 日本",
+      "radius_source": "mvp_heuristic",
+      "radius_status": "needs_route_calibration",
+      "anchors": [
+        "戸越銀座駅",
+        "戸越銀座商店街"
+      ],
+      "imagery_area": "戸越銀座"
+    },
+    {
+      "id": "shinagawa-kitashinagawa",
+      "name": "北品川・旧東海道",
+      "ward": [
+        "品川区"
+      ],
+      "aliases": [
+        "北品川商店街",
+        "旧東海道品川宿"
+      ],
+      "active": true,
+      "center": {
+        "lat": 35.6073544,
+        "lng": 139.7440907
+      },
+      "radius_m": 400,
+      "coordinate_source": "google_places_text_search",
+      "resolution_status": "verified_name_match",
+      "resolved_name": "旧東海道",
+      "coordinate_query": "北品川・旧東海道 品川区 東京都 日本",
+      "radius_source": "mvp_heuristic",
+      "radius_status": "needs_route_calibration",
+      "anchors": [
+        "新馬場駅",
+        "品川神社"
+      ],
+      "imagery_area": "北品川・旧東海道"
+    },
+    {
+      "id": "shinagawa-oimachi",
+      "name": "大井町",
+      "ward": [
+        "品川区"
+      ],
+      "aliases": [
+        "大井町駅周辺",
+        "東小路"
+      ],
+      "active": true,
+      "center": {
+        "lat": 35.5994698,
+        "lng": 139.73071529999999
+      },
+      "radius_m": 350,
+      "coordinate_source": "google_places_text_search",
+      "resolution_status": "verified_name_match",
+      "resolved_name": "大井",
+      "coordinate_query": "大井町 品川区 東京都 日本",
+      "radius_source": "mvp_heuristic",
+      "radius_status": "needs_route_calibration",
+      "anchors": [
+        "大井町駅",
+        "東小路"
+      ],
+      "imagery_area": "大井町"
+    },
+    {
+      "id": "shinagawa-tennozu",
+      "name": "天王洲アイル",
+      "ward": [
+        "品川区"
+      ],
+      "aliases": [
+        "天王洲",
+        "天王洲運河"
+      ],
+      "active": true,
+      "center": {
+        "lat": 35.6204405,
+        "lng": 139.7508021
+      },
+      "radius_m": 350,
+      "coordinate_source": "google_places_text_search",
+      "resolution_status": "verified_name_match",
+      "resolved_name": "天王洲アイル駅",
+      "coordinate_query": "天王洲アイル 品川区 東京都 日本",
+      "radius_source": "mvp_heuristic",
+      "radius_status": "needs_route_calibration",
+      "anchors": [
+        "天王洲アイル駅",
+        "天王洲運河"
+      ],
+      "imagery_area": "天王洲アイル"
+    },
+    {
+      "id": "meguro-nakameguro",
+      "name": "中目黒",
+      "ward": [
+        "目黒区"
+      ],
+      "aliases": [
+        "目黒川沿い",
+        "中目黒駅周辺"
+      ],
+      "active": true,
+      "center": {
+        "lat": 35.638716099999996,
+        "lng": 139.7026251
+      },
+      "radius_m": 350,
+      "coordinate_source": "google_places_text_search",
+      "resolution_status": "verified_name_match",
+      "resolved_name": "中目黒",
+      "coordinate_query": "中目黒 目黒区 東京都 日本",
+      "radius_source": "mvp_heuristic",
+      "radius_status": "needs_route_calibration",
+      "anchors": [
+        "中目黒駅",
+        "目黒川"
+      ],
+      "imagery_area": "中目黒"
+    },
+    {
+      "id": "meguro-jiyugaoka",
+      "name": "自由が丘",
+      "ward": [
+        "目黒区"
+      ],
+      "aliases": [
+        "自由ヶ丘",
+        "自由が丘駅周辺"
+      ],
+      "active": true,
+      "center": {
+        "lat": 35.6105884,
+        "lng": 139.66689309999998
+      },
+      "radius_m": 350,
+      "coordinate_source": "google_places_text_search",
+      "resolution_status": "verified_name_match",
+      "resolved_name": "自由が丘",
+      "coordinate_query": "自由が丘 目黒区 東京都 日本",
+      "radius_source": "mvp_heuristic",
+      "radius_status": "needs_route_calibration",
+      "anchors": [
+        "自由が丘駅",
+        "九品仏川緑道"
+      ],
+      "imagery_area": "自由が丘"
+    },
+    {
+      "id": "meguro-gakugeidaigaku",
+      "name": "学芸大学",
+      "ward": [
+        "目黒区"
+      ],
+      "aliases": [
+        "学芸大学駅周辺",
+        "学大"
+      ],
+      "active": true,
+      "center": {
+        "lat": 35.6288624,
+        "lng": 139.6853301
+      },
+      "radius_m": 350,
+      "coordinate_source": "google_places_text_search",
+      "resolution_status": "verified_name_match",
+      "resolved_name": "学芸大学駅",
+      "coordinate_query": "学芸大学 目黒区 東京都 日本",
+      "radius_source": "mvp_heuristic",
+      "radius_status": "needs_route_calibration",
+      "anchors": [
+        "学芸大学駅",
+        "東口商店街"
+      ],
+      "imagery_area": "学芸大学"
+    },
+    {
+      "id": "meguro-megurofudoson",
+      "name": "目黒不動前",
+      "ward": [
+        "目黒区"
+      ],
+      "aliases": [
+        "目黒不動尊",
+        "瀧泉寺周辺"
+      ],
+      "active": true,
+      "center": {
+        "lat": 35.6286385,
+        "lng": 139.7080731
+      },
+      "radius_m": 350,
+      "coordinate_source": "google_places_text_search",
+      "resolution_status": "verified_name_match",
+      "resolved_name": "目黒不動尊 瀧泉寺 (目黒区)",
+      "coordinate_query": "目黒不動前 目黒区 東京都 日本",
+      "radius_source": "mvp_heuristic",
+      "radius_status": "needs_route_calibration",
+      "anchors": [
+        "不動前駅",
+        "目黒不動尊"
+      ],
+      "imagery_area": "目黒不動前"
+    },
+    {
+      "id": "ota-kamata",
+      "name": "蒲田",
+      "ward": [
+        "大田区"
+      ],
+      "aliases": [
+        "蒲田駅周辺",
+        "蒲田東口商店街"
+      ],
+      "active": true,
+      "center": {
+        "lat": 35.5632094,
+        "lng": 139.72049920000003
+      },
+      "radius_m": 400,
+      "coordinate_source": "google_places_text_search",
+      "resolution_status": "verified_name_match",
+      "resolved_name": "蒲田",
+      "coordinate_query": "蒲田 大田区 東京都 日本",
+      "radius_source": "mvp_heuristic",
+      "radius_status": "needs_route_calibration",
+      "anchors": [
+        "蒲田駅",
+        "サンライズ蒲田"
+      ],
+      "imagery_area": "蒲田"
+    },
+    {
+      "id": "ota-ikegami",
+      "name": "池上",
+      "ward": [
+        "大田区"
+      ],
+      "aliases": [
+        "池上本門寺周辺",
+        "池上駅周辺"
+      ],
+      "active": true,
+      "center": {
+        "lat": 35.5760807,
+        "lng": 139.7039016
+      },
+      "radius_m": 550,
+      "coordinate_source": "google_places_text_search",
+      "resolution_status": "verified_name_match",
+      "resolved_name": "池上",
+      "coordinate_query": "池上 大田区 東京都 日本",
+      "radius_source": "mvp_heuristic",
+      "radius_status": "needs_route_calibration",
+      "anchors": [
+        "池上駅",
+        "池上本門寺"
+      ],
+      "imagery_area": "池上"
+    },
+    {
+      "id": "ota-haneda-anamori",
+      "name": "羽田・穴守稲荷",
+      "ward": [
+        "大田区"
+      ],
+      "aliases": [
+        "羽田穴守町",
+        "穴守稲荷神社周辺"
+      ],
+      "active": true,
+      "center": {
+        "lat": 35.5505328,
+        "lng": 139.7498743
+      },
+      "radius_m": 350,
+      "coordinate_source": "google_places_text_search",
+      "resolution_status": "verified_name_match",
+      "resolved_name": "穴守稲荷神社",
+      "coordinate_query": "羽田・穴守稲荷 大田区 東京都 日本",
+      "radius_source": "mvp_heuristic",
+      "radius_status": "needs_route_calibration",
+      "anchors": [
+        "穴守稲荷駅",
+        "穴守稲荷神社"
+      ],
+      "imagery_area": "羽田・穴守稲荷"
+    },
+    {
+      "id": "ota-senzokuike",
+      "name": "洗足池",
+      "ward": [
+        "大田区"
+      ],
+      "aliases": [
+        "洗足池公園周辺",
+        "洗足池駅周辺"
+      ],
+      "active": true,
+      "center": {
+        "lat": 35.6018002,
+        "lng": 139.6904423
+      },
+      "radius_m": 550,
+      "coordinate_source": "google_places_text_search",
+      "resolution_status": "verified_name_match",
+      "resolved_name": "洗足池",
+      "coordinate_query": "洗足池 大田区 東京都 日本",
+      "radius_source": "mvp_heuristic",
+      "radius_status": "needs_route_calibration",
+      "anchors": [
+        "洗足池駅",
+        "洗足池公園"
+      ],
+      "imagery_area": "洗足池"
+    },
+    {
+      "id": "setagaya-sangenjaya",
+      "name": "三軒茶屋・三角地帯",
+      "ward": [
+        "世田谷区"
+      ],
+      "aliases": [
+        "三軒茶屋",
+        "三角地帯"
+      ],
+      "active": true,
+      "center": {
+        "lat": 35.6430358,
+        "lng": 139.6698528
+      },
+      "radius_m": 400,
+      "coordinate_source": "google_places_text_search",
+      "resolution_status": "verified_name_match",
+      "resolved_name": "三軒茶屋三角地帯",
+      "coordinate_query": "三軒茶屋・三角地帯 世田谷区 東京都 日本",
+      "radius_source": "mvp_heuristic",
+      "radius_status": "needs_route_calibration",
+      "anchors": [
+        "三軒茶屋駅",
+        "三角地帯"
+      ],
+      "imagery_area": "三軒茶屋・三角地帯"
+    },
+    {
+      "id": "setagaya-gotokuji-shoin",
+      "name": "豪徳寺・松陰神社前",
+      "ward": [
+        "世田谷区"
+      ],
+      "aliases": [
+        "豪徳寺",
+        "松陰神社通り"
+      ],
+      "active": true,
+      "center": {
+        "lat": 35.642390999999996,
+        "lng": 139.65460099999999
+      },
+      "radius_m": 400,
+      "coordinate_source": "google_places_text_search",
+      "resolution_status": "verified_name_match",
+      "resolved_name": "松陰神社前",
+      "coordinate_query": "豪徳寺・松陰神社前 世田谷区 東京都 日本",
+      "radius_source": "mvp_heuristic",
+      "radius_status": "needs_route_calibration",
+      "anchors": [
+        "豪徳寺駅",
+        "松陰神社前駅"
+      ],
+      "imagery_area": "豪徳寺・松陰神社前"
+    },
+    {
+      "id": "setagaya-futako-tamagawa",
+      "name": "二子玉川",
+      "ward": [
+        "世田谷区"
+      ],
+      "aliases": [
+        "二子玉川駅周辺",
+        "二子玉川ライズ"
+      ],
+      "active": true,
+      "center": {
+        "lat": 35.6125332,
+        "lng": 139.626083
+      },
+      "radius_m": 350,
+      "coordinate_source": "google_places_text_search",
+      "resolution_status": "verified_name_match",
+      "resolved_name": "二子玉川",
+      "coordinate_query": "二子玉川 世田谷区 東京都 日本",
+      "radius_source": "mvp_heuristic",
+      "radius_status": "needs_route_calibration",
+      "anchors": [
+        "二子玉川駅",
+        "多摩川河川敷"
+      ],
+      "imagery_area": "二子玉川"
+    },
+    {
+      "id": "shibuya-shibuya-dogenzaka",
+      "name": "渋谷・道玄坂",
+      "ward": [
+        "渋谷区"
+      ],
+      "aliases": [
+        "渋谷センター街",
+        "道玄坂"
+      ],
+      "active": true,
+      "center": {
+        "lat": 35.6581518,
+        "lng": 139.69815739999999
+      },
+      "radius_m": 350,
+      "coordinate_source": "google_places_text_search",
+      "resolution_status": "verified_name_match",
+      "resolved_name": "道玄坂",
+      "coordinate_query": "渋谷・道玄坂 渋谷区 東京都 日本",
+      "radius_source": "mvp_heuristic",
+      "radius_status": "needs_route_calibration",
+      "anchors": [
+        "渋谷スクランブル交差点",
+        "道玄坂"
+      ],
+      "imagery_area": "渋谷・道玄坂"
+    },
+    {
+      "id": "shibuya-harajuku-takeshita",
+      "name": "原宿・竹下通り",
+      "ward": [
+        "渋谷区"
+      ],
+      "aliases": [
+        "竹下通り",
+        "原宿駅周辺"
+      ],
+      "active": true,
+      "center": {
+        "lat": 35.6710335,
+        "lng": 139.7051821
+      },
+      "radius_m": 400,
+      "coordinate_source": "google_places_text_search",
+      "resolution_status": "verified_name_match",
+      "resolved_name": "竹下通り",
+      "coordinate_query": "原宿・竹下通り 渋谷区 東京都 日本",
+      "radius_source": "mvp_heuristic",
+      "radius_status": "needs_route_calibration",
+      "anchors": [
+        "原宿駅",
+        "竹下通り"
+      ],
+      "imagery_area": "原宿・竹下通り"
+    },
+    {
+      "id": "shibuya-omotesando-catstreet",
+      "name": "表参道・キャットストリート",
+      "ward": [
+        "渋谷区",
+        "港区"
+      ],
+      "aliases": [
+        "キャットストリート",
+        "表参道"
+      ],
+      "active": true,
+      "center": {
+        "lat": 35.6678441,
+        "lng": 139.706685
+      },
+      "radius_m": 350,
+      "coordinate_source": "google_places_text_search",
+      "resolution_status": "verified_name_match",
+      "resolved_name": "表参道",
+      "coordinate_query": "表参道・キャットストリート 渋谷区 港区 東京都 日本",
+      "radius_source": "mvp_heuristic",
+      "radius_status": "needs_route_calibration",
+      "anchors": [
+        "明治神宮前駅",
+        "キャットストリート",
+        "表参道交差点"
+      ],
+      "imagery_area": "表参道・キャットストリート"
+    },
+    {
+      "id": "shibuya-daikanyama",
+      "name": "代官山",
+      "ward": [
+        "渋谷区"
+      ],
+      "aliases": [
+        "代官山駅周辺",
+        "旧山手通り"
+      ],
+      "active": true,
+      "center": {
+        "lat": 35.6505465,
+        "lng": 139.7042207
+      },
+      "radius_m": 400,
+      "coordinate_source": "google_places_text_search",
+      "resolution_status": "verified_name_match",
+      "resolved_name": "代官山町",
+      "coordinate_query": "代官山 渋谷区 東京都 日本",
+      "radius_source": "mvp_heuristic",
+      "radius_status": "needs_route_calibration",
+      "anchors": [
+        "代官山駅",
+        "旧山手通り"
+      ],
+      "imagery_area": "代官山"
+    },
+    {
+      "id": "nakano-nakano-sunmall-broadway",
+      "name": "中野サンモール・ブロードウェイ",
+      "ward": [
+        "中野区"
+      ],
+      "aliases": [
+        "中野ブロードウェイ",
+        "中野サンモール"
+      ],
+      "active": true,
+      "center": {
+        "lat": 35.7092475,
+        "lng": 139.66565240000003
+      },
+      "radius_m": 350,
+      "coordinate_source": "google_places_text_search",
+      "resolution_status": "verified_name_match",
+      "resolved_name": "中野ブロードウェイ",
+      "coordinate_query": "中野サンモール・ブロードウェイ 中野区 東京都 日本",
+      "radius_source": "mvp_heuristic",
+      "radius_status": "needs_route_calibration",
+      "anchors": [
+        "中野駅北口",
+        "中野ブロードウェイ"
+      ],
+      "imagery_area": "中野サンモール・ブロードウェイ"
+    },
+    {
+      "id": "nakano-araiyakushi",
+      "name": "新井薬師",
+      "ward": [
+        "中野区"
+      ],
+      "aliases": [
+        "新井薬師前",
+        "薬師あいロード"
+      ],
+      "active": true,
+      "center": {
+        "lat": 35.714029599999996,
+        "lng": 139.66754319999998
+      },
+      "radius_m": 350,
+      "coordinate_source": "google_places_text_search",
+      "resolution_status": "verified_name_match",
+      "resolved_name": "梅照院（新井薬師）",
+      "coordinate_query": "新井薬師 中野区 東京都 日本",
+      "radius_source": "mvp_heuristic",
+      "radius_status": "needs_route_calibration",
+      "anchors": [
+        "新井薬師前駅",
+        "新井薬師梅照院"
+      ],
+      "imagery_area": "新井薬師"
+    },
+    {
+      "id": "nakano-numabukuro",
+      "name": "沼袋",
+      "ward": [
+        "中野区"
+      ],
+      "aliases": [
+        "沼袋駅周辺",
+        "沼袋商店街"
+      ],
+      "active": true,
+      "center": {
+        "lat": 35.7209378,
+        "lng": 139.6617903
+      },
+      "radius_m": 400,
+      "coordinate_source": "google_places_text_search",
+      "resolution_status": "verified_name_match",
+      "resolved_name": "沼袋",
+      "coordinate_query": "沼袋 中野区 東京都 日本",
+      "radius_source": "mvp_heuristic",
+      "radius_status": "needs_route_calibration",
+      "anchors": [
+        "沼袋駅",
+        "沼袋氷川神社"
+      ],
+      "imagery_area": "沼袋"
+    },
+    {
+      "id": "nakano-nogata",
+      "name": "野方",
+      "ward": [
+        "中野区"
+      ],
+      "aliases": [
+        "野方駅周辺",
+        "野方商店街"
+      ],
+      "active": true,
+      "center": {
+        "lat": 35.714299,
+        "lng": 139.65668789999998
+      },
+      "radius_m": 400,
+      "coordinate_source": "google_places_text_search",
+      "resolution_status": "verified_name_match",
+      "resolved_name": "野方",
+      "coordinate_query": "野方 中野区 東京都 日本",
+      "radius_source": "mvp_heuristic",
+      "radius_status": "needs_route_calibration",
+      "anchors": [
+        "野方駅",
+        "野方文化マーケット"
+      ],
+      "imagery_area": "野方"
+    },
+    {
+      "id": "suginami-asagaya",
+      "name": "阿佐ヶ谷",
+      "ward": [
+        "杉並区"
+      ],
+      "aliases": [
+        "阿佐谷",
+        "阿佐ヶ谷パールセンター"
+      ],
+      "active": true,
+      "center": {
+        "lat": 35.710034,
+        "lng": 139.63755799999998
+      },
+      "radius_m": 350,
+      "coordinate_source": "google_places_text_search",
+      "resolution_status": "verified_name_match",
+      "resolved_name": "阿佐谷北",
+      "coordinate_query": "阿佐ヶ谷 杉並区 東京都 日本",
+      "radius_source": "mvp_heuristic",
+      "radius_status": "needs_route_calibration",
+      "anchors": [
+        "阿佐ヶ谷駅",
+        "阿佐ヶ谷パールセンター"
+      ],
+      "imagery_area": "阿佐ヶ谷"
+    },
+    {
+      "id": "suginami-ogikubo",
+      "name": "荻窪",
+      "ward": [
+        "杉並区"
+      ],
+      "aliases": [
+        "荻窪駅周辺",
+        "荻窪南口仲通り"
+      ],
+      "active": true,
+      "center": {
+        "lat": 35.6992855,
+        "lng": 139.6222585
+      },
+      "radius_m": 400,
+      "coordinate_source": "google_places_text_search",
+      "resolution_status": "verified_name_match",
+      "resolved_name": "荻窪",
+      "coordinate_query": "荻窪 杉並区 東京都 日本",
+      "radius_source": "mvp_heuristic",
+      "radius_status": "needs_route_calibration",
+      "anchors": [
+        "荻窪駅",
+        "荻窪南口仲通り"
+      ],
+      "imagery_area": "荻窪"
+    },
+    {
+      "id": "suginami-nishiogikubo",
+      "name": "西荻窪",
+      "ward": [
+        "杉並区"
+      ],
+      "aliases": [
+        "西荻窪駅周辺",
+        "西荻"
+      ],
+      "active": true,
+      "center": {
+        "lat": 35.7036961,
+        "lng": 139.600182
+      },
+      "radius_m": 350,
+      "coordinate_source": "google_places_text_search",
+      "resolution_status": "verified_name_match",
+      "resolved_name": "西荻窪駅",
+      "coordinate_query": "西荻窪 杉並区 東京都 日本",
+      "radius_source": "mvp_heuristic",
+      "radius_status": "needs_route_calibration",
+      "anchors": [
+        "西荻窪駅",
+        "西荻南口商店街"
+      ],
+      "imagery_area": "西荻窪"
+    },
+    {
+      "id": "toshima-ikebukuro-east",
+      "name": "池袋東口・乙女ロード",
+      "ward": [
+        "豊島区"
+      ],
+      "aliases": [
+        "池袋東口",
+        "乙女ロード"
+      ],
+      "active": true,
+      "center": {
+        "lat": 35.7293308,
+        "lng": 139.71530800000002
+      },
+      "radius_m": 550,
+      "coordinate_source": "google_places_text_search",
+      "resolution_status": "verified_name_match",
+      "resolved_name": "I’m FREE 池袋東口店",
+      "coordinate_query": "池袋東口・乙女ロード 豊島区 東京都 日本",
+      "radius_source": "mvp_heuristic",
+      "radius_status": "needs_route_calibration",
+      "anchors": [
+        "池袋駅東口",
+        "乙女ロード"
+      ],
+      "imagery_area": "池袋東口・乙女ロード"
+    },
+    {
+      "id": "toshima-ikebukuro-west",
+      "name": "池袋西口",
+      "ward": [
+        "豊島区"
+      ],
+      "aliases": [
+        "池袋西口繁華街",
+        "西池袋"
+      ],
+      "active": true,
+      "center": {
+        "lat": 35.7301469,
+        "lng": 139.7089269
+      },
+      "radius_m": 550,
+      "coordinate_source": "google_places_text_search",
+      "resolution_status": "verified_name_match",
+      "resolved_name": "豊島区立池袋西口公園",
+      "coordinate_query": "池袋西口 豊島区 東京都 日本",
+      "radius_source": "mvp_heuristic",
+      "radius_status": "needs_route_calibration",
+      "anchors": [
+        "池袋駅西口",
+        "立教通り"
+      ],
+      "imagery_area": "池袋西口"
+    },
+    {
+      "id": "toshima-sugamo",
+      "name": "巣鴨地蔵通り",
+      "ward": [
+        "豊島区"
+      ],
+      "aliases": [
+        "巣鴨",
+        "巣鴨地蔵通商店街"
+      ],
+      "active": true,
+      "center": {
+        "lat": 35.7365998,
+        "lng": 139.733571
+      },
+      "radius_m": 400,
+      "coordinate_source": "google_places_text_search",
+      "resolution_status": "verified_name_match",
+      "resolved_name": "巣鴨地蔵通り",
+      "coordinate_query": "巣鴨地蔵通り 豊島区 東京都 日本",
+      "radius_source": "mvp_heuristic",
+      "radius_status": "needs_route_calibration",
+      "anchors": [
+        "巣鴨駅",
+        "高岩寺"
+      ],
+      "imagery_area": "巣鴨地蔵通り"
+    },
+    {
+      "id": "toshima-zoshigaya",
+      "name": "雑司が谷",
+      "ward": [
+        "豊島区"
+      ],
+      "aliases": [
+        "鬼子母神",
+        "雑司ヶ谷"
+      ],
+      "active": true,
+      "center": {
+        "lat": 35.720272099999995,
+        "lng": 139.7185838
+      },
+      "radius_m": 350,
+      "coordinate_source": "google_places_text_search",
+      "resolution_status": "verified_name_match",
+      "resolved_name": "雑司が谷",
+      "coordinate_query": "雑司が谷 豊島区 東京都 日本",
+      "radius_source": "mvp_heuristic",
+      "radius_status": "needs_route_calibration",
+      "anchors": [
+        "雑司が谷駅",
+        "鬼子母神堂"
+      ],
+      "imagery_area": "雑司が谷"
+    },
+    {
+      "id": "kita-akabane",
+      "name": "赤羽",
+      "ward": [
+        "北区"
+      ],
+      "aliases": [
+        "赤羽一番街",
+        "OK横丁"
+      ],
+      "active": true,
+      "center": {
+        "lat": 35.7799638,
+        "lng": 139.723053
+      },
+      "radius_m": 400,
+      "coordinate_source": "google_places_text_search",
+      "resolution_status": "verified_name_match",
+      "resolved_name": "赤羽",
+      "coordinate_query": "赤羽 北区 東京都 日本",
+      "radius_source": "mvp_heuristic",
+      "radius_status": "needs_route_calibration",
+      "anchors": [
+        "赤羽駅東口",
+        "赤羽一番街"
+      ],
+      "imagery_area": "赤羽"
+    },
+    {
+      "id": "kita-jujo",
+      "name": "十条銀座",
+      "ward": [
+        "北区"
+      ],
+      "aliases": [
+        "十条銀座商店街",
+        "十条駅周辺"
+      ],
+      "active": true,
+      "center": {
+        "lat": 35.7608737,
+        "lng": 139.72154179999998
+      },
+      "radius_m": 400,
+      "coordinate_source": "google_places_text_search",
+      "resolution_status": "verified_name_match",
+      "resolved_name": "十条銀座商店街",
+      "coordinate_query": "十条銀座 北区 東京都 日本",
+      "radius_source": "mvp_heuristic",
+      "radius_status": "needs_route_calibration",
+      "anchors": [
+        "十条駅",
+        "十条銀座商店街"
+      ],
+      "imagery_area": "十条銀座"
+    },
+    {
+      "id": "kita-oji-asukayama",
+      "name": "王子・飛鳥山",
+      "ward": [
+        "北区"
+      ],
+      "aliases": [
+        "飛鳥山公園",
+        "王子駅周辺"
+      ],
+      "active": true,
+      "center": {
+        "lat": 35.7504718,
+        "lng": 139.73882279999998
+      },
+      "radius_m": 550,
+      "coordinate_source": "google_places_text_search",
+      "resolution_status": "verified_name_match",
+      "resolved_name": "飛鳥山公園",
+      "coordinate_query": "王子・飛鳥山 北区 東京都 日本",
+      "radius_source": "mvp_heuristic",
+      "radius_status": "needs_route_calibration",
+      "anchors": [
+        "王子駅",
+        "飛鳥山公園"
+      ],
+      "imagery_area": "王子・飛鳥山"
+    },
+    {
+      "id": "kita-tabata",
+      "name": "田端",
+      "ward": [
+        "北区"
+      ],
+      "aliases": [
+        "田端文士村",
+        "田端駅周辺"
+      ],
+      "active": true,
+      "center": {
+        "lat": 35.7359733,
+        "lng": 139.7562635
+      },
+      "radius_m": 350,
+      "coordinate_source": "google_places_text_search",
+      "resolution_status": "verified_name_match",
+      "resolved_name": "田端",
+      "coordinate_query": "田端 北区 東京都 日本",
+      "radius_source": "mvp_heuristic",
+      "radius_status": "needs_route_calibration",
+      "anchors": [
+        "田端駅",
+        "田端文士村記念館"
+      ],
+      "imagery_area": "田端"
+    },
+    {
+      "id": "arakawa-nippori-textile",
+      "name": "日暮里繊維街",
+      "ward": [
+        "荒川区"
+      ],
+      "aliases": [
+        "日暮里中央通り",
+        "日暮里繊維問屋街"
+      ],
+      "active": true,
+      "center": {
+        "lat": 35.7284489,
+        "lng": 139.7733819
+      },
+      "radius_m": 400,
+      "coordinate_source": "google_places_text_search",
+      "resolution_status": "verified_name_match",
+      "resolved_name": "日暮里繊維街",
+      "coordinate_query": "日暮里繊維街 荒川区 東京都 日本",
+      "radius_source": "mvp_heuristic",
+      "radius_status": "needs_route_calibration",
+      "anchors": [
+        "日暮里駅",
+        "日暮里中央通り"
+      ],
+      "imagery_area": "日暮里繊維街"
+    },
+    {
+      "id": "arakawa-machiya",
+      "name": "町屋",
+      "ward": [
+        "荒川区"
+      ],
+      "aliases": [
+        "町屋駅周辺",
+        "町屋斎場周辺"
+      ],
+      "active": true,
+      "center": {
+        "lat": 35.749153899999996,
+        "lng": 139.7805445
+      },
+      "radius_m": 350,
+      "coordinate_source": "google_places_text_search",
+      "resolution_status": "verified_name_match",
+      "resolved_name": "町屋",
+      "coordinate_query": "町屋 荒川区 東京都 日本",
+      "radius_source": "mvp_heuristic",
+      "radius_status": "needs_route_calibration",
+      "anchors": [
+        "町屋駅",
+        "尾竹橋通り"
+      ],
+      "imagery_area": "町屋"
+    },
+    {
+      "id": "arakawa-minowa",
+      "name": "三ノ輪・ジョイフル三ノ輪",
+      "ward": [
+        "荒川区",
+        "台東区"
+      ],
+      "aliases": [
+        "ジョイフル三の輪",
+        "三ノ輪橋"
+      ],
+      "active": true,
+      "center": {
+        "lat": 35.732079999999996,
+        "lng": 139.7919407
+      },
+      "radius_m": 350,
+      "coordinate_source": "google_places_text_search",
+      "resolution_status": "verified_name_match",
+      "resolved_name": "ジョイフル三の輪商店街",
+      "coordinate_query": "三ノ輪・ジョイフル三ノ輪 荒川区 台東区 東京都 日本",
+      "radius_source": "mvp_heuristic",
+      "radius_status": "needs_route_calibration",
+      "anchors": [
+        "三ノ輪橋停留場",
+        "ジョイフル三ノ輪"
+      ],
+      "imagery_area": "三ノ輪・ジョイフル三ノ輪"
+    },
+    {
+      "id": "arakawa-oku-arakawayuen",
+      "name": "尾久・荒川遊園",
+      "ward": [
+        "荒川区"
+      ],
+      "aliases": [
+        "あらかわ遊園",
+        "荒川遊園地前"
+      ],
+      "active": true,
+      "center": {
+        "lat": 35.7533978,
+        "lng": 139.7580309
+      },
+      "radius_m": 550,
+      "coordinate_source": "google_places_text_search",
+      "resolution_status": "verified_name_match",
+      "resolved_name": "あらかわ遊園",
+      "coordinate_query": "尾久・荒川遊園 荒川区 東京都 日本",
+      "radius_source": "mvp_heuristic",
+      "radius_status": "needs_route_calibration",
+      "anchors": [
+        "荒川遊園地前停留場",
+        "あらかわ遊園"
+      ],
+      "imagery_area": "尾久・荒川遊園"
+    },
+    {
+      "id": "itabashi-itabashi-juku",
+      "name": "板橋宿・仲宿",
+      "ward": [
+        "板橋区"
+      ],
+      "aliases": [
+        "仲宿商店街",
+        "旧中山道板橋宿"
+      ],
+      "active": true,
+      "center": {
+        "lat": 35.7522036,
+        "lng": 139.7106468
+      },
+      "radius_m": 400,
+      "coordinate_source": "google_places_text_search",
+      "resolution_status": "verified_name_match",
+      "resolved_name": "仲宿商店街",
+      "coordinate_query": "板橋宿・仲宿 板橋区 東京都 日本",
+      "radius_source": "mvp_heuristic",
+      "radius_status": "needs_route_calibration",
+      "anchors": [
+        "板橋本町駅",
+        "仲宿商店街"
+      ],
+      "imagery_area": "板橋宿・仲宿"
+    },
+    {
+      "id": "itabashi-takashimadaira",
+      "name": "高島平",
+      "ward": [
+        "板橋区"
+      ],
+      "aliases": [
+        "高島平団地",
+        "高島平駅周辺"
+      ],
+      "active": true,
+      "center": {
+        "lat": 35.788874299999996,
+        "lng": 139.6600343
+      },
+      "radius_m": 350,
+      "coordinate_source": "google_places_text_search",
+      "resolution_status": "verified_name_match",
+      "resolved_name": "高島平",
+      "coordinate_query": "高島平 板橋区 東京都 日本",
+      "radius_source": "mvp_heuristic",
+      "radius_status": "needs_route_calibration",
+      "anchors": [
+        "高島平駅",
+        "高島平団地"
+      ],
+      "imagery_area": "高島平"
+    },
+    {
+      "id": "itabashi-tokiwadai",
+      "name": "常盤台",
+      "ward": [
+        "板橋区"
+      ],
+      "aliases": [
+        "ときわ台",
+        "常盤台住宅地"
+      ],
+      "active": true,
+      "center": {
+        "lat": 35.7607673,
+        "lng": 139.6924137
+      },
+      "radius_m": 350,
+      "coordinate_source": "google_places_text_search",
+      "resolution_status": "verified_name_match",
+      "resolved_name": "常盤台",
+      "coordinate_query": "常盤台 板橋区 東京都 日本",
+      "radius_source": "mvp_heuristic",
+      "radius_status": "needs_route_calibration",
+      "anchors": [
+        "ときわ台駅",
+        "常盤台住宅地"
+      ],
+      "imagery_area": "常盤台"
+    },
+    {
+      "id": "nerima-ekoda",
+      "name": "江古田",
+      "ward": [
+        "練馬区"
+      ],
+      "aliases": [
+        "江古田駅周辺",
+        "江古田ゆうゆうロード"
+      ],
+      "active": true,
+      "center": {
+        "lat": 35.7265495,
+        "lng": 139.6643416
+      },
+      "radius_m": 350,
+      "coordinate_source": "google_places_text_search",
+      "resolution_status": "verified_name_match",
+      "resolved_name": "江古田",
+      "coordinate_query": "江古田 練馬区 東京都 日本",
+      "radius_source": "mvp_heuristic",
+      "radius_status": "needs_route_calibration",
+      "anchors": [
+        "江古田駅",
+        "江古田ゆうゆうロード"
+      ],
+      "imagery_area": "江古田"
+    },
+    {
+      "id": "nerima-nerima",
+      "name": "練馬駅周辺",
+      "ward": [
+        "練馬区"
+      ],
+      "aliases": [
+        "練馬",
+        "練馬駅前商店街"
+      ],
+      "active": true,
+      "center": {
+        "lat": 35.73779650000001,
+        "lng": 139.65391580000002
+      },
+      "radius_m": 400,
+      "coordinate_source": "google_places_text_search",
+      "resolution_status": "verified_name_match",
+      "resolved_name": "練馬駅",
+      "coordinate_query": "練馬駅周辺 練馬区 東京都 日本",
+      "radius_source": "mvp_heuristic",
+      "radius_status": "needs_route_calibration",
+      "anchors": [
+        "練馬駅",
+        "練馬駅前商店街"
+      ],
+      "imagery_area": "練馬駅周辺"
+    },
+    {
+      "id": "nerima-shakujii-koen",
+      "name": "石神井公園",
+      "ward": [
+        "練馬区"
+      ],
+      "aliases": [
+        "石神井池",
+        "石神井公園駅周辺"
+      ],
+      "active": true,
+      "center": {
+        "lat": 35.7379587,
+        "lng": 139.5989938
+      },
+      "radius_m": 550,
+      "coordinate_source": "google_places_text_search",
+      "resolution_status": "verified_name_match",
+      "resolved_name": "石神井公園",
+      "coordinate_query": "石神井公園 練馬区 東京都 日本",
+      "radius_source": "mvp_heuristic",
+      "radius_status": "needs_route_calibration",
+      "anchors": [
+        "石神井公園駅",
+        "石神井池"
+      ],
+      "imagery_area": "石神井公園"
+    },
+    {
+      "id": "nerima-oizumigakuen",
+      "name": "大泉学園",
+      "ward": [
+        "練馬区"
+      ],
+      "aliases": [
+        "大泉学園駅周辺",
+        "ゆめーてる商店街"
+      ],
+      "active": true,
+      "center": {
+        "lat": 35.7673616,
+        "lng": 139.5865752
+      },
+      "radius_m": 400,
+      "coordinate_source": "google_places_text_search",
+      "resolution_status": "verified_name_match",
+      "resolved_name": "大泉学園町",
+      "coordinate_query": "大泉学園 練馬区 東京都 日本",
+      "radius_source": "mvp_heuristic",
+      "radius_status": "needs_route_calibration",
+      "anchors": [
+        "大泉学園駅",
+        "ゆめーてる商店街"
+      ],
+      "imagery_area": "大泉学園"
+    },
+    {
+      "id": "adachi-kitasenju",
+      "name": "北千住",
+      "ward": [
+        "足立区"
+      ],
+      "aliases": [
+        "北千住駅周辺",
+        "宿場町通り"
+      ],
+      "active": true,
+      "center": {
+        "lat": 35.7521292,
+        "lng": 139.802278
+      },
+      "radius_m": 400,
+      "coordinate_source": "google_places_text_search",
+      "resolution_status": "verified_name_match",
+      "resolved_name": "千住",
+      "coordinate_query": "北千住 足立区 東京都 日本",
+      "radius_source": "mvp_heuristic",
+      "radius_status": "needs_route_calibration",
+      "anchors": [
+        "北千住駅",
+        "宿場町通り"
+      ],
+      "imagery_area": "北千住"
+    },
+    {
+      "id": "adachi-nishiarai",
+      "name": "西新井大師",
+      "ward": [
+        "足立区"
+      ],
+      "aliases": [
+        "西新井大師参道",
+        "總持寺周辺"
+      ],
+      "active": true,
+      "center": {
+        "lat": 35.7800505,
+        "lng": 139.7800452
+      },
+      "radius_m": 350,
+      "coordinate_source": "google_places_text_search",
+      "resolution_status": "verified_name_match",
+      "resolved_name": "西新井大師 總持寺",
+      "coordinate_query": "西新井大師 足立区 東京都 日本",
+      "radius_source": "mvp_heuristic",
+      "radius_status": "needs_route_calibration",
+      "anchors": [
+        "大師前駅",
+        "西新井大師"
+      ],
+      "imagery_area": "西新井大師"
+    },
+    {
+      "id": "adachi-ayase",
+      "name": "綾瀬",
+      "ward": [
+        "足立区"
+      ],
+      "aliases": [
+        "綾瀬駅周辺",
+        "綾瀬商店街"
+      ],
+      "active": true,
+      "center": {
+        "lat": 35.7675988,
+        "lng": 139.82657770000003
+      },
+      "radius_m": 400,
+      "coordinate_source": "google_places_text_search",
+      "resolution_status": "verified_name_match",
+      "resolved_name": "綾瀬",
+      "coordinate_query": "綾瀬 足立区 東京都 日本",
+      "radius_source": "mvp_heuristic",
+      "radius_status": "needs_route_calibration",
+      "anchors": [
+        "綾瀬駅",
+        "綾瀬川沿い"
+      ],
+      "imagery_area": "綾瀬"
+    },
+    {
+      "id": "adachi-takenotsuka",
+      "name": "竹ノ塚",
+      "ward": [
+        "足立区"
+      ],
+      "aliases": [
+        "竹の塚",
+        "竹ノ塚駅周辺"
+      ],
+      "active": true,
+      "center": {
+        "lat": 35.792639699999995,
+        "lng": 139.7946064
+      },
+      "radius_m": 350,
+      "coordinate_source": "google_places_text_search",
+      "resolution_status": "verified_name_match",
+      "resolved_name": "竹の塚",
+      "coordinate_query": "竹ノ塚 足立区 東京都 日本",
+      "radius_source": "mvp_heuristic",
+      "radius_status": "needs_route_calibration",
+      "anchors": [
+        "竹ノ塚駅",
+        "竹の塚東口商店街"
+      ],
+      "imagery_area": "竹ノ塚"
+    },
+    {
+      "id": "katsushika-shibamata",
+      "name": "柴又",
+      "ward": [
+        "葛飾区"
+      ],
+      "aliases": [
+        "柴又帝釈天参道",
+        "帝釈天参道"
+      ],
+      "active": true,
+      "center": {
+        "lat": 35.7559398,
+        "lng": 139.8777675
+      },
+      "radius_m": 350,
+      "coordinate_source": "google_places_text_search",
+      "resolution_status": "verified_name_match",
+      "resolved_name": "柴又",
+      "coordinate_query": "柴又 葛飾区 東京都 日本",
+      "radius_source": "mvp_heuristic",
+      "radius_status": "needs_route_calibration",
+      "anchors": [
+        "柴又駅",
+        "柴又帝釈天"
+      ],
+      "imagery_area": "柴又"
+    },
+    {
+      "id": "katsushika-tateishi",
+      "name": "立石",
+      "ward": [
+        "葛飾区"
+      ],
+      "aliases": [
+        "立石仲見世",
+        "京成立石駅周辺"
+      ],
+      "active": true,
+      "center": {
+        "lat": 35.740726,
+        "lng": 139.84832799999998
+      },
+      "radius_m": 350,
+      "coordinate_source": "google_places_text_search",
+      "resolution_status": "verified_name_match",
+      "resolved_name": "立石",
+      "coordinate_query": "立石 葛飾区 東京都 日本",
+      "radius_source": "mvp_heuristic",
+      "radius_status": "needs_route_calibration",
+      "anchors": [
+        "京成立石駅",
+        "立石仲見世商店街"
+      ],
+      "imagery_area": "立石"
+    },
+    {
+      "id": "katsushika-kameari",
+      "name": "亀有",
+      "ward": [
+        "葛飾区"
+      ],
+      "aliases": [
+        "亀有駅周辺",
+        "ゆうろーど"
+      ],
+      "active": true,
+      "center": {
+        "lat": 35.762022099999996,
+        "lng": 139.84704829999998
+      },
+      "radius_m": 350,
+      "coordinate_source": "google_places_text_search",
+      "resolution_status": "verified_name_match",
+      "resolved_name": "亀有",
+      "coordinate_query": "亀有 葛飾区 東京都 日本",
+      "radius_source": "mvp_heuristic",
+      "radius_status": "needs_route_calibration",
+      "anchors": [
+        "亀有駅",
+        "亀有ゆうろーど"
+      ],
+      "imagery_area": "亀有"
+    },
+    {
+      "id": "edogawa-koiwa",
+      "name": "小岩",
+      "ward": [
+        "江戸川区"
+      ],
+      "aliases": [
+        "小岩駅周辺",
+        "昭和通り商店街"
+      ],
+      "active": true,
+      "center": {
+        "lat": 35.733300299999996,
+        "lng": 139.881958
+      },
+      "radius_m": 400,
+      "coordinate_source": "google_places_text_search",
+      "resolution_status": "verified_name_match",
+      "resolved_name": "小岩駅",
+      "coordinate_query": "小岩 江戸川区 東京都 日本",
+      "radius_source": "mvp_heuristic",
+      "radius_status": "needs_route_calibration",
+      "anchors": [
+        "小岩駅",
+        "昭和通り商店街"
+      ],
+      "imagery_area": "小岩"
+    },
+    {
+      "id": "edogawa-kasai",
+      "name": "葛西",
+      "ward": [
+        "江戸川区"
+      ],
+      "aliases": [
+        "葛西駅周辺",
+        "地下鉄博物館周辺"
+      ],
+      "active": true,
+      "center": {
+        "lat": 35.6635395,
+        "lng": 139.8726529
+      },
+      "radius_m": 350,
+      "coordinate_source": "google_places_text_search",
+      "resolution_status": "verified_name_match",
+      "resolved_name": "葛西駅",
+      "coordinate_query": "葛西 江戸川区 東京都 日本",
+      "radius_source": "mvp_heuristic",
+      "radius_status": "needs_route_calibration",
+      "anchors": [
+        "葛西駅",
+        "地下鉄博物館"
+      ],
+      "imagery_area": "葛西"
+    },
+    {
+      "id": "edogawa-funabori",
+      "name": "船堀",
+      "ward": [
+        "江戸川区"
+      ],
+      "aliases": [
+        "船堀駅周辺",
+        "新川"
+      ],
+      "active": true,
+      "center": {
+        "lat": 35.6825543,
+        "lng": 139.8636859
+      },
+      "radius_m": 350,
+      "coordinate_source": "google_places_text_search",
+      "resolution_status": "verified_name_match",
+      "resolved_name": "船堀",
+      "coordinate_query": "船堀 江戸川区 東京都 日本",
+      "radius_source": "mvp_heuristic",
+      "radius_status": "needs_route_calibration",
+      "anchors": [
+        "船堀駅",
+        "新川千本桜"
+      ],
+      "imagery_area": "船堀"
+    },
+    {
+      "id": "edogawa-hirai",
+      "name": "平井",
+      "ward": [
+        "江戸川区"
+      ],
+      "aliases": [
+        "平井駅周辺",
+        "平井親和会商店街"
+      ],
+      "active": true,
+      "center": {
+        "lat": 35.7069178,
+        "lng": 139.84704829999998
+      },
+      "radius_m": 400,
+      "coordinate_source": "google_places_text_search",
+      "resolution_status": "verified_name_match",
+      "resolved_name": "平井",
+      "coordinate_query": "平井 江戸川区 東京都 日本",
+      "radius_source": "mvp_heuristic",
+      "radius_status": "needs_route_calibration",
+      "anchors": [
+        "平井駅",
+        "平井親和会商店街"
+      ],
+      "imagery_area": "平井"
+    },
+    {
+      "id": "edogawa-kasairinkai",
+      "name": "葛西臨海公園",
+      "ward": [
+        "江戸川区"
+      ],
+      "aliases": [
+        "葛西臨海公園駅",
+        "葛西臨海公園周辺"
+      ],
+      "active": true,
+      "center": {
+        "lat": 35.6419847,
+        "lng": 139.8603206
+      },
+      "radius_m": 550,
+      "coordinate_source": "google_places_text_search",
+      "resolution_status": "verified_name_match",
+      "resolved_name": "葛西臨海公園",
+      "coordinate_query": "葛西臨海公園 江戸川区 東京都 日本",
+      "radius_source": "mvp_heuristic",
+      "radius_status": "needs_route_calibration",
+      "anchors": [
+        "葛西臨海公園駅",
+        "葛西臨海水族園"
+      ],
+      "imagery_area": "葛西臨海公園"
+    },
+    {
+      "id": "chiyoda-kanda-sudacho",
+      "name": "神田須田町・淡路町",
+      "ward": [
+        "千代田区"
+      ],
+      "aliases": [
+        "須田町",
+        "淡路町"
+      ],
+      "active": true,
+      "center": {
+        "lat": 35.6953986,
+        "lng": 139.7709587
+      },
+      "radius_m": 350,
+      "coordinate_source": "google_places_text_search",
+      "resolution_status": "verified_name_match",
+      "resolved_name": "神田須田町",
+      "coordinate_query": "神田須田町・淡路町 千代田区 東京都 日本",
+      "radius_source": "mvp_heuristic",
+      "radius_status": "needs_route_calibration",
+      "anchors": [
+        "万世橋",
+        "淡路町駅"
+      ],
+      "imagery_area": "神田須田町・淡路町"
+    },
+    {
+      "id": "chuo-ningyocho-amazakeyokocho",
+      "name": "人形町・甘酒横丁",
+      "ward": [
+        "中央区"
+      ],
+      "aliases": [
+        "甘酒横丁",
+        "人形町商店街"
+      ],
+      "active": true,
+      "center": {
+        "lat": 35.6853583,
+        "lng": 139.7836529
+      },
+      "radius_m": 400,
+      "coordinate_source": "google_places_text_search",
+      "resolution_status": "verified_name_match",
+      "resolved_name": "甘酒横丁",
+      "coordinate_query": "人形町・甘酒横丁 中央区 東京都 日本",
+      "radius_source": "mvp_heuristic",
+      "radius_status": "needs_route_calibration",
+      "anchors": [
+        "人形町駅",
+        "甘酒横丁"
+      ],
+      "imagery_area": "人形町・甘酒横丁"
+    },
+    {
+      "id": "minato-shimbashi-karasumori",
+      "name": "新橋・烏森通り",
+      "ward": [
+        "港区"
+      ],
+      "aliases": [
+        "烏森通り",
+        "新橋駅西口"
+      ],
+      "active": true,
+      "center": {
+        "lat": 35.6648291,
+        "lng": 139.7562635
+      },
+      "radius_m": 400,
+      "coordinate_source": "google_places_text_search",
+      "resolution_status": "verified_name_match",
+      "resolved_name": "新橋",
+      "coordinate_query": "新橋・烏森通り 港区 東京都 日本",
+      "radius_source": "mvp_heuristic",
+      "radius_status": "needs_route_calibration",
+      "anchors": [
+        "新橋駅",
+        "烏森神社"
+      ],
+      "imagery_area": "新橋・烏森通り"
+    },
+    {
+      "id": "shinjuku-ochiai-nakai",
+      "name": "落合・中井",
+      "ward": [
+        "新宿区"
+      ],
+      "aliases": [
+        "中井駅周辺",
+        "妙正寺川沿い"
+      ],
+      "active": true,
+      "center": {
+        "lat": 35.716422,
+        "lng": 139.6847564
+      },
+      "radius_m": 350,
+      "coordinate_source": "google_places_text_search",
+      "resolution_status": "verified_name_match",
+      "resolved_name": "中井",
+      "coordinate_query": "落合・中井 新宿区 東京都 日本",
+      "radius_source": "mvp_heuristic",
+      "radius_status": "needs_route_calibration",
+      "anchors": [
+        "中井駅",
+        "林芙美子記念館"
+      ],
+      "imagery_area": "落合・中井"
+    },
+    {
+      "id": "koto-sunamachi-ginza",
+      "name": "砂町銀座",
+      "ward": [
+        "江東区"
+      ],
+      "aliases": [
+        "砂町銀座商店街",
+        "北砂"
+      ],
+      "active": true,
+      "center": {
+        "lat": 35.6797033,
+        "lng": 139.8313365
+      },
+      "radius_m": 400,
+      "coordinate_source": "google_places_text_search",
+      "resolution_status": "verified_name_match",
+      "resolved_name": "砂町銀座通り",
+      "coordinate_query": "砂町銀座 江東区 東京都 日本",
+      "radius_source": "mvp_heuristic",
+      "radius_status": "needs_route_calibration",
+      "anchors": [
+        "明治通り入口",
+        "丸八通り入口"
+      ],
+      "imagery_area": "砂町銀座"
+    },
+    {
+      "id": "shinagawa-musashikoyama-palm",
+      "name": "武蔵小山・パルム",
+      "ward": [
+        "品川区"
+      ],
+      "aliases": [
+        "武蔵小山商店街パルム",
+        "武蔵小山駅周辺"
+      ],
+      "active": true,
+      "center": {
+        "lat": 35.6172304,
+        "lng": 139.70756129999998
+      },
+      "radius_m": 400,
+      "coordinate_source": "google_places_text_search",
+      "resolution_status": "verified_name_match",
+      "resolved_name": "武蔵小山パルム",
+      "coordinate_query": "武蔵小山・パルム 品川区 東京都 日本",
+      "radius_source": "mvp_heuristic",
+      "radius_status": "needs_route_calibration",
+      "anchors": [
+        "武蔵小山駅",
+        "パルム商店街"
+      ],
+      "imagery_area": "武蔵小山・パルム"
+    },
+    {
+      "id": "meguro-komaba",
+      "name": "駒場",
+      "ward": [
+        "目黒区"
+      ],
+      "aliases": [
+        "駒場東大前",
+        "駒場公園周辺"
+      ],
+      "active": true,
+      "center": {
+        "lat": 35.6603462,
+        "lng": 139.6822041
+      },
+      "radius_m": 550,
+      "coordinate_source": "google_places_text_search",
+      "resolution_status": "verified_name_match",
+      "resolved_name": "駒場",
+      "coordinate_query": "駒場 目黒区 東京都 日本",
+      "radius_source": "mvp_heuristic",
+      "radius_status": "needs_route_calibration",
+      "anchors": [
+        "駒場東大前駅",
+        "旧前田家本邸"
+      ],
+      "imagery_area": "駒場"
+    },
+    {
+      "id": "ota-omori",
+      "name": "大森",
+      "ward": [
+        "大田区"
+      ],
+      "aliases": [
+        "大森海岸",
+        "大森海苔のふるさと館周辺"
+      ],
+      "active": true,
+      "center": {
+        "lat": 35.5736324,
+        "lng": 139.7338633
+      },
+      "radius_m": 350,
+      "coordinate_source": "google_places_text_search",
+      "resolution_status": "verified_name_match",
+      "resolved_name": "大森",
+      "coordinate_query": "大森 大田区 東京都 日本",
+      "radius_source": "mvp_heuristic",
+      "radius_status": "needs_route_calibration",
+      "anchors": [
+        "大森駅",
+        "大森海苔のふるさと館"
+      ],
+      "imagery_area": "大森"
+    },
+    {
+      "id": "sumida-mukojima-hatononomachi",
+      "name": "向島・鳩の街",
+      "ward": [
+        "墨田区"
+      ],
+      "aliases": [
+        "鳩の街通り",
+        "向島百花園周辺"
+      ],
+      "anchors": [
+        "向島百花園",
+        "鳩の街通り"
+      ],
+      "active": true,
+      "center": {
+        "lat": 35.724214499999995,
+        "lng": 139.81560059999998
+      },
+      "radius_m": 400,
+      "coordinate_source": "google_places_text_search",
+      "resolution_status": "verified_name_match",
+      "resolved_name": "向島百花園",
+      "coordinate_query": "向島百花園 墨田区 東京都 日本",
+      "radius_source": "mvp_heuristic",
+      "radius_status": "needs_route_calibration",
+      "imagery_area": "向島・鳩の街"
+    },
+    {
+      "id": "itabashi-oyama",
+      "name": "大山",
+      "ward": [
+        "板橋区"
+      ],
+      "aliases": [
+        "ハッピーロード大山",
+        "大山駅周辺"
+      ],
+      "anchors": [
+        "大山駅",
+        "ハッピーロード大山"
+      ],
+      "active": true,
+      "center": {
+        "lat": 35.7485637,
+        "lng": 139.70228369999998
+      },
+      "radius_m": 350,
+      "coordinate_source": "google_places_text_search",
+      "resolution_status": "verified_name_match",
+      "resolved_name": "大山駅",
+      "coordinate_query": "大山駅 板橋区 東京都 日本",
+      "radius_source": "mvp_heuristic",
+      "radius_status": "needs_route_calibration",
+      "imagery_area": "大山"
+    }
+  ],
+  "candidate_area_count": 100
+}
