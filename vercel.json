@@ -1,0 +1,29 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "services": {
+    "sound_map": {
+      "root": ".",
+      "framework": "express",
+      "bindings": [
+        {
+          "type": "service",
+          "service": "netease",
+          "format": "url",
+          "env": "NETEASE_PRIVATE_URL"
+        }
+      ]
+    },
+    "netease": {
+      "root": "services/netease/",
+      "framework": "express"
+    }
+  },
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": {
+        "service": "sound_map"
+      }
+    }
+  ]
+}

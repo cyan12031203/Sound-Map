@@ -17,12 +17,13 @@ Sound-Map 根据一段真实路线生成一份可播放的路线歌单，并配�
 - 原生 HTML、CSS 和 JavaScript 前端（`public/`）
 - Google Routes API、Google Places API
 - DeepSeek API
-- NeteaseCloudMusicApi（单独运行的网易云音乐 API 服务）
+- NeteaseCloudMusicApi（本地单独运行；Vercel 上作为私有 Service 部署）
 
 ```text
 public/       前端页面、播放器、歌词与背景效果
 src/agent/    PEAR 编排、DeepSeek 规划器、选曲工具
 src/services/ 路线、地点、音乐元数据和音频特征服务
+services/netease/ 仅供 Sound-Map 私有调用的网易云 API Service
 data/         东京区域资料、标签说明和歌曲特征缓存
 scripts/      音频特征分析及路线数据辅助脚本
 test/         Agent 测试
@@ -54,6 +55,7 @@ DEEPSEEK_API_KEY=你的DeepSeekApiKey
 DEEPSEEK_BASE_URL=https://api.deepseek.com
 DEEPSEEK_MODEL=deepseek-v4-flash
 NETEASE_COOKIE=你的网易云Cookie
+# 本地运行时指向本机 NeteaseCloudMusicApi；Vercel 会通过 Service Binding 注入私有地址
 NETEASE_API_BASE_URL=http://127.0.0.1:3000
 
 # 仅在访问外部 API 需要代理时填写
@@ -61,6 +63,19 @@ NETEASE_API_BASE_URL=http://127.0.0.1:3000
 ```
 
 `.env` 已加入 `.gitignore`。请勿提交真实 API Key、Cookie 或其他凭据。不要把 `.env` 内容粘贴到 issue、截图或聊天中。
+
+### Vercel 部署
+
+仓库根目录的 `vercel.json` 将主应用和 `services/netease/` 定义为两个 Service。主应用绑定到 `netease` Service，Vercel 在运行时注入 `NETEASE_PRIVATE_URL`；网易云 Service 没有公网 rewrite，只能由绑定它的主应用内部访问。代码优先使用这个注入地址，因此 Vercel 上不需要设置 `NETEASE_API_BASE_URL`。
+
+1. 把包含 `vercel.json` 和 `services/netease/` 的提交推送到 GitHub。
+2. 在 Vercel 项目 **Settings → Build and Deployment → Framework Preset** 中选择 **Services**，然后重新部署。若当前界面仍显示 Express / Python 应用列表，说明项目还没切换到 Services。
+3. 在 Vercel 项目环境变量中设置 `GOOGLE_MAPS_API_KEY`、`DEEPSEEK_API_KEY`、`DEEPSEEK_BASE_URL`、`DEEPSEEK_MODEL` 和 `NETEASE_COOKIE`，至少选择 Production；需要预览环境时也为 Preview 配置。
+4. 不要手动创建 `NETEASE_PRIVATE_URL`，它由 Service Binding 注入；生产环境也不要把 `NETEASE_API_BASE_URL` 设置成 localhost。
+5. 如果此前为 npm 配过指向本机目录的 `NPM_CONFIG_CACHE`、`npm_config_cache` 或 `cache-dir`，请从 Vercel 环境变量中移除。Vercel 构建容器不能访问你电脑上的 npm 缓存目录。
+6. 部署完成后检查 `/api/health`，再测试路线生成和歌曲播放。网易云 Service 故意没有单独的公网访问地址。
+
+Vercel Services 当前处于 Beta。服务定义、rewrite 和 binding 由 [Vercel Services 文档](https://vercel.com/kb/guide/vercel-services)说明；Services 项目需要在 Vercel 项目设置中选择 Services framework。
 
 ### 2. 启动网易云 API 服务
 

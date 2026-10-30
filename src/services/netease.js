@@ -1,5 +1,7 @@
 function getBaseUrl() {
-  return process.env.NETEASE_API_BASE_URL?.replace(/\/$/, '') || 'http://127.0.0.1:3000';
+  return process.env.NETEASE_PRIVATE_URL?.replace(/\/$/, '')
+    || process.env.NETEASE_API_BASE_URL?.replace(/\/$/, '')
+    || 'http://127.0.0.1:3000';
 }
 
 async function neteaseGet(path, params = {}) {
@@ -15,7 +17,7 @@ async function neteaseGet(path, params = {}) {
   const responseCode = data.code ?? data.data?.code;
   if (!response.ok || responseCode !== 200) {
     const reason = data.message ?? data.msg ?? `返回状态 ${responseCode ?? response.status}`;
-    throw new Error(`网易云本地 API ${path} 请求失败：${reason}`);
+    throw new Error(`网易云 API ${path} 请求失败：${reason}`);
   }
   return data;
 }

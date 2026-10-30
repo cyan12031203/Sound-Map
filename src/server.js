@@ -136,22 +136,26 @@ app.post('/api/agent/mixtape/stream', async (request, response) => {
   }
 });
 
-const server = app.listen(port, () => {
-  console.log(`路线音乐后端已启动：http://localhost:${port}`);
-});
+export default app;
 
-// Node 的 HTTP server 默认会保持进程存活。这里显式 ref 一次，兼容当前
-// Windows/Node 运行环境中“监听成功后立即 clean exit”的异常行为。
-server.ref();
+if (process.argv[1] && path.resolve(process.argv[1]) === fileURLToPath(import.meta.url)) {
+  const server = app.listen(port, () => {
+    console.log(`路线音乐后端已启动：http://localhost:${port}`);
+  });
 
-// 作为本地开发的兜底保活。不会执行业务逻辑，也不会产生网络请求。
-const keepAlive = setInterval(() => {}, 60 * 60 * 1000);
+  // Node 的 HTTP server 默认会保持进程存活。这里显式 ref 一次，兼容当前
+  // Windows/Node 运行环境中“监听成功后立即 clean exit”的异常行为。
+  server.ref();
 
-function shutdown(signal) {
-  console.log(`收到 ${signal}，正在关闭路线音乐后端。`);
-  clearInterval(keepAlive);
-  server.close(() => process.exit(0));
+  // 作为本地开发的兜底保活。不会执行业务逻辑，也不会产生网络请求。
+  const keepAlive = setInterval(() => {}, 60 * 60 * 1000);
+
+  function shutdown(signal) {
+    console.log(`收到 ${signal}，正在关闭路线音乐后端。`);
+    clearInterval(keepAlive);
+    server.close(() => process.exit(0));
+  }
+
+  process.once('SIGINT', () => shutdown('SIGINT'));
+  process.once('SIGTERM', () => shutdown('SIGTERM'));
 }
-
-process.once('SIGINT', () => shutdown('SIGINT'));
-process.once('SIGTERM', () => shutdown('SIGTERM'));
